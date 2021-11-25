@@ -6960,10 +6960,10 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml-jest@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/yaml-jest/-/yaml-jest-1.0.5.tgz#288e541bae1b551d113d4864d6cb8f316e1bd331"
-  integrity sha1-KI5UG64bVR0RPUhk1suPMW4b0zE=
+yaml-jest@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/yaml-jest/-/yaml-jest-1.0.6.tgz#16ea9325d83e455d52af01aa92574c9300703606"
+  integrity sha512-kivhwlOfaFLEg8fkyPlEg01MJNoibO0xVtPZqiSjr++iM3UKaiddNoTdCO01xQKzCArjhg7kpq0+meuw21E9MQ==
   dependencies:
     js-yaml "^3.7.0"
 
