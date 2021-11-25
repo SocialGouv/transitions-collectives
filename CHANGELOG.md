@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/SocialGouv/transition-collective/compare/v1.0.2...v1.0.3) (2021-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v12 ([afb598e](https://github.com/SocialGouv/transition-collective/commit/afb598ed68ee2464735d8d13826dbdebf54c000d))
+
 ## [1.0.2](https://github.com/SocialGouv/transition-collective/compare/v1.0.1...v1.0.2) (2021-11-25)
 
 
