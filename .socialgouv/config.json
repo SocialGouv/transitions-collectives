@@ -1,0 +1,7 @@
+{
+  "name": "transition-collective",
+  "type": "static",
+  "subdomain": "transition-collective",
+  "registry": "ghcr",
+  "project": "fabrique"
+}
