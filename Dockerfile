@@ -7,6 +7,6 @@ RUN yarn --production --frozen-lockfile --prefer-offline && yarn cache clean
 RUN yarn build
 RUN yarn export
 
-FROM ghcr.io/socialgouv/docker/nginx4spa:6.47.9
+FROM ghcr.io/socialgouv/docker/nginx4spa:6.63.0
 
 COPY --from=builder /out /usr/share/nginx/html
