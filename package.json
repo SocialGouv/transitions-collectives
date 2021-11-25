@@ -22,7 +22,7 @@
     "@sentry/integrations": "^6.15.0",
     "@sentry/node": "^6.15.0",
     "@zeit/next-source-maps": "^0.0.3",
-    "github-markdown-css": "^4.0.0",
+    "github-markdown-css": "^5.0.0",
     "isomorphic-unfetch": "^3.1.0",
     "js-yaml-loader": "^1.2.2",
     "lodash": "^4.17.21",
