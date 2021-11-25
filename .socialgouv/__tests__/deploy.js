@@ -8,7 +8,7 @@ jest.setTimeout(1000 * 60)
 
 test("deploy dev 2", async () => {
   const dir = directory()
-  const env = project("standup").dev
+  const env = project("tansition-collective").dev
 
   env.SOCIALGOUV_CONFIG_PATH = `${dir}/autodevops/config.json`
 

@@ -19,4 +19,4 @@ jobs:
       with:
         dry-run: true
         names: |
-          fabrique%2Fstandup
+          fabrique%2Ftransition-collective

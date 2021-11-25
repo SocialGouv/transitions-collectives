@@ -1,4 +1,4 @@
 # Protect workflow files
 .github/workflows/*.yml @socialgouv/sre
 .github/CODEOWNERS @socialgouv/transition-collective
-.socialgouv/ @socialgouv/sre
+.socialgouv/ @socialgouv/transition-collective
