@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/SocialGouv/transition-collective/compare/v1.0.1...v1.0.2) (2021-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-markdown to v7 ([6e8369a](https://github.com/SocialGouv/transition-collective/commit/6e8369a6fa6e22f87dcd12f81f484ed92bb6d987))
+
 ## [1.0.1](https://github.com/SocialGouv/transition-collective/compare/v1.0.0...v1.0.1) (2021-11-25)
 
 
