@@ -17,9 +17,9 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
-    "@sentry/browser": "^6.12.0",
-    "@sentry/integrations": "^6.12.0",
-    "@sentry/node": "^6.12.0",
+    "@sentry/browser": "^6.15.0",
+    "@sentry/integrations": "^6.15.0",
+    "@sentry/node": "^6.15.0",
     "@zeit/next-source-maps": "^0.0.3",
     "github-markdown-css": "^4.0.0",
     "isomorphic-unfetch": "^3.1.0",
@@ -31,7 +31,7 @@
     "react-feather": "^2.0.9",
     "react-markdown": "^5.0.3",
     "react-spinners": "^0.11.0",
-    "sass": "^1.39.2"
+    "sass": "^1.43.5"
   },
   "devDependencies": {
     "@socialgouv/eslint-config-react": "^1.88.0",
