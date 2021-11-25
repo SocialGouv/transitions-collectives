@@ -17,6 +17,7 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
+    "@dataesr/react-dsfr": "^0.8.2",
     "@sentry/browser": "^6.15.0",
     "@sentry/integrations": "^6.15.0",
     "@sentry/node": "^6.15.0",
