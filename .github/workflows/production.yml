@@ -29,8 +29,8 @@ jobs:
       with:
         environment: prod
         project: ${{ env.project }}
+        imageName: ${{ env.project }}/www
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
-        imageName: fabrique/${{ env.project }}
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
         socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}

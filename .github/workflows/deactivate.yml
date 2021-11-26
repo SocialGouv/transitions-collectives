@@ -14,9 +14,3 @@ jobs:
       with:
         kube-config: ${{ secrets.KUBECONFIG  }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
-
-    - uses: smartsquaregmbh/delete-old-packages@v0.3.3
-      with:
-        dry-run: true
-        names: |
-          fabrique%2Ftransition-collective
