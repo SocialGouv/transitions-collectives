@@ -16,4 +16,3 @@ jobs:
         author-name: ${{ secrets.SOCIALGROOVYBOT_NAME }}
         author-email: ${{ secrets.SOCIALGROOVYBOT_EMAIL }}
         github-token: ${{ secrets.SOCIALGROOVYBOT_BOTO_PAT }}
-
