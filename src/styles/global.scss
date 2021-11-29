@@ -1,86 +1,21 @@
 @use "./variables" as *;
 
-html,
-body {
-  height: 100%;
+.button-rounded {
+  border-radius: 25px;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  text-rendering: optimizelegibility;
+.text-center {
+  text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 600;
-  margin: $base-size 0;
-  font-family: "Source Sans Pro Semi Bold";
+.box-shadow-none {
+  box-shadow: none;
 }
 
-h1 {
-  font-size: $font-size * 2;
-  line-height: $font-size * 2;
-}
-
-h2 {
-  font-size: $font-size * 1.8;
-  line-height: $font-size * 2;
-}
-
-h3 {
-  font-size: $font-size * 1.5;
-  line-height: $font-size * 2;
-}
-
-h4 {
-  font-size: $font-size * 1.2;
-  line-height: $font-size * 1.2;
-}
-
-body,
-small,
-input,
-select,
-textarea,
-button {
-  font-weight: 400;
-  color: $font-color;
-  font-size: $font-size;
-  line-height: $font-size * 1.5;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-small {
-  display: block;
-}
-
-a {
+.text-decoration-none {
   text-decoration: none;
-  color: $font-color-link;
-
-  &:hover:not(.button) {
-    text-decoration: underline;
-  }
 }
 
-#__next {
-  flex: 1;
-  display: flex;
-  overflow: auto;
-  flex-direction: column;
-}
-
-.weather {
-  .icon-sun {
-    color: gold;
-  }
-  .icon-cloud {
-    color: gray;
-  }
-  .icon-rain {
-    color: red;
-  }
+.align-self-stretch {
+  align-self: stretch;
 }
