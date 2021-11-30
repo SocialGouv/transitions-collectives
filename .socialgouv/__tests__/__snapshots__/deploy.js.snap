@@ -2,29 +2,6 @@
 
 exports[`deploy dev 2 1`] = `
 "---
-apiVersion: v1
-kind: Namespace
-metadata:
-  annotations:
-    socialgouv/creator: autodevops
-    janitor/ttl: 15d
-    field.cattle.io/creatorId: gitlab
-    field.cattle.io/projectId: ''
-    git/branch: refs/heads/mybranch
-    git/remote: socialgouv/standup
-    app.github.com/job: '5678'
-    app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
-    app.github.com/run: '1234'
-    app.github.com/sha: '0123456'
-  labels:
-    azure-pg-admin-user: standup
-    application: standup
-    owner: standup
-    team: standup
-    cert: wildcard
-  name: standup-mybranch
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -33,23 +10,23 @@ metadata:
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
+    app.github.com/repo: socialgouv/tansition-collective
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   labels:
-    app: standup
-    application: standup
-    owner: standup
-    team: standup
-    cert: wildcard
+    app: www
+    application: tansition-collective
     component: nginx
-  name: standup
-  namespace: standup-mybranch
+    owner: tansition-collective
+    team: tansition-collective
+    cert: wildcard
+  name: www
+  namespace: tansition-collective-mybranch
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: standup
+      app: www
   template:
     metadata:
       annotations:
@@ -57,20 +34,20 @@ spec:
         kapp.k14s.io/disable-default-label-scoping-rules: ''
         app.github.com/job: '5678'
         app.github.com/ref: refs/heads/mybranch
-        app.github.com/repo: socialgouv/standup
+        app.github.com/repo: socialgouv/tansition-collective
         app.github.com/run: '1234'
         app.github.com/sha: '0123456'
       labels:
-        app: standup
-        application: standup
-        owner: standup
-        team: standup
-        cert: wildcard
+        app: www
+        application: tansition-collective
         component: nginx
+        owner: tansition-collective
+        team: tansition-collective
+        cert: wildcard
     spec:
       containers:
         - image: >-
-            ghcr.io/socialgouv/fabrique/standup:sha-0123456789abcdefghijklmnopqrstuvwxyz0123
+            ghcr.io/socialgouv/transition-collective/www:sha-0123456789abcdefghijklmnopqrstuvwxyz0123
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -79,7 +56,7 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
-          name: standup
+          name: www
           ports:
             - containerPort: 80
               name: http
@@ -107,9 +84,9 @@ spec:
             periodSeconds: 5
           envFrom:
             - secretRef:
-                name: standup-sealed-secret
+                name: www-sealed-secret
             - configMapRef:
-                name: standup-configmap
+                name: www-configmap
 ---
 apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
@@ -120,20 +97,21 @@ metadata:
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
+    app.github.com/repo: socialgouv/tansition-collective
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
-  name: standup-sealed-secret
-  namespace: standup-mybranch
+  name: www-sealed-secret
+  namespace: tansition-collective-mybranch
   labels:
-    application: standup
-    owner: standup
-    team: standup
+    application: tansition-collective
+    component: nginx
+    owner: tansition-collective
+    team: tansition-collective
     cert: wildcard
 spec:
   encryptedData:
     SENTRY_DSN: >-
-      AgBApFjJq6o6w6lQA3/6LX9Hk7EhIQgz6y/uBZh7UegeYq/vtjmXjbbOJsNna2x30E6DCUMWNbqVne1lmgJaPJn0t4u5k0bs8pW7GLQwpLmRtE6005b+bjyqH4QNRCEriaOyQrjQldxW7/dqBQRLD1RCh6AGSacDxbEh7Dw8WaeBIvdq64tu1w4RVVCkjekLUR4MRjaTbK8QDYyHWGW3szHcrWGiV3MpLeNi+dXTzWPuVcWocRmjLQOTwv7Issfcj4A+GjoRpOherF0cYFlpO+nEPtDh+lr9lOTsTdWilb+woWCa9QrYxjuPBXVFosmKpUHeafpIKqhIAP2MGkcpBNxNAdwWB1cFsImgWNAl6883bBJ8FdiOn6BViZlyYD0fWRzVjNy39X0JgKeuQKvRkMpqbSrLGZts5ElPBzT458e3v/M/2mcIKXAtjTWxCYpmIqYP3HI90yBIYQYErYu5sbxKxUFpW6Bq+vwINxkuFu+kyIUmDDC+gjzTes1sf8D2QWIvXnvy87w946+1fnbzZuFlZzG6xf7DwomC1KRp0BFpxa3sPrcDdyGkvPNq9JTWmEpcUyJq9SEZGC0+hRiffBo+B5UeN7pCxQrTViIZZBEb54v61VOu7MSNH3gVQnR4aiAFgite5GAqxOqNaYybglef/WUdm4wL6C++jB2E5cNSpz3JWTk22sDfCvgRNcHbW/MpiQzRIBOrpGFqEHpE/TZ6JIplSxHZ1UF440hTOVLpO2PWSHToVQ1r3iY9/M6NcOtKdHdEShYrWSak0feMYlvN2ofXtXfbUlUbQw==
+      AgCWgMegcd1JLm+AqV24Rv8jMl/T9ri8ZWY6RoF0TjCADZPaHNiLFA+UA60q0BGMTqyePuvTjmz3TafbPozH5I52PIhKICv/SaXOFr4c+MnTiW+WELqjT8LhelVBj1+nx+IQftDjrdWAxDSgvEzlQv9gb8Pz8ONe5tUoEgmDxJJYDVuGxZ1n9ONNFLotVcWVtoDfNhj7NwL8E6hBPqN+ga83fdT6MzuIeCL/b/gJymqCJswdegFmdEAn3BkHfL7djlDDTroahkmWFcNWdcrc0rX/lJD+9GUJlZXAAGf6Xy+kr2RDYY/U4+dlJKCpPuhmxgaX0GPYIElAJ/ap5aiFUKN/bExLJajERLMkdYWVOVnSozYw1wBfBVLJvD5YampAxAovFmOFv2F2grtonsg+twnjJNcyezjnuXSAlYHgH5Z8IHVcsITidi7YU0SwWPziXM+XYHlwh7Kr+A8tITbPCvEhDkahoT4ZnPnGlj3LLlpcZEnDJ+U5Tekam8ZzsegsDON0MNlZ+LXzquMZjt3tQiH8Dcu6QVSiEPFNH5OrL09Wh2xO5bYH25yu5ksY7PHmUFZllC698E6CbC4hCSPHRR+9ETxD4KZfiHuRrytfJ2WJnOc7f31+QziZqVv2JGRCEE8GZXyQdvY6jKHlnwVl7KFuSvJf5YlZs/RiRY2TrEomI46nk4xMYQq536jY+gfGqUsdAw68
   template:
     metadata:
       annotations:
@@ -142,67 +120,69 @@ spec:
         kapp.k14s.io/disable-default-label-scoping-rules: ''
         app.github.com/job: '5678'
         app.github.com/ref: refs/heads/mybranch
-        app.github.com/repo: socialgouv/standup
+        app.github.com/repo: socialgouv/tansition-collective
         app.github.com/run: '1234'
         app.github.com/sha: '0123456'
-      name: standup-sealed-secret
+      name: www-sealed-secret
       labels:
-        application: standup
-        owner: standup
-        team: standup
+        application: tansition-collective
+        component: nginx
+        owner: tansition-collective
+        team: tansition-collective
         cert: wildcard
     type: Opaque
 ---
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: standup-configmap
+  name: www-configmap
   annotations:
     kapp.k14s.io/disable-default-ownership-label-rules: ''
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
+    app.github.com/repo: socialgouv/tansition-collective
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   labels:
-    application: standup
-    owner: standup
-    team: standup
+    application: tansition-collective
+    component: nginx
+    owner: tansition-collective
+    team: tansition-collective
     cert: wildcard
-  namespace: standup-mybranch
+  namespace: tansition-collective-mybranch
 data:
-  NODE_ENV: production
-  GITHUB_ORGANIZATION: SocialGouv
   MATOMO_SITE_ID: '58'
+  NODE_ENV: production
   MATOMO_URL: https://matomo.fabrique.social.gouv.fr/
 ---
 apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: standup
-    application: standup
-    owner: standup
-    team: standup
+    app: www
+    application: tansition-collective
+    component: nginx
+    owner: tansition-collective
+    team: tansition-collective
     cert: wildcard
-  name: standup
+  name: www
   annotations:
     kapp.k14s.io/disable-default-ownership-label-rules: ''
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
+    app.github.com/repo: socialgouv/tansition-collective
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
-  namespace: standup-mybranch
+  namespace: tansition-collective-mybranch
 spec:
   ports:
     - name: http
       port: 80
       targetPort: 80
   selector:
-    app: standup
+    app: www
   type: ClusterIP
 ---
 apiVersion: networking.k8s.io/v1
@@ -214,32 +194,33 @@ metadata:
     kapp.k14s.io/disable-default-label-scoping-rules: ''
     app.github.com/job: '5678'
     app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/standup
+    app.github.com/repo: socialgouv/tansition-collective
     app.github.com/run: '1234'
     app.github.com/sha: '0123456'
   labels:
-    app: standup
-    application: standup
-    owner: standup
-    team: standup
+    app: www
+    application: tansition-collective
+    component: nginx
+    owner: tansition-collective
+    team: tansition-collective
     cert: wildcard
-  name: standup
-  namespace: standup-mybranch
+  name: www
+  namespace: tansition-collective-mybranch
 spec:
   rules:
-    - host: standup-mybranch.dev2.fabrique.social.gouv.fr
+    - host: tansition-collective-mybranch.dev2.fabrique.social.gouv.fr
       http:
         paths:
           - backend:
               service:
-                name: standup
+                name: www
                 port:
                   name: http
             path: /
             pathType: Prefix
   tls:
     - hosts:
-        - standup-mybranch.dev2.fabrique.social.gouv.fr
+        - tansition-collective-mybranch.dev2.fabrique.social.gouv.fr
       secretName: wildcard-crt
 "
 `;
