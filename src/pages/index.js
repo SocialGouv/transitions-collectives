@@ -76,27 +76,41 @@ const Page = () => {
           </Col>
         </Row>
       </Container>
-      <div className="fr-container" id="salarie">
-        <TitleDisplay as="h2">Je suis un salarié</TitleDisplay>
-        <Row alignItems="center">
-          <Col className="fr-col-2 fr-p-2w">
-            Un accompagnement personnalisé pour vous reconvertir
-          </Col>
-          <Col className="fr-col-2 fr-p-2w">
-            Une formation vers un métier d’avenir et qui recrute dans votre
-            région
-          </Col>
-          <Col className="fr-col-2 fr-p-2w">
-            Le maintien de votre salaire et de votre contrat de travail pendant
-            toute la durée de la formation
-          </Col>
-          <Col className="fr-col-2 fr-p-2w">
-            La possibilité de réintégrer votre poste de travail (ou un poste
-            équivalent) au sein de votre entreprise
-          </Col>
+      <div className="fr-container fr-py-2w" id="salarie">
+        <Row>
+          <TitleDisplay as="h2">Je suis un salarié</TitleDisplay>
         </Row>
+        <div className="fr-grid-row infography">
+          <Col className="fr-col-12 fr-col-sm-12 fr-col-md-3 fr-col-xl-3 fr-p-2w text-center">
+            <img alt="" src="images/salarie-picto1.png" />
+            <div>Un accompagnement personnalisé pour vous reconvertir</div>
+          </Col>
+          <Col className="fr-col-12 fr-col-sm-12 fr-col-md-3 fr-col-xl-3 fr-p-2w text-center">
+            <img alt="" src="images/salarie-picto2.png" />
+            <div>
+              Une formation vers un métier d’avenir et qui recrute dans votre
+              région
+            </div>
+          </Col>
+          <Col className="fr-col-12 fr-col-sm-12 fr-col-md-3 fr-col-xl-3 fr-p-2w text-center">
+            <img alt="" src="images/salarie-picto3.png" />
+            <div>
+              {" "}
+              Le maintien de votre salaire et de votre contrat de travail
+              pendant toute la durée de la formation
+            </div>
+          </Col>
+          <Col className="fr-col-12 fr-col-sm-12 fr-col-md-3 fr-col-xl-3 fr-p-2w text-center">
+            <img alt="" src="images/salarie-picto4.png" />
+            <div>
+              {" "}
+              La possibilité de réintégrer votre poste de travail (ou un poste
+              équivalent) au sein de votre entreprise
+            </div>
+          </Col>
+        </div>
       </div>
-      <div className="fr-container" id="entreprise">
+      <div className="fr-container fr-py-2w" id="entreprise">
         <TitleDisplay as="h2">Je suis une entreprise</TitleDisplay>
         <Row className="fr-m-2w">
           <Col
