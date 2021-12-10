@@ -1,9 +1,5 @@
 @use "./variables" as *;
 
-.button-rounded {
-  border-radius: 25px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -18,10 +14,4 @@
 
 .align-self-stretch {
   align-self: stretch;
-}
-
-.infography {
-  border: 1px solid rgba(63, 61, 86, 0.2);
-  border-radius: 4px;
-  box-shadow: rgb(0 0 0 / 6%) 0px 4px 4px;
 }

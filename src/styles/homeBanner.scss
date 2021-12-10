@@ -1,0 +1,43 @@
+@use "./variables" as *;
+
+.hero-banner {
+  button {
+    border-radius: 25px;
+    width: 19rem;
+    justify-content: center;
+    border: 2px solid white;
+  }
+
+  .first-button {
+    background-color: white;
+    color: var(--background-active-blue-france);
+  }
+
+  .second-button {
+    background-color: transparent;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .wrapper {
+    position: relative;
+    min-height: 12rem;
+    background-color: var(--background-active-blue-france);
+  }
+
+  .content {
+    background: linear-gradient(
+      84.59deg,
+      var(--background-active-blue-france) 16.74%,
+      var(--border-action-low-blue-ecume) 155.91%
+    );
+    color: white;
+
+    @media (max-width: 62rem) {
+      text-align: center;
+      clip-path: unset;
+    }
+  }
+}

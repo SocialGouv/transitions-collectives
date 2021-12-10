@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+.infography {
+  h2 {
+    justify-content: center;
+  }
+  
+  .block {
+    border: 1px solid rgba(63, 61, 86, 0.2);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 6%) 0px 4px 4px;
+  }
+
+  .emphasis {
+    color: var(--background-active-blue-france);
+    text-align: center;
+  }
+
+  p {
+    margin: 0px;
+    text-align: center;
+  }
+}

@@ -70,7 +70,7 @@ const Footer = () => {
       <DSFooter>
         <FooterBody description={<FooterDescription />}>
           <Logo href="https://travail-emploi.gouv.fr/">
-            Ministère du travail
+            {`Ministère du travail, de l'emploi et de l'insertion`}
           </Logo>
           {footerBodyLinks.map((item) => (
             <FooterBodyItem key={item.key}>
