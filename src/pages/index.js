@@ -23,11 +23,14 @@ const Page = () => {
       <section className="fr-py-4w" id="news">
         <HomeNews />
       </section>
-      <section className="fr-py-4w" id="salarie">
-        <HomeEmployee />
-      </section>
-      <section className="fr-py-4w" id="entreprise">
-        <HomeCompany />
+      <section className="fr-container--fluid fr-py-4w engagement">
+        <h2 className="fr-mb-6w fr-py-6w">{`Je vais plus loin`}</h2>
+        <section className="fr-mb-4w" id="salarie">
+          <HomeEmployee />
+        </section>
+        <section className="fr-mb-4w" id="entreprise">
+          <HomeCompany />
+        </section>
       </section>
     </Layout>
   )

@@ -31,19 +31,19 @@ const HomeNews = () => {
       <div className="fr-grid-row fr-grid-row--gutters">
         <div className="fr-col-12 fr-col-md-4">
           <NewsCard
-            image="images/home_salarie.jpg"
+            image="images/home_employee.jpg"
             title="Retour sur le lancement de Transitions collectives"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <NewsCard
-            image="images/home_salarie.jpg"
+            image="images/home_employee.jpg"
             title="Témoignage : Mankoura en formation pour devenir aide-soignante"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <NewsCard
-            image="images/home_salarie.jpg"
+            image="images/home_employee.jpg"
             title="Témoignage : Henri, RH de HealthCity"
           />
         </div>

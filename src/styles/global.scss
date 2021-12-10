@@ -15,3 +15,17 @@
 .align-self-stretch {
   align-self: stretch;
 }
+
+.engagement {
+  background: var(--background-alt-grey);
+
+  h2 {
+    background: linear-gradient(
+      84.59deg,
+      var(--background-active-blue-france) 16.74%,
+      var(--border-action-low-blue-ecume) 155.91%
+    );
+    color: white;
+    text-align: center;
+  }
+}
