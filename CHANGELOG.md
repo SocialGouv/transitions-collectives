@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/SocialGouv/transition-collective/compare/v1.0.5...v1.0.6) (2021-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies to ^6.16.1 ([1547d68](https://github.com/SocialGouv/transition-collective/commit/1547d683d2d6392a34265960501c97bfcf9efb8c))
+
 ## [1.0.5](https://github.com/SocialGouv/transition-collective/compare/v1.0.4...v1.0.5) (2021-12-10)
 
 
