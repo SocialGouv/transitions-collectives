@@ -1,13 +1,10 @@
-import { Container, Row, TitleDisplay } from "@dataesr/react-dsfr"
 import React from "react"
 
 const HomeEmployee = () => {
   return (
-    <Container>
-      <Row>
-        <TitleDisplay as="h2">Je suis un salarié</TitleDisplay>
-      </Row>
-    </Container>
+    <div className="fr-container home-employee">
+      <h2 className="fr-mb-6w">{`Je suis un salarié`} </h2>
+    </div>
   )
 }
 
