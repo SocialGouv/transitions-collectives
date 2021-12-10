@@ -17,12 +17,12 @@
     "k8s": "yarn --silent --cwd .k8s"
   },
   "dependencies": {
-    "@dataesr/react-dsfr": "^0.8.2",
-    "@sentry/browser": "^6.15.0",
-    "@sentry/integrations": "^6.15.0",
-    "@sentry/node": "^6.15.0",
+    "@dataesr/react-dsfr": "^0.9.2",
+    "@sentry/browser": "^6.16.0",
+    "@sentry/integrations": "^6.16.0",
+    "@sentry/node": "^6.16.0",
     "@zeit/next-source-maps": "^0.0.3",
-    "github-markdown-css": "^5.0.0",
+    "github-markdown-css": "^5.1.0",
     "isomorphic-unfetch": "^3.1.0",
     "js-yaml-loader": "^1.2.2",
     "lodash": "^4.17.21",
@@ -32,7 +32,7 @@
     "react-feather": "^2.0.9",
     "react-markdown": "^7.1.0",
     "react-spinners": "^0.11.0",
-    "sass": "^1.43.5"
+    "sass": "^1.44.0"
   },
   "devDependencies": {
     "@socialgouv/eslint-config-react": "^1.100.0",
