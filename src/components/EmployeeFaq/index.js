@@ -1,8 +1,8 @@
 import React from "react"
 
 import EmployeeFaqApresFormation from "./EmployeeFaqApresFormation"
-import EmployeeFaqAvantFormation from "./EmployeeFaqAvantFormation"
-import EmployeeFaqContact from "./EmployeeFaqContact"
+import EmployeeFaqAvantFormation from "../EmployeeFaqAvantFormation"
+import EmployeeFaqContact from "../EmployeeFaqContact"
 import EmployeeFaqPendantFormation from "./EmployeeFaqPendantFormation"
 
 const EmployeeFaq = () => {
