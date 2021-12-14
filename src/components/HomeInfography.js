@@ -1,5 +1,4 @@
 import { Text } from "@dataesr/react-dsfr"
-
 import React from "react"
 
 const HomeInfography = () => {

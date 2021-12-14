@@ -87,7 +87,7 @@ const EmployeeFaqPendantFormation = () => {
               pouvez à tout moment réintégrer votre poste de travail (ou un
               poste équivalent) au sein de votre entreprise. En cas de doute ou
               de questionnements sur votre projet, contactez{" "}
-              <a target="_blank" href="https://mon-cep.org/">
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 votre conseiller en évolution professionnel
               </a>{" "}
               pour en discuter.

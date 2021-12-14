@@ -12,7 +12,9 @@ const HomeVideo = () => {
       </h2>
       <div className="fr-grid-row">
         <p>
-          {`Le dispositif des Transitions collectives permet aux salariés et aux employeurs d’adopter une démarche socialement responsable en accompagnant:`}
+          Le dispositif des Transitions collectives permet aux salariés et aux
+          employeurs d’adopter une démarche socialement responsable en
+          accompagnant:
           <ul>
             <li>Les entreprises en perspectives de développement</li>
             <li>

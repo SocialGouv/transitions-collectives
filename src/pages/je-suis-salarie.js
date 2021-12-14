@@ -1,8 +1,9 @@
+import React from "react"
+
 import EmployeeFaq from "@/components/EmployeeFaq"
 import EmployeeInfography from "@/components/EmployeeInfography"
 import EmployeeVideo from "@/components/EmployeeVideo"
 import Layout from "@/components/Layout"
-import React from "react"
 
 const Page = () => {
   return (

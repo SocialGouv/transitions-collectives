@@ -66,7 +66,8 @@ const EmployeeFaqAvantFormation = () => {
         <AccordionItem title="Quelles conditions mon parcours de formation doit-il remplir pour être validé et financé ?">
           <article>
             <p>
-              {`Pour bénéficier de la prise en charge de votre projet de reconversion, ce dernier devra :`}
+              Pour bénéficier de la prise en charge de votre projet de
+              reconversion, ce dernier devra:
               <ul>
                 <li>
                   Aboutir à une certification reconnue officiellement à travers
@@ -94,13 +95,18 @@ const EmployeeFaqAvantFormation = () => {
           <article>
             <p>
               {`Une réunion d’information organisée par votre employeur vous sera proposée si votre emploi est considéré comme fragilisé. Vous pouvez aussi contacter votre service des ressources humaines (RH) ou `}
-              <a target="_blank" href="https://mon-cep.org/">
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 un conseiller en évolution professionnelle (CEP)
               </a>{" "}
               {`pour en savoir plus.`}
             </p>
             <p>
-              {`À savoir : la liste des métiers identifiés comme fragilisés dans votre entreprise est établie dans le cadre d’un accord collectif signé entre votre employeur et les organisations représentatives du personnel. Les entreprises de moins de 300 salariés peuvent également établir cette liste, après consultation du comité social et économique (CSE) lorsqu’il existe.`}
+              À savoir: la liste des métiers identifiés comme fragilisés dans
+              votre entreprise est établie dans le cadre d’un accord collectif
+              signé entre votre employeur et les organisations représentatives
+              du personnel. Les entreprises de moins de 300 salariés peuvent
+              également établir cette liste, après consultation du comité social
+              et économique (CSE) lorsqu’il existe.
             </p>
           </article>
         </AccordionItem>
@@ -117,7 +123,7 @@ const EmployeeFaqAvantFormation = () => {
           <article>
             <p>
               Le{" "}
-              <a target="_blank" href="https://mon-cep.org/">
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 conseiller en évolution professionnel (CEP)
               </a>{" "}
               vous aide à élaborer votre parcours de reconversion. Vous
@@ -125,7 +131,7 @@ const EmployeeFaqAvantFormation = () => {
               des métiers identifiés comme porteurs sur votre territoire. Cet
               accompagnement est gratuit. Pour trouver un conseiller proche de
               chez vous, rendez-vous sur{" "}
-              <a target="_blank" href="https://mon-cep.org/">
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 mon-cep.org
               </a>
             </p>
@@ -142,6 +148,7 @@ const EmployeeFaqAvantFormation = () => {
               <a
                 target="_blank"
                 href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
+                rel="noreferrer"
               >
                 le site du ministère du Travail, de l’Emploi et de l’Insertion
               </a>
@@ -163,16 +170,16 @@ const EmployeeFaqAvantFormation = () => {
               <a
                 target="_blank"
                 href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/article/projet-de-transition-professionnelle"
+                rel="noreferrer"
               >
-                projet de transition professionnelle (PTP)
+                projet de transition professionnelle (PTP).
               </a>
-              . Vous pourrez être accompagné par le CEP. Votre projet sera
-              étudié afin de définir le financement de votre formation et le
-              maintien de votre rémunération. Dans ce cas, les droits inscrits
-              sur votre compte personnel de formation seront mobilisés. Votre
-              métier n'a pas besoin de faire partie de la liste de métiers
-              fragilisés au sein de votre entreprise pour faire une demande de
-              PTP.
+              {`Vous pourrez être accompagné par le CEP. Votre projet sera étudié
+              afin de définir le financement de votre formation et le maintien
+              de votre rémunération. Dans ce cas, les droits inscrits sur votre
+              compte personnel de formation seront mobilisés. Votre métier n'a
+              pas besoin de faire partie de la liste de métiers fragilisés au
+              sein de votre entreprise pour faire une demande de PTP.`}
             </p>
           </article>
         </AccordionItem>
