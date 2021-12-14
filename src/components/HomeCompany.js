@@ -34,14 +34,14 @@ const HomeCompany = () => {
           <HomeCompanyCard
             image="images/home_company.jpg"
             title="J’ai des besoins en recrutement"
-            link="/j-ai-des-besoins-en-recrutement"
+            link="/entreprise/besoins-en-recrutement"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <HomeCompanyCard
             image="images/home_company.jpg"
             title="Je fais face à des difficultés dans mon secteur d’activité"
-            link="/"
+            link="/entreprise/difficultes-dans-mon-secteur"
           />
         </div>
       </div>

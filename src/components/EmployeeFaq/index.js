@@ -1,13 +1,13 @@
 import React from "react"
 
 import EmployeeFaqApresFormation from "./EmployeeFaqApresFormation"
-import EmployeeFaqAvantFormation from "../EmployeeFaqAvantFormation"
-import EmployeeFaqContact from "../EmployeeFaqContact"
+import EmployeeFaqAvantFormation from "./EmployeeFaqAvantFormation"
+import EmployeeFaqContact from "./EmployeeFaqContact"
 import EmployeeFaqPendantFormation from "./EmployeeFaqPendantFormation"
 
 const EmployeeFaq = () => {
   return (
-    <div className="fr-container employee-faq">
+    <div className="fr-container faq">
       <div className="fr-py-4w">
         <EmployeeFaqAvantFormation />
       </div>

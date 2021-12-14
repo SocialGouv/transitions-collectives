@@ -23,7 +23,7 @@ const Header = () => {
               height: "85px",
               width: "85px",
             }}
-            src="images/france-relance-logo.png"
+            src="/images/france-relance-logo.png"
             alt="France Relance"
           />
         </HeaderOperator>

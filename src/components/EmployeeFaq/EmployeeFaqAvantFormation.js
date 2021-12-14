@@ -5,7 +5,7 @@ const EmployeeFaqAvantFormation = () => {
   return (
     <div>
       <h2>Avant la formation</h2>
-      <Accordion className="custom-class">
+      <Accordion>
         <AccordionItem title="Ai-je le droit d’entrer dans ce parcours de reconversion ?">
           <article>
             <p>
