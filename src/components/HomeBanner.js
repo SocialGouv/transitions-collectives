@@ -9,7 +9,7 @@ const HomeBanner = () => {
             <div className="fr-col-12 fr-col-lg-6 fr-mb-2w">
               <h1>Transitions collectives</h1>
               <p>
-                {`Transitions collectives, une démarche responsable pour accompagner l’emploi local vers des filières d’avenir`}
+                {`Une démarche socialement responsable pour accompagner l’emploi local vers des filières d’avenir`}
               </p>
             </div>
           </div>

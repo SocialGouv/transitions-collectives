@@ -18,24 +18,28 @@ const Header = () => {
           splitCharacter={10}
         >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
         <HeaderOperator>
-          <img src="images/france-relance-logo.png" alt="France Relance" />
+          <img
+            style={{
+              height: "85px",
+              width: "85px",
+            }}
+            src="images/france-relance-logo.png"
+            alt="France Relance"
+          />
         </HeaderOperator>
-        <Service
-          title="Transitions collectives"
-          description="Simplification du dispositif Transitions collectives"
-        />
+        <Service title="Transitions collectives" description="" />
       </HeaderBody>
       <HeaderNav>
-        <NavItem title="Mes interlocuteurs">
-          <NavSubItem title="dans ma région" link="/" />
-          <NavSubItem title="dans mon territoire" link="/" />
+        <NavItem title="Mes interlocuteurs de proximité">
+          <NavSubItem title="dans ma région pour en savoir plus" link="/" />
+          <NavSubItem title="dans mon territoire pour passer à l'action" link="/" />
         </NavItem>
-        <NavItem title="Faire connaitre ce dispositif">
+        <NavItem title="Je souhaite faire connaitre ce dispositif">
           <NavSubItem
             title="auprès des recruteurs de mon territoire"
             link="/"
           />
-          <NavSubItem title="auprès de mes collègues de travail" link="/" />
+          <NavSubItem title="auprès de mes collègues de travail et de mes partenaires" link="/" />
         </NavItem>
         <NavItem title="Contact / Liens utiles" link="/" />
       </HeaderNav>

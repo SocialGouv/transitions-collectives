@@ -1,20 +1,16 @@
 import React from "react"
 
-const HomeEmployeeCard = ({ title, image, link, isExternal }) => {
+const HomeEmployeeCard = ({ title, image, link }) => {
   return (
     <div className="card--green">
       <div className="fr-card fr-enlarge-link">
-        <div
-          className={`fr-card__body undefined ${
-            isExternal ? "is-external-url" : ""
-          }`}
-        >
+        <div className={`fr-card__body`}>
           <h4 className="fr-card__title">
             <a
               className="fr-card__link"
               title={`Aller à la page ${title}`}
               href={link}
-              target={isExternal ? "_blank" : "_self"}
+              target={"_self"}
               rel="noreferrer"
             >
               {title}
@@ -39,15 +35,15 @@ const HomeEmployee = () => {
         <div className="fr-col-12 fr-col-md-4">
           <HomeEmployeeCard
             image="images/home_employee.jpg"
-            title="Je souhaite me reconvertir"
-            link="/"
+            title="En questionnement sur mon avenir professionnel"
+            link="/je-suis-salarie"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <HomeEmployeeCard
             image="images/home_employee.jpg"
-            title="Je veux connaître les métiers qui recrutent"
-            link="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
+            title="En souhait d’évolution vers un secteur qui recrute"
+            link="/"
             isExternal
           />
         </div>

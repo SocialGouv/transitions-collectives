@@ -28,19 +28,19 @@ const HomeCompanyCard = ({ title, image, link }) => {
 const HomeCompany = () => {
   return (
     <div className="fr-container home-company">
-      <h3 className="fr-h4">{`Je suis une entreprise`}</h3>
+      <h3 className="fr-h4">{`Je suis responsable d’une entreprise`}</h3>
       <div className="fr-grid-row fr-grid-row--gutters">
         <div className="fr-col-12 fr-col-md-4">
           <HomeCompanyCard
             image="images/home_company.jpg"
-            title="Je fais face à des difficultés dans mon secteur d’activité"
+            title="J’ai des besoins en recrutement"
             link="/"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <HomeCompanyCard
             image="images/home_company.jpg"
-            title="J’ai des besoins en recrutement"
+            title="Je fais face à des difficultés dans mon secteur d’activité"
             link="/"
           />
         </div>

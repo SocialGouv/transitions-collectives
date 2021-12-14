@@ -7,9 +7,23 @@ const HomeVideo = () => {
     <div className="fr-container video-section">
       <h2 className="fr-grid-row fr-my-4w">
         <span className="fr-mr-md-3w">
-          Le dispositif Transistions collectives
+          Le dispositif Transitions collectives
         </span>
       </h2>
+      <div className="fr-grid-row">
+        <p>
+          {`Le dispositif des Transitions collectives permet aux salariés et aux employeurs d’adopter une démarche socialement responsable en accompagnant:`}
+          <ul>
+            <li>Les entreprises en perspectives de développement</li>
+            <li>
+              Les entreprises en mutation (évolution de l’organisation du
+              travail, transition technologique…)
+            </li>
+            <li>Les entreprises en difficultés économique </li>
+          </ul>
+          {`Et en favorisant la mobilité des salariés positionnés sur des métiers fragilisés`}
+        </p>
+      </div>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div className="fr-col-lg-6 fr-col-12">
           <MediaVideo>
@@ -24,16 +38,6 @@ const HomeVideo = () => {
               allowFullScreen=""
             />
           </MediaVideo>
-        </div>
-      </div>
-      <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-2w">
-        <div className="fr-col-lg-8 fr-col-12">
-          {`Le dispositif des Transitions collectives permet aux salariés et aux
-        employeurs d’adopter une démarche responsable, en cas de difficulté
-        économique conjoncturelle. Ce dispositif porté par le Ministère du
-        Travail, de l’Emploi et de l’Insertion s’inscrit dans une triple
-        démarche visant à trouver des solutions concrètes aux entreprises et aux
-        salariés dans des phases délicates pour la vie de l’entreprise.`}
         </div>
       </div>
     </div>
