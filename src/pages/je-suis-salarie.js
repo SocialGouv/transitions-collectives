@@ -1,3 +1,4 @@
+import Head from "next/head"
 import React from "react"
 
 import EmployeeFaq from "@/components/EmployeeFaq"
@@ -8,11 +9,12 @@ import Layout from "@/components/Layout"
 const Page = () => {
   return (
     <Layout>
+      <Head>
+        <title>Je suis salarié</title>
+      </Head>
       <div className="fr-container">
         <div className="fr-grid-row">
-          <div className="fr-col-12 fr-col-lg-6 fr-mt-4w">
-            <h1>Je suis un salarié</h1>
-          </div>
+          <h1 className="fr-h2 fr-pt-4w">Je suis salarié</h1>
         </div>
       </div>
       <section className="fr-py-2w" id="infography">

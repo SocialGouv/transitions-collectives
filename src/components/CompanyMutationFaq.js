@@ -4,7 +4,7 @@ import React from "react"
 const CompanyMutationFaq = () => {
   return (
     <div className="fr-container fr-py-4w faq">
-      <h2>FAQ</h2>
+      <h2 className="fr-h3">{`Plus d'informations`}</h2>
       <Accordion>
         <AccordionItem title="Comment avoir accès au dispositif Transitions collectives ?">
           <article>

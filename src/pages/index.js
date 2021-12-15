@@ -1,3 +1,4 @@
+import Head from "next/head"
 import React from "react"
 
 import HomeBanner from "@/components/HomeBanner"
@@ -11,6 +12,9 @@ import Layout from "@/components/Layout"
 const Page = () => {
   return (
     <Layout>
+      <Head>
+        <title>Transitions Collectives</title>
+      </Head>
       <div spacing="fr-pt-2w">
         <HomeBanner />
       </div>
