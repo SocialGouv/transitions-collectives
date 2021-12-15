@@ -1,11 +1,10 @@
 @use "./variables" as *;
 
 .infography {
-  
   h2 {
     justify-content: center;
   }
-  
+
   .block {
     border: 1px solid rgba(63, 61, 86, 0.2);
     border-radius: 4px;
@@ -14,16 +13,17 @@
     p {
       margin: 0px;
       text-align: center;
-
     }
-
   }
-
 
   .emphasis {
     color: var(--background-active-blue-france);
     text-align: center;
   }
 
-  
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
