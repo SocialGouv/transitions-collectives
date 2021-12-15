@@ -34,14 +34,14 @@ const HomeEmployee = () => {
       <div className="fr-grid-row fr-grid-row--gutters">
         <div className="fr-col-12 fr-col-md-4">
           <HomeEmployeeCard
-            image="images/home_employee.jpg"
+            image="/images/home/en_questionnement_professionnel.jpg"
             title="En questionnement sur mon avenir professionnel"
             link="/je-suis-salarie"
           />
         </div>
         <div className="fr-col-12 fr-col-md-4">
           <HomeEmployeeCard
-            image="images/home_employee.jpg"
+            image="/images/home/en_souhait_evolution_vers_un_secteur.jpg"
             title="En souhait d’évolution vers un secteur qui recrute"
             link="/"
             isExternal
