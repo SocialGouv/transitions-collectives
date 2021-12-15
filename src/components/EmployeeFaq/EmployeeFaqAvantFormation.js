@@ -4,7 +4,7 @@ import React from "react"
 const EmployeeFaqAvantFormation = () => {
   return (
     <div>
-      <h2>Avant la formation</h2>
+      <h3>Avant la formation</h3>
       <Accordion>
         <AccordionItem title="Ai-je le droit d’entrer dans ce parcours de reconversion ?">
           <article>

@@ -4,7 +4,7 @@ import React from "react"
 const EmployeeFaqPendantFormation = () => {
   return (
     <div>
-      <h2>Pendant la formation</h2>
+      <h3>Pendant la formation</h3>
       <Accordion className="custom-class">
         <AccordionItem title="Mon salaire et mon contrat de travail sont-ils maintenus pendant la formation ?">
           <article>

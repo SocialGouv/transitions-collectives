@@ -4,7 +4,7 @@ import React from "react"
 const EmployeeFaqContact = () => {
   return (
     <div>
-      <h2>Qui contacter?</h2>
+      <h3>Qui contacter?</h3>
       <Accordion>
         <AccordionItem title="Je souhaite intégrer le dispositif Transitions collectives. Qui dois-je contacter ?">
           <article>

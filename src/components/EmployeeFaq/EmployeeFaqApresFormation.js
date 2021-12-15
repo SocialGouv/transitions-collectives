@@ -4,7 +4,7 @@ import React from "react"
 const EmployeeFaqApresFormation = () => {
   return (
     <div>
-      <h2>Après la formation</h2>
+      <h3>Après la formation</h3>
       <Accordion>
         <AccordionItem title="Mon contrat de travail actuel s’arrête-t-il à la fin de la formation ?">
           <article>

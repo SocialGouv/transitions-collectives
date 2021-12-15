@@ -8,16 +8,17 @@ import EmployeeFaqPendantFormation from "./EmployeeFaqPendantFormation"
 const EmployeeFaq = () => {
   return (
     <div className="fr-container faq">
-      <div className="fr-py-4w">
+      <h2 className="fr-pt-4w">FAQ</h2>
+      <div className="fr-py-2w">
         <EmployeeFaqAvantFormation />
       </div>
-      <div className="fr-py-4w">
+      <div className="fr-py-2w">
         <EmployeeFaqPendantFormation />
       </div>
-      <div className="fr-py-4w">
+      <div className="fr-py-2w">
         <EmployeeFaqApresFormation />
       </div>
-      <div className="fr-py-4w">
+      <div className="fr-py-2w">
         <EmployeeFaqContact />
       </div>
     </div>
