@@ -26,4 +26,10 @@
     margin-right: auto;
     display: block;
   }
+
+  &__employee {
+    h2 {
+      color: var(--background-action-high-green-archipel);
+    }
+  }
 }
