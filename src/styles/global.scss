@@ -37,3 +37,15 @@
   max-width: 600px;
   height: auto;
 }
+
+.news {
+  background: rgb(238, 238, 238);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .fr-container {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding-bottom: 10px;
+  }
+}
