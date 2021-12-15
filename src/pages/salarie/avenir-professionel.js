@@ -10,11 +10,13 @@ const Page = () => {
   return (
     <Layout>
       <Head>
-        <title>Je suis salarié</title>
+        <title>En questionnement sur mon avenir professionnel</title>
       </Head>
       <div className="fr-container">
         <div className="fr-grid-row">
-          <h1 className="fr-h2 fr-pt-4w">Je suis salarié</h1>
+          <h1 className="fr-h2 fr-pt-4w">
+            En questionnement sur mon avenir professionnel
+          </h1>
         </div>
       </div>
       <section className="fr-py-2w" id="infography">

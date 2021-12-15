@@ -40,11 +40,11 @@ const Header = () => {
         <NavItem title="Je souhaite faire connaitre ce dispositif">
           <NavSubItem
             title="auprès des recruteurs de mon territoire"
-            link="/"
+            link="/faire-connaitre-recruteurs"
           />
           <NavSubItem
             title="auprès de mes collègues de travail et de mes partenaires"
-            link="/"
+            link="/faire-connaitre-partenaires"
           />
         </NavItem>
         <NavItem title="Contact / Liens utiles" link="/" />
