@@ -2,7 +2,7 @@ import React from "react"
 
 const HomeCompanyCard = ({ title, image, link }) => {
   return (
-    <div className="card--blue">
+    <div className="card--green">
       <div className="fr-card fr-enlarge-link ">
         <div className="fr-card__body">
           <h4 className="fr-card__title">

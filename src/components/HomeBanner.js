@@ -10,13 +10,12 @@ const HomeBanner = () => {
             src="/images/home/banner.jpg"
             decoding="async"
             data-nimg="fill"
-            sizes="100vw"
           />
         </div>
         <div className={`fr-container content fr-py-2w`}>
           <div className="fr-grid-row">
-            <div className="fr-col-12 fr-col-lg-6 fr-mb-2w">
-              <h1>Transitions collectives</h1>
+            <div className="fr-col-12 fr-col-lg-5 fr-mb-2w">
+              <h1 className="fr-display-md">Transitions collectives</h1>
               <p>
                 {`Une démarche socialement responsable pour accompagner l’emploi local vers des filières d’avenir`}
               </p>
@@ -26,11 +25,8 @@ const HomeBanner = () => {
             <div className="fr-col-12 fr-mb-2w">
               <a href="/#entreprise">
                 <div>
-                  <button
-                    className="fr-btn fr-btn--lg first-button"
-                    type="button"
-                  >
-                    Je suis une entreprise
+                  <button type="button">
+                    Je suis responsable d’une entreprise
                   </button>
                 </div>
               </a>
@@ -38,12 +34,7 @@ const HomeBanner = () => {
             <div className="fr-col-12 fr-mb-2w">
               <a href="/#salarie">
                 <div>
-                  <button
-                    className="fr-btn fr-btn--lg second-button"
-                    type="button"
-                  >
-                    Je suis un salarié
-                  </button>
+                  <button type="button">Je suis un salarié</button>
                 </div>
               </a>
             </div>

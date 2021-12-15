@@ -3,18 +3,17 @@
 .hero-banner {
   button {
     border-radius: 25px;
-    width: 19rem;
+    width: 20rem;
     justify-content: center;
     border: 2px solid white;
-  }
-
-  .first-button {
+    height: 3rem;
+    font-size: medium;
     background-color: white;
-    color: var(--background-active-blue-france);
-  }
-
-  .second-button {
-    background-color: transparent;
+    color: $france-relance;
+    &:hover {
+      background-color: $france-relance;
+      color: white;
+    }
   }
 
   h1 {
@@ -25,9 +24,8 @@
     position: absolute;
     right: 0px;
     overflow: hidden;
-    width: 70%;
+    width: 50%;
     height: 100%;
-    filter: brightness(60%);
 
     @media (max-width: 62rem) {
       display: none;
@@ -58,21 +56,15 @@
   .wrapper {
     position: relative;
     min-height: 12rem;
-    background-color: var(--background-active-blue-france);
+    background-color: $france-relance;
   }
 
   .content {
-    background: linear-gradient(
-      84.59deg,
-      var(--background-active-blue-france) 16.74%,
-      var(--border-action-low-blue-ecume) 155.91%
-    );
+    background: $france-relance;
     color: white;
-    clip-path: polygon(60% 0%, 0% 0%, 0% 100%, 34% 100%);
 
     @media (max-width: 62rem) {
       text-align: center;
-      clip-path: unset;
     }
   }
 }
