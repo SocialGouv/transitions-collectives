@@ -4,6 +4,15 @@ const HomeBanner = () => {
   return (
     <div className={`fr-container--fluid hero-banner`}>
       <div className={`fr-grid-row--center wrapper`}>
+        <div className="background-image">
+          <img
+            alt="cover"
+            src="/images/home/banner.jpg"
+            decoding="async"
+            data-nimg="fill"
+            sizes="100vw"
+          />
+        </div>
         <div className={`fr-container content fr-py-2w`}>
           <div className="fr-grid-row">
             <div className="fr-col-12 fr-col-lg-6 fr-mb-2w">
