@@ -22,19 +22,17 @@ const HomeBanner = () => {
             </div>
           </div>
           <div className="fr-grid-row">
-            <div className="fr-col-12 fr-mb-2w">
-              <a href="/#entreprise">
-                <div>
-                  <button type="button">
-                    Je suis responsable d’une entreprise
-                  </button>
-                </div>
-              </a>
-            </div>
-            <div className="fr-col-12 fr-mb-2w">
+            <div className="fr-col-12 fr-col-lg-3 fr-mb-2w">
               <a href="/#salarie">
                 <div>
                   <button type="button">Je suis un salarié</button>
+                </div>
+              </a>
+            </div>
+            <div className="fr-col-12 fr-col-lg-3 fr-mb-2w">
+              <a href="/#entreprise">
+                <div>
+                  <button type="button">Je suis une entreprise</button>
                 </div>
               </a>
             </div>

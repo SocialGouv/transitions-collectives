@@ -11,7 +11,7 @@ const EmployeeVideo = () => {
             <iframe
               title="Présentation transco"
               className="fr-responsive-vid__player"
-              src="https://www.dailymotion.com/embed/video/x80pxgy"
+              src="https://www.dailymotion.com/embed/video/k352ciaLudGKJwxsdAP?loop=1"
               width="100%"
               height="100%"
               frameBorder="0"

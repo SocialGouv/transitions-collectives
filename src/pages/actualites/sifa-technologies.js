@@ -1,3 +1,4 @@
+import { MediaVideo } from "@dataesr/react-dsfr"
 import Head from "next/head"
 import React from "react"
 
@@ -32,7 +33,7 @@ const Page = () => {
           </header>
           <section>
             <article>
-              <h2 className="fr-h4">
+              <h2 className="fr-h6">
                 Une réponse aux évolutions stratégiques de l’entreprise
               </h2>
               <p>
@@ -59,10 +60,26 @@ const Page = () => {
                 métiers. Nous aurons besoin de nous redimensionner et de laisser
                 partir un certain nombre de compétences vers d’autres
                 secteurs. » Julien Barbrault, directeur de l’entreprise SIFA
-                technologies. Écouter son témoignage complet.
+                technologies.
               </p>
+              <div className="fr-grid-row fr-grid-row--center fr-pb-4w">
+                <div className="fr-col-lg-8 fr-col-12">
+                  <MediaVideo>
+                    <iframe
+                      title="Présentation transco"
+                      className="fr-responsive-vid__player"
+                      src="https://www.dailymotion.com/embed/video/x85ewa2?loop=1"
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen=""
+                    />
+                  </MediaVideo>
+                </div>
+              </div>
 
-              <h2 className="fr-h4">
+              <h2 className="fr-h6">
                 Une réorientation stratégie de l’entreprise et des salariés
               </h2>
               <p>
@@ -79,7 +96,7 @@ const Page = () => {
                 des salariés. Il s’agit d’une réorientation stratégique, à la
                 fois de l’entreprise et des salariés. » Stéphanie Roux.
               </p>
-              <h2 className="fr-h4">Une reconversion négociée et sécurisée</h2>
+              <h2 className="fr-h6">Une reconversion négociée et sécurisée</h2>
               <p>
                 SIFA Technologies signe actuellement un accord GEPP avec ses
                 représentants du personnel afin d’identifier les métiers

@@ -12,32 +12,34 @@ const HomeVideo = () => {
       </h2>
       <div className="fr-grid-row">
         <p>
-          Le dispositif des Transitions collectives permet aux salariés et aux
-          employeurs d’adopter une démarche socialement responsable en
-          accompagnant:
+          Porté par le ministère du Travail, de l’Emploi et de l’Insertion, le
+          dispositif Transitions collectives aide employeurs et salariés dans
+          les phases de transformation de la vie de l’entreprise. Il
+          accompagne :
           <ul>
-            <li>Les entreprises en perspectives de développement</li>
+            <li>Les entreprises en perspective de développement</li>
             <li>
               Les entreprises en mutation (évolution de l’organisation du
               travail, transition technologique…)
             </li>
-            <li>Les entreprises en difficultés économique </li>
+            <li>Les entreprises en difficultés économiques</li>
           </ul>
-          {`Et en favorisant la mobilité des salariés positionnés sur des métiers fragilisés`}
+          Et favorise la mobilité des salariés positionnés sur des métiers
+          fragilisés.
         </p>
       </div>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div className="fr-col-lg-6 fr-col-12">
           <MediaVideo>
             <iframe
-              title="Présentation transco"
+              width="846"
+              height="424"
               className="fr-responsive-vid__player"
-              src="https://www.dailymotion.com/embed/video/x80ghfn"
-              width="100%"
-              height="100%"
+              src="https://www.youtube.com/embed/YARhy56fwG4"
+              title="Présentation transco"
               frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen=""
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
           </MediaVideo>
         </div>
