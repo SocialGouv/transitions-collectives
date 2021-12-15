@@ -12,12 +12,6 @@ import React, { useState } from "react"
 
 const footerBodyLinks = [
   {
-    external: false,
-    key: "footer-body-link-1",
-    link: "/contact",
-    title: "Contactez-nous",
-  },
-  {
     external: true,
     key: "footer-body-link-4",
     link: "https://www.fabrique.social.gouv.fr/",
