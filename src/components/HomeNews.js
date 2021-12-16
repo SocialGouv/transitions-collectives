@@ -29,6 +29,13 @@ const HomeNews = () => {
             link="/actualites/sifa-technologies"
           />
         </div>
+        <div className="fr-col-12 fr-col-md-4">
+          <NewsCard
+            image="images/news/retour-premier-projet-transco.jpg"
+            title="Retour sur le premier projet de Transitions collectives"
+            link="/actualites/retour-premier-projet-transco"
+          />
+        </div>
       </div>
     </div>
   )
