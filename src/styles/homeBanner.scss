@@ -9,15 +9,28 @@
     height: 3rem;
     font-size: medium;
     background-color: white;
-    color: $france-relance;
+    color: black;
+    margin: 0.5rem;
     &:hover {
       background-color: $france-relance;
       color: white;
     }
   }
 
+  a {
+    color: transparent;
+  }
+
   h1 {
     color: white;
+    font-weight: 700 !important;
+    margin-bottom: 0.5rem;
+    font-size: 3rem !important;
+    line-height: 3.5rem !important;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
   }
 
   .background-image {

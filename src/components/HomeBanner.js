@@ -14,26 +14,28 @@ const HomeBanner = () => {
         </div>
         <div className={`fr-container content fr-py-2w`}>
           <div className="fr-grid-row">
-            <div className="fr-col-12 fr-col-lg-5 fr-mb-2w">
-              <h1 className="fr-display-md">Transitions collectives</h1>
+            <div className="fr-col-12 fr-col-lg-5 fr-mb-1w">
+              <h1>
+                <div>Transitions</div>
+                <div>collectives</div>
+              </h1>
               <p>
-                {`Une démarche socialement responsable pour accompagner l’emploi local vers des filières d’avenir`}
+                <div>Une démarche socialement responsable pour</div>
+                <div>accompagner l’emploi local vers des filières d’avenir</div>
               </p>
             </div>
           </div>
           <div className="fr-grid-row">
-            <div className="fr-col-12 fr-col-lg-3 fr-mb-2w">
-              <a href="/#salarie">
-                <div>
-                  <button type="button">Je suis un salarié</button>
-                </div>
+            <div className="fr-col-12 fr-col-lg-6 fr-mb-2w">
+              <a href="/#salarie" target="_self">
+                <button className="first-button" type="button">
+                  Je suis un salarié
+                </button>
               </a>
-            </div>
-            <div className="fr-col-12 fr-col-lg-3 fr-mb-2w">
-              <a href="/#entreprise">
-                <div>
-                  <button type="button">Je suis une entreprise</button>
-                </div>
+              <a href="/#entreprise" target="_self">
+                <button className="second-button" type="button">
+                  Je suis une entreprise
+                </button>
               </a>
             </div>
           </div>
