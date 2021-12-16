@@ -22,18 +22,25 @@ const HomeNews = () => {
     <div className="fr-container home-news">
       <h2 className="fr-mb-6w">{`Actualités`} </h2>
       <div className="fr-grid-row fr-grid-row--gutters">
-        <div className="fr-col-12 fr-col-md-4">
+        <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
+          <NewsCard
+            image="images/news/retour-premier-projet-transco.jpg"
+            title="Retour sur le premier projet de Transitions collectives"
+            link="/actualites/retour-premier-projet-transco"
+          />
+        </div>
+        <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <NewsCard
             image="images/news/sifa-technologies.jpg"
             title="Julien Barbrault et Stéphanie Roux, directeur et RRH de l’entreprise SIFA Technologies"
             link="/actualites/sifa-technologies"
           />
         </div>
-        <div className="fr-col-12 fr-col-md-4">
+        <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <NewsCard
-            image="images/news/retour-premier-projet-transco.jpg"
-            title="Retour sur le premier projet de Transitions collectives"
-            link="/actualites/retour-premier-projet-transco"
+            image="images/news/formation-pour-devenir-conducteur.png"
+            title="Témoignage : une formation pour devenir conducteur de véhicules"
+            link="/actualites/formation-pour-devenir-conducteur"
           />
         </div>
       </div>

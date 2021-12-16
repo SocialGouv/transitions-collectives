@@ -32,14 +32,14 @@ const HomeEmployee = () => {
     <div className="fr-container home-employee">
       <h3 className="fr-h4">{`Je suis un salarié`} </h3>
       <div className="fr-grid-row fr-grid-row--gutters">
-        <div className="fr-col-12 fr-col-md-4">
+        <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <HomeEmployeeCard
             image="/images/home/en_questionnement_professionnel.jpg"
             title="En questionnement sur mon avenir professionnel"
             link="/salarie/avenir-professionel"
           />
         </div>
-        <div className="fr-col-12 fr-col-md-4">
+        <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <HomeEmployeeCard
             image="/images/home/en_souhait_evolution_vers_un_secteur.jpg"
             title="En souhait d’évolution vers un secteur qui recrute"
