@@ -31,10 +31,13 @@ const Header = () => {
       </HeaderBody>
       <HeaderNav>
         <NavItem title="Mes interlocuteurs de proximité">
-          <NavSubItem title="dans ma région pour en savoir plus" link="/" />
           <NavSubItem
-            title="dans mon territoire pour passer à l'action"
-            link="/"
+            title="je suis salarié"
+            link="/interlocuteurs-pour-les-salaries"
+          />
+          <NavSubItem
+            title="je suis responsable d'entreprise"
+            link="/interlocuteurs-pour-les-entreprises"
           />
         </NavItem>
         <NavItem title="Je souhaite faire connaitre ce dispositif">
