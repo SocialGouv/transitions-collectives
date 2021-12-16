@@ -39,7 +39,7 @@ const HomeNews = () => {
         <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <NewsCard
             image="images/news/formation-pour-devenir-conducteur.png"
-            title="Témoignage : une formation pour devenir conducteur de véhicules"
+            title="Farid Mechhat, en formation pour devenir conducteur de véhicules"
             link="/actualites/formation-pour-devenir-conducteur"
           />
         </div>
