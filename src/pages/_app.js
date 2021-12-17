@@ -1,4 +1,3 @@
-import "github-markdown-css"
 import "../styles/main.scss"
 
 import * as Sentry from "@sentry/node"
