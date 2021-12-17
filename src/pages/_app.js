@@ -1,4 +1,5 @@
 import "../styles/main.scss"
+import "@gouvfr/dsfr/dist/dsfr/dsfr.min.css"
 
 import * as Sentry from "@sentry/node"
 import React, { useEffect } from "react"
