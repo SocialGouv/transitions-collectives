@@ -16,10 +16,10 @@ module.exports = nextSourceMaps({
       })
     )
 
-    config.module.rules.push({
-      test: /\.ya?ml$/,
-      use: "js-yaml-loader",
-    })
+    // config.module.rules.push({
+    //   test: /\.ya?ml$/,
+    //   use: "js-yaml-loader",
+    // })
 
     if (!isServer) {
       config.resolve.alias["@sentry/node"] = "@sentry/browser"
