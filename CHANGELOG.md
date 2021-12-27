@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/SocialGouv/transition-collective/compare/v1.0.6...v1.0.7) (2021-12-27)
+
+
+### Bug Fixes
+
+* **k8s:** add netpol ([28844c1](https://github.com/SocialGouv/transition-collective/commit/28844c16579ba532f4b035d026da6de502da8dcf))
+
 ## [1.0.6](https://github.com/SocialGouv/transition-collective/compare/v1.0.5...v1.0.6) (2021-12-10)
 
 
