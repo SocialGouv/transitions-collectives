@@ -26,13 +26,49 @@ const Page = () => {
             </p>
             <p>
               Vous pouvez choisir le métier vers lequel vous souhaitez vous
-              diriger à partir de listes régionales, accessibles sur le{" "}
+              diriger à partir de ces listes régionales:
+            </p>
+            <center>
+              <iframe
+                title="Liste des métiers d'avenir"
+                width="780"
+                height="700"
+                data-original-width="780"
+                data-original-height="700"
+                src="https://www.thinglink.com/card/1438856654991917057"
+                type="text/html"
+                frameBorder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowFullScreen
+                scrolling="no"
+              />
+            </center>
+            <p>
+              Retrouvez également les offres d’emplois dans les secteurs qui
+              recrutent sur le site de{" "}
               <a
                 target="_blank"
-                href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
                 rel="noreferrer"
+                href="https://candidat.pole-emploi.fr/offres/emploi"
               >
-                site du ministère du Travail, de l’Emploi et de l’Insertion
+                Pôle emploi
+              </a>
+              , de l’
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.apec.fr/candidat/recherche-emploi.html/emploi"
+              >
+                Apec
+              </a>{" "}
+              ou encore sur le réseau professionnel{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://fr.linkedin.com/jobs"
+              >
+                Linkedin
               </a>
               .
             </p>
