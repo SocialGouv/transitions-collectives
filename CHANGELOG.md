@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.1...v1.4.2) (2022-01-04)
+
+
+### Bug Fixes
+
+* secrets ([409084b](https://github.com/SocialGouv/transitions-collectives/commit/409084b68e73d779407607ab9b3e787037dc6b29))
+
 ## [1.4.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.0...v1.4.1) (2022-01-04)
 
 
