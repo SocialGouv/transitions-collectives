@@ -7,7 +7,9 @@ const Page = () => {
   return (
     <Layout>
       <Head>
-        <title>faire connaitre le dispositif auprès de mes partenaires</title>
+        <title>
+          faire connaitre le dispositif auprès de mes collègues de travail
+        </title>
       </Head>
       <div className="fr-container">
         <div className="fr-grid-row">
@@ -16,8 +18,8 @@ const Page = () => {
         <div className="fr-grid-row">
           <div className="fr-col-12 fr-col-md-10">
             <p>
-              Je souhaite faire connaitre le dispositif auprès de mes
-              partenaires
+              Je souhaite faire connaitre le dispositif auprès de mes collègues
+              de travail
             </p>
             <img
               className="responsive"
