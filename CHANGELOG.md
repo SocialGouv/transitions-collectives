@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.3.0...v1.4.0) (2022-01-04)
+
+
+### Features
+
+* add font ([6830375](https://github.com/SocialGouv/transitions-collectives/commit/68303753a4f8f8c790cdacb4f9bc2535f86d60a3))
+
 # [1.3.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.2.0...v1.3.0) (2022-01-04)
 
 
