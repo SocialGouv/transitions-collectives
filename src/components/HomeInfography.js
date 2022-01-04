@@ -1,9 +1,4 @@
-import Image from "next/image"
 import React from "react"
-
-import picto1 from "../../public/images/home/picto_1.png"
-import picto2 from "../../public/images/home/picto_2.png"
-import picto3 from "../../public/images/home/picto_3.png"
 
 const HomeInfography = () => {
   return (
@@ -13,7 +8,7 @@ const HomeInfography = () => {
           <div className="fr-grid-row fr-grid-row--gutters">
             <div className="fr-col-md-4 fr-col-12 fr-p-5w">
               <span>
-                <Image alt="" src={picto1} />
+                <img alt="" src="/images/home/picto_1.png" />
               </span>
               <h3 className="emphasis fr-mb-3w fr-h6">
                 <strong>Une action responsable</strong>
@@ -23,7 +18,7 @@ const HomeInfography = () => {
               </p>
             </div>
             <div className="fr-col-md-4 fr-col-12 fr-p-5w">
-              <Image alt="" src={picto2} />
+              <img alt="" src="/images/home/picto_2.png" />
               <h3 className="emphasis fr-mb-3w fr-h6">
                 <strong>Un accompagnement des salariés</strong>
               </h3>
@@ -34,7 +29,7 @@ const HomeInfography = () => {
 
             <div className="fr-col-md-4 fr-col-12 fr-p-5w">
               <span>
-                <Image alt="" src={picto3} />
+                <img alt="" src="/images/home/picto_3.png" />
               </span>
               <h3 className="emphasis fr-mb-3w fr-h6">
                 <strong>
