@@ -30,7 +30,7 @@ const Page = () => {
               <div>
                 <iframe
                   title="Carte des opérateurs de compétence"
-                  src="https://www.google.com/maps/d/embed?mid=1kIhuHBMGKdNdq14RiYPG3YXAsG51a-Pv&ehbc=2E312F"
+                  src="https://www.google.com/maps/d/embed?mid=1ucg8CRBedA6Uw32UKMEMAKbPewMlFo1E&ehbc=2E312F"
                   width="640"
                   height="480"
                 />
@@ -46,7 +46,7 @@ const Page = () => {
               de l’OPCO, le cas échéant).
             </p>
             <p>
-              Pour la contacter:
+              Pour la contacter:{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
