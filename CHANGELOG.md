@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.3...v1.4.4) (2022-01-04)
+
+
+### Bug Fixes
+
+* snaps ([c066c3c](https://github.com/SocialGouv/transitions-collectives/commit/c066c3c65ac40d3b02013e4b6a01894ac4a38dba))
+
 ## [1.4.3](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.2...v1.4.3) (2022-01-04)
 
 
