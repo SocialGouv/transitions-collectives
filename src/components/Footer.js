@@ -46,7 +46,7 @@ const FooterDescription = () => (
   <>
     Le code source est ouvert et les contributions sont bienvenues.{" "}
     <Link
-      href="https://github.com/socialgouv/transition-collective"
+      href="https://github.com/socialgouv/transitions-collectives"
       target="_blank"
       rel="noopener noreferrer"
     >

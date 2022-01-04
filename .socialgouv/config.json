@@ -2,6 +2,6 @@
   "name": "www",
   "type": "static",
   "registry": "ghcr",
-  "project": "transition-collective",
-  "subdomain": "transition-collective"
+  "project": "transitions-collectives",
+  "subdomain": "transitions-collectives"
 }
