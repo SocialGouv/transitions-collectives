@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.2.0...v1.3.0) (2022-01-04)
+
+
+### Bug Fixes
+
+* use img insteadif Image ([b2db498](https://github.com/SocialGouv/transitions-collectives/commit/b2db498d18d9f129ea8fc4c761f2eebfec18c19c))
+
+
+### Features
+
+* use nginx:6.66.0 ([954854c](https://github.com/SocialGouv/transitions-collectives/commit/954854c5a189236bc5d2d8db6c36cabad7f4bc80))
+
 # [1.2.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.1.0...v1.2.0) (2022-01-04)
 
 
