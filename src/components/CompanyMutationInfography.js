@@ -1,4 +1,10 @@
+import Image from "next/image"
 import React from "react"
+
+import picto1 from "../../public/images/company-mutation/picto_1.png"
+import picto2 from "../../public/images/company-mutation/picto_2.png"
+import picto3 from "../../public/images/company-mutation/picto_3.png"
+import picto4 from "../../public/images/company-mutation/picto_4.png"
 
 const CompanyMutationInfography = () => {
   return (
@@ -8,38 +14,22 @@ const CompanyMutationInfography = () => {
         <div className="fr-col-12">
           <div className="fr-grid-row fr-grid-row--gutters">
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
-              <img
-                alt=""
-                src="/images/company-mutation/picto_1.png"
-                aria-hidden="true"
-              />
+              <Image alt="" src={picto1} />
               <p>
                 {`Être accompagné pour anticiper les mutations économiques de votre secteur d’activité et sur votre territoire.`}
               </p>
             </div>
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
-              <img
-                alt=""
-                src="/images/company-mutation/picto_2.png"
-                aria-hidden="true"
-              />
+              <Image alt="" src={picto2} />
               <p>{`Assurer l’avenir de vos salariés volontaires en les formant à un métier émergent.`}</p>
             </div>
 
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
-              <img
-                alt=""
-                src="/images/company-mutation/picto_3.png"
-                aria-hidden="true"
-              />
+              <Image alt="" src={picto3} />
               <p>{`Sécuriser vos salariés en leur permettant de conserver leur contrat de travail et leur rémunération.`}</p>
             </div>
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
-              <img
-                alt=""
-                src="/images/company-mutation/picto_4.png"
-                aria-hidden="true"
-              />
+              <Image alt="" src={picto4} />
               <p>{`Être accompagné financièrement par l’État.`}</p>
             </div>
           </div>
