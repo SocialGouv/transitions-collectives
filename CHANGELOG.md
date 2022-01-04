@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.0...v1.4.1) (2022-01-04)
+
+
+### Bug Fixes
+
+* SENTRY_DNS for production ([6cf437d](https://github.com/SocialGouv/transitions-collectives/commit/6cf437da651c010e95662fbec3d400d74627c52a))
+
 # [1.4.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.3.0...v1.4.0) (2022-01-04)
 
 
