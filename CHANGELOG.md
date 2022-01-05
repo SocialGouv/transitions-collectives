@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.4...v1.5.0) (2022-01-05)
+
+
+### Features
+
+* launch nextjs as app ([a76db65](https://github.com/SocialGouv/transitions-collectives/commit/a76db65e323a7fb632fd42cf29a81d2c774fa5e3))
+
+
+### Reverts
+
+* Revert "fix: use img insteadif Image" ([5c10abe](https://github.com/SocialGouv/transitions-collectives/commit/5c10abe81d56ffca73c0e64a6e7953ebd07cfb97))
+
 ## [1.4.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.4.3...v1.4.4) (2022-01-04)
 
 
