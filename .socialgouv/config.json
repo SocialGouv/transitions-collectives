@@ -1,6 +1,6 @@
 {
   "name": "www",
-  "type": "static",
+  "type": "app",
   "registry": "ghcr",
   "project": "transitions-collectives",
   "subdomain": "transitions-collectives"
