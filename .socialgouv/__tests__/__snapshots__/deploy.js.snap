@@ -2,27 +2,6 @@
 
 exports[`deploy dev 2 1`] = `
 "---
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: netpol-tansition-collective-mybranch
-  namespace: tansition-collective-mybranch
-spec:
-  ingress:
-    - from:
-        - podSelector: {}
-    - from:
-        - namespaceSelector:
-            matchLabels:
-              network-policy/source: ingress-controller
-    - from:
-        - namespaceSelector:
-            matchLabels:
-              network-policy/source: monitoring
-  podSelector: {}
-  policyTypes:
-    - Ingress
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -37,7 +16,7 @@ metadata:
   labels:
     app: www
     application: tansition-collective
-    component: nginx
+    component: tansition-collective
     owner: tansition-collective
     team: tansition-collective
     cert: wildcard
@@ -61,7 +40,7 @@ spec:
       labels:
         app: www
         application: tansition-collective
-        component: nginx
+        component: tansition-collective
         owner: tansition-collective
         team: tansition-collective
         cert: wildcard
@@ -72,19 +51,19 @@ spec:
           livenessProbe:
             failureThreshold: 6
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             initialDelaySeconds: 30
             periodSeconds: 5
             timeoutSeconds: 5
           name: www
           ports:
-            - containerPort: 80
+            - containerPort: 3000
               name: http
           readinessProbe:
             failureThreshold: 15
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             initialDelaySeconds: 0
             periodSeconds: 5
@@ -92,15 +71,15 @@ spec:
             timeoutSeconds: 1
           resources:
             limits:
-              cpu: 500m
-              memory: 128Mi
+              cpu: 200m
+              memory: 256Mi
             requests:
-              cpu: 5m
-              memory: 32Mi
+              cpu: 50m
+              memory: 128Mi
           startupProbe:
             failureThreshold: 12
             httpGet:
-              path: /index.html
+              path: /healthz
               port: http
             periodSeconds: 5
           envFrom:
@@ -108,6 +87,10 @@ spec:
                 name: www-sealed-secret
             - configMapRef:
                 name: www-configmap
+          env:
+            - name: APP_BASE_URL
+              value: >-
+                https://tansition-collective-mybranch.dev2.fabrique.social.gouv.fr
 ---
 apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
@@ -125,7 +108,7 @@ metadata:
   namespace: tansition-collective-mybranch
   labels:
     application: tansition-collective
-    component: nginx
+    component: tansition-collective
     owner: tansition-collective
     team: tansition-collective
     cert: wildcard
@@ -147,7 +130,7 @@ spec:
       name: www-sealed-secret
       labels:
         application: tansition-collective
-        component: nginx
+        component: tansition-collective
         owner: tansition-collective
         team: tansition-collective
         cert: wildcard
@@ -167,7 +150,7 @@ metadata:
     app.github.com/sha: '0123456'
   labels:
     application: tansition-collective
-    component: nginx
+    component: tansition-collective
     owner: tansition-collective
     team: tansition-collective
     cert: wildcard
@@ -183,7 +166,7 @@ metadata:
   labels:
     app: www
     application: tansition-collective
-    component: nginx
+    component: tansition-collective
     owner: tansition-collective
     team: tansition-collective
     cert: wildcard
@@ -201,7 +184,7 @@ spec:
   ports:
     - name: http
       port: 80
-      targetPort: 80
+      targetPort: 3000
   selector:
     app: www
   type: ClusterIP
@@ -221,7 +204,7 @@ metadata:
   labels:
     app: www
     application: tansition-collective
-    component: nginx
+    component: tansition-collective
     owner: tansition-collective
     team: tansition-collective
     cert: wildcard
@@ -243,5 +226,26 @@ spec:
     - hosts:
         - tansition-collective-mybranch.dev2.fabrique.social.gouv.fr
       secretName: wildcard-crt
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: netpol-tansition-collective-mybranch
+  namespace: tansition-collective-mybranch
+spec:
+  ingress:
+    - from:
+        - podSelector: {}
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              network-policy/source: ingress-controller
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              network-policy/source: monitoring
+  podSelector: {}
+  policyTypes:
+    - Ingress
 "
 `;
