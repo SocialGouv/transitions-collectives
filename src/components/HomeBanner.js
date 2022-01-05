@@ -1,16 +1,14 @@
+import Image from "next/image"
 import React from "react"
+
+import banner from "../../public/images/home/banner.jpg"
 
 const HomeBanner = () => {
   return (
     <div className={`fr-container--fluid hero-banner`}>
       <div className={`fr-grid-row--center wrapper`}>
         <div className="background-image">
-          <img
-            alt="cover"
-            src="/images/home/banner.jpg"
-            decoding="async"
-            data-nimg="fill"
-          />
+          <Image layout="cover" alt="cover" src={banner} />
         </div>
         <div className={`fr-container content fr-py-2w`}>
           <div className="fr-grid-row">
