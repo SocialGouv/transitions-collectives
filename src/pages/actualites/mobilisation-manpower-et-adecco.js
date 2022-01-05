@@ -1,3 +1,4 @@
+import { MediaVideo } from "@dataesr/react-dsfr"
 import Head from "next/head"
 import React from "react"
 
