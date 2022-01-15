@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.7.0...v1.7.1) (2022-01-15)
+
+
+### Bug Fixes
+
+* list inside paragraph ([505e893](https://github.com/SocialGouv/transitions-collectives/commit/505e8934fdabb056c01d3dccb7bb093f8df15c43))
+
 # [1.7.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.6.0...v1.7.0) (2022-01-15)
 
 
