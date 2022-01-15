@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.6.0...v1.7.0) (2022-01-15)
+
+
+### Features
+
+* **home:** put news on one line ([35334d4](https://github.com/SocialGouv/transitions-collectives/commit/35334d4a4b2b10b51ee1c48121444f25fdfb7471))
+
 # [1.6.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.5.1...v1.6.0) (2022-01-15)
 
 
