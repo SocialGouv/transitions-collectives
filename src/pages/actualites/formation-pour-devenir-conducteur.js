@@ -35,12 +35,12 @@ const Page = () => {
 
           <NewsContent>
             <NewsParagraph title="Une formation certifiante et sécurisée">
-              <NewsParagraphContent key="1.1">
+              <NewsParagraphContent>
                 Pour Farid Mecchat, salarié en formation pour devenir chauffeur
                 poids lourd, Transitions collectives est une opportunité à
                 saisir.
               </NewsParagraphContent>
-              <NewsParagraphContent key="1.2">
+              <NewsParagraphContent>
                 «C’est une très bonne occasion de se former, de garder son
                 salaire et de rester sur Pithiviers. Je peux avoir un diplôme à
                 la fin de la formation, ce que je n’ai pas eu l’occasion d’avoir
@@ -50,7 +50,7 @@ const Page = () => {
                 title="Lancement officiel du dispositif « Transitions Collectives »"
                 src="https://www.dailymotion.com/embed/video/x85ewa0?loop=1"
               />
-              <NewsParagraphContent key="1.3">
+              <NewsParagraphContent>
                 Le salaire du salarié en Transitions collectives est maintenu
                 pendant toute la durée de la formation (en savoir plus sur le
                 maintien de salaire). L’objectif est de proposer une
@@ -59,7 +59,7 @@ const Page = () => {
             </NewsParagraph>
 
             <NewsParagraph title="Une formation vers un métier d’avenir">
-              <NewsParagraphContent key="2.1">
+              <NewsParagraphContent>
                 La formation de Farid Mecchat, celle de conducteur de véhicules,
                 est référencée dans la liste des{" "}
                 <a
@@ -73,7 +73,7 @@ const Page = () => {
                 d’activité ou de métier en tension dans des secteurs qui peinent
                 à recruter.
               </NewsParagraphContent>
-              <NewsParagraphContent key="2.2">
+              <NewsParagraphContent>
                 Comme Farid Mecchat, vous pouvez choisir le métier vers lequel
                 vous souhaitez vous diriger à partir de{" "}
                 <a

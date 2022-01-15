@@ -36,24 +36,24 @@ const Page = () => {
           <section>
             <article>
               <NewsParagraph title="Une réponse aux évolutions stratégiques de l’entreprise">
-                <NewsParagraphContent key="1.1">
+                <NewsParagraphContent>
                   SIFA Technologies, entreprise familiale crée en 1936, est une
                   sous-traitante de la filière automobile spécialisée dans la
                   transformation de l’aluminium.
                 </NewsParagraphContent>
-                <NewsParagraphContent key="1.2">
+                <NewsParagraphContent>
                   La société s’est spécialisée depuis quelques années dans le
                   Diesel. Face à des métiers en mutation, l’entreprise doit
                   aujourd’hui se positionner sur de nouveaux marchés : véhicules
                   électriques, industrie hors automobile…
                 </NewsParagraphContent>
-                <NewsParagraphContent key="1.3">
+                <NewsParagraphContent>
                   L’entreprise a décidé de recourir au dispositif Transitions
                   collectives afin d’accompagner une partie de ses salariés
                   souhaitant se reconvertir vers d’autres métiers porteurs sur
                   le bassin d’emploi de la métropole d’Orléans et de Pithiviers.
                 </NewsParagraphContent>
-                <NewsParagraphContent key="1.4">
+                <NewsParagraphContent>
                   « Le dispositif permet d’accompagner nos salariés vers des
                   métiers d’avenir. Nous savons que SIFA Technologies va entamer
                   une transition, des métiers historiques du Diesel vers
@@ -69,12 +69,12 @@ const Page = () => {
               </NewsParagraph>
 
               <NewsParagraph title="Une réorientation stratégie de l’entreprise et des salariés">
-                <NewsParagraphContent key="2.1">
+                <NewsParagraphContent>
                   Pour Stéphanie Roux, responsable ressources humaines chez SIFA
                   Technologies, Transitions collectives représente un moyen
                   d’anticipation des projets RH de l’entreprise.
                 </NewsParagraphContent>
-                <NewsParagraphContent key="2.2">
+                <NewsParagraphContent>
                   « Dans le cadre des entreprises professionnels, je me suis
                   aperçue que les salariés avaient un réel besoin de se
                   reconvertir dans un milieu autre que l’industrie comme nous le

@@ -35,31 +35,31 @@ const Page = () => {
               title="Manpower s’engage à embaucher jusqu’à 2500 salariés en CDI
                 Intérimaire"
             >
-              <NewsParagraphContent key="1.1">
+              <NewsParagraphContent>
                 En déplacement chez Manpower le 23 septembre 2021, Élisabeth
                 Borne, ministre du Travail, de l’Emploi et de l’Insertion, a
                 signé une convention de partenariat avec le groupe Manpower dans
                 le cadre du dispositif Transitions collectives. Par cette
                 convention, l’entreprise s’engage à:
-                <ul>
-                  <li>
-                    <strong>Mobiliser ses filiales</strong> pour encourager les
-                    entreprises ayant des emplois menacés à moyen terme, à
-                    proposer à leurs salariés d’adhérer au dispositif
-                    Transitions collectives;
-                  </li>
-                  <li>
-                    <strong>
-                      Embaucher à l’échelle du territoire national jusqu’à 2 500
-                      salariés,
-                    </strong>{" "}
-                    , au terme de leur formation, en contrat à durée
-                    indéterminée pour être mis à disposition au sein de ses
-                    entreprises clientes.
-                  </li>
-                </ul>
               </NewsParagraphContent>
-              <NewsParagraphContent key="1.2">
+              <NewsParagraphContent list>
+                <li>
+                  <strong>Mobiliser ses filiales</strong> pour encourager les
+                  entreprises ayant des emplois menacés à moyen terme, à
+                  proposer à leurs salariés d’adhérer au dispositif Transitions
+                  collectives;
+                </li>
+                <li>
+                  <strong>
+                    Embaucher à l’échelle du territoire national jusqu’à 2 500
+                    salariés,
+                  </strong>{" "}
+                  , au terme de leur formation, en contrat à durée indéterminée
+                  pour être mis à disposition au sein de ses entreprises
+                  clientes.
+                </li>
+              </NewsParagraphContent>
+              <NewsParagraphContent>
                 ManpowerGroup France a déjà lancé deux projets pilotes, en
                 Occitanie et en Provence-Alpes-Côte d’Azur: « Explor’aire Terre
                 » et « Explor’aire Mer ».{" "}
@@ -71,7 +71,7 @@ const Page = () => {
                   En savoir plus
                 </a>
               </NewsParagraphContent>
-              <NewsParagraphContent key="1.3">
+              <NewsParagraphContent>
                 <em>
                   <strong>Pour Elisabeth Borne</strong>: Avec Transitions
                   collectives, nous voulons donner de nouvelles perspectives aux
@@ -90,49 +90,48 @@ const Page = () => {
               title="Adecco s’engage à amplifier l’accompagnement des demandeurs
                   d’emploi de longue durée"
             >
-              <NewsParagraphContent key="2.1">
+              <NewsParagraphContent>
                 Le 14 décembre 2021, Elisabeth Borne, ministre du Travail, de
                 l’Emploi et de l’Insertion, et Alexandre Viros, président France
                 du groupe Adecco ont signé une convention de partenariat
                 comprenant trois axes :
-                <ul>
-                  <li>
-                    <strong>
-                      Un renforcement de l’insertion par l’activité économique
-                      (IAE) pour le retour à l’emploi des publics vulnérables.{" "}
-                    </strong>
-                    Le groupe Adecco s’engage à doubler dès 2022, le nombre
-                    d’implantations de ses entreprises de travail temporaire
-                    d’insertion (ETTI) en passant de 75 à 150 structures, ainsi
-                    que le nombre de ses bénéficiaires à partir de 2023, en
-                    ciblant un total de 15 000 personnes accompagnées chaque
-                    année.
-                  </li>
-                  <li>
-                    <strong>
-                      Une extension de l’aide à l’embauche en contrat de
-                      professionnalisation.
-                    </strong>
-                    Adecco s’engage à recruter et former 1 000 demandeurs
-                    d’emploi de longue durée supplémentaires en contrat
-                    d’alternance en 2022, en ayant recours aux contrats
-                    d’insertion professionnel intérimaire (CIPI) et aux contrats
-                    de développement professionnel intérimaire (CDPI). L’État a
-                    rendu ces deux types de contrats éligibles à l’aide à
-                    l’embauche de 8 000 euros annoncée fin septembre dans le
-                    cadre du plan de réduction des tensions de recrutement qui
-                    comporte un volet spécifique pour les demandeurs d’emploi de
-                    longue durée.
-                  </li>
-                  <li>
-                    <strong>
-                      Une contribution active au déploiement du dispositif
-                      Transitions collectives.
-                    </strong>
-                  </li>
-                </ul>
               </NewsParagraphContent>
-              <NewsParagraphContent key="2.2">
+              <NewsParagraphContent list>
+                <li>
+                  <strong>
+                    Un renforcement de l’insertion par l’activité économique
+                    (IAE) pour le retour à l’emploi des publics vulnérables.{" "}
+                  </strong>
+                  Le groupe Adecco s’engage à doubler dès 2022, le nombre
+                  d’implantations de ses entreprises de travail temporaire
+                  d’insertion (ETTI) en passant de 75 à 150 structures, ainsi
+                  que le nombre de ses bénéficiaires à partir de 2023, en
+                  ciblant un total de 15 000 personnes accompagnées chaque
+                  année.
+                </li>
+                <li>
+                  <strong>
+                    Une extension de l’aide à l’embauche en contrat de
+                    professionnalisation.
+                  </strong>
+                  Adecco s’engage à recruter et former 1 000 demandeurs d’emploi
+                  de longue durée supplémentaires en contrat d’alternance en
+                  2022, en ayant recours aux contrats d’insertion professionnel
+                  intérimaire (CIPI) et aux contrats de développement
+                  professionnel intérimaire (CDPI). L’État a rendu ces deux
+                  types de contrats éligibles à l’aide à l’embauche de 8 000
+                  euros annoncée fin septembre dans le cadre du plan de
+                  réduction des tensions de recrutement qui comporte un volet
+                  spécifique pour les demandeurs d’emploi de longue durée.
+                </li>
+                <li>
+                  <strong>
+                    Une contribution active au déploiement du dispositif
+                    Transitions collectives.
+                  </strong>
+                </li>
+              </NewsParagraphContent>
+              <NewsParagraphContent>
                 <em>
                   <strong>Pour Elisabeth Borne: </strong> « Depuis le début du
                   quinquennat, nous agissons pour permettre aux personnes
@@ -145,7 +144,7 @@ const Page = () => {
                   la réinsertion rapide vers l’emploi des plus vulnérables.»
                 </em>
               </NewsParagraphContent>
-              <NewsParagraphContent key="2.3">
+              <NewsParagraphContent>
                 <em>
                   <strong>Pour Alexandre Viros :</strong> « Tous les acteurs,
                   publics comme privés, doivent se mobiliser au service de

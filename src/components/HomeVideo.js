@@ -11,19 +11,21 @@ const HomeVideo = () => {
         </span>
       </h2>
       <div className="fr-grid-row">
-        <p>
+        <p className="fr-mb-1w">
           Porté par le ministère du Travail, de l’Emploi et de l’Insertion, le
           dispositif Transitions collectives aide employeurs et salariés dans
           les phases de transformation de la vie de l’entreprise. Il
           accompagne :
-          <ul>
-            <li>Les entreprises en perspective de développement</li>
-            <li>
-              Les entreprises en mutation (évolution de l’organisation du
-              travail, transition technologique…)
-            </li>
-            <li>Les entreprises en difficultés économiques</li>
-          </ul>
+        </p>
+        <ul>
+          <li>Les entreprises en perspective de développement</li>
+          <li>
+            Les entreprises en mutation (évolution de l’organisation du travail,
+            transition technologique…)
+          </li>
+          <li>Les entreprises en difficultés économiques</li>
+        </ul>
+        <p>
           Et favorise la mobilité des salariés positionnés sur des métiers
           fragilisés.
         </p>

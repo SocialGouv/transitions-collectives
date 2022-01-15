@@ -39,7 +39,7 @@ const Page = () => {
           <section>
             <article>
               <NewsParagraph>
-                <NewsParagraphContent key="1.1">
+                <NewsParagraphContent>
                   Les groupes Korian et Derichebourg sont en effet les premiers
                   à se saisir de ce dispositif innovant. Ainsi, des salariées
                   volontaires du groupe de services Derichebourg suivent{" "}
@@ -51,7 +51,7 @@ const Page = () => {
                     obtention de leur diplôme d’État d’aide-soignante.
                   </strong>
                 </NewsParagraphContent>
-                <NewsParagraphContent key="1.2">
+                <NewsParagraphContent>
                   Retour en vidéo sur le lancement de cet accord, en présence
                   d’Élisabeth Borne, ministre du Travail, de l’Emploi et de
                   l’Insertion, de Sophie Boissard, Directrice générale du groupe
@@ -63,7 +63,7 @@ const Page = () => {
                   src="https://www.dailymotion.com/embed/video/x80pxgy?loop=1"
                 />
 
-                <NewsParagraphContent key="1.3">
+                <NewsParagraphContent>
                   <em>
                     «Je me réjouis de voir le dispositif «Transitions
                     Collectives» devenir réalité. Grâce au projet des groupes
