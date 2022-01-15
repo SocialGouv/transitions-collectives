@@ -2,6 +2,15 @@ import Head from "next/head"
 import React from "react"
 
 import Layout from "@/components/Layout"
+import NewsCard from "@/components/NewsCard"
+import NewsContent from "@/components/NewsContent"
+import NewsFooter from "@/components/NewsFooter"
+import NewsHeader from "@/components/NewsHeader"
+import NewsParagraph from "@/components/NewsParagraph"
+import NewsParagraphContent from "@/components/NewsParagraphContent"
+import NewsPhoto from "@/components/NewsPhoto"
+
+import photo from "../../../public/images/news/mobilisation-manpower-et-adecco.jpg"
 
 const Page = () => {
   return (
@@ -15,19 +24,18 @@ const Page = () => {
         </Head>
 
         <div className="fr-container">
-          <header>
-            <h1 className="fr-h3 fr-pt-4w">
-              Mobilisation de ManpowerGroup France et Adecco , leaders de
-              l’intérim
-            </h1>
-          </header>
-          <section>
-            <article>
-              <h2 className="fr-h6">
-                Manpower s’engage à embaucher jusqu’à 2500 salariés en CDI
-                Intérimaire
-              </h2>
-              <p>
+          <NewsHeader title="Mobilisation de ManpowerGroup France et Adecco , leaders de" />
+          <NewsPhoto
+            photo={photo}
+            source="Ministères sociaux/ DICOM / Tristan Reynaud / Sipa Press"
+          />
+
+          <NewsContent>
+            <NewsParagraph
+              title="Manpower s’engage à embaucher jusqu’à 2500 salariés en CDI
+                Intérimaire"
+            >
+              <NewsParagraphContent key="1.1">
                 En déplacement chez Manpower le 23 septembre 2021, Élisabeth
                 Borne, ministre du Travail, de l’Emploi et de l’Insertion, a
                 signé une convention de partenariat avec le groupe Manpower dans
@@ -50,10 +58,10 @@ const Page = () => {
                     entreprises clientes.
                   </li>
                 </ul>
-              </p>
-              <p>
+              </NewsParagraphContent>
+              <NewsParagraphContent key="1.2">
                 ManpowerGroup France a déjà lancé deux projets pilotes, en
-                Occitanie et en Provence-Alpes-Côte d’Azur : « Explor’aire Terre
+                Occitanie et en Provence-Alpes-Côte d’Azur: « Explor’aire Terre
                 » et « Explor’aire Mer ».{" "}
                 <a
                   target="_blank"
@@ -62,8 +70,8 @@ const Page = () => {
                 >
                   En savoir plus
                 </a>
-              </p>
-              <p>
+              </NewsParagraphContent>
+              <NewsParagraphContent key="1.3">
                 <em>
                   <strong>Pour Elisabeth Borne</strong>: Avec Transitions
                   collectives, nous voulons donner de nouvelles perspectives aux
@@ -75,13 +83,14 @@ const Page = () => {
                   essentiel auprès des entreprises qui connaissent des mutations
                   durables ».
                 </em>
-              </p>
+              </NewsParagraphContent>
+            </NewsParagraph>
 
-              <h2 className="fr-h6">
-                Adecco s’engage à amplifier l’accompagnement des demandeurs
-                d’emploi de longue durée
-              </h2>
-              <p>
+            <NewsParagraph
+              title="Adecco s’engage à amplifier l’accompagnement des demandeurs
+                  d’emploi de longue durée"
+            >
+              <NewsParagraphContent key="2.1">
                 Le 14 décembre 2021, Elisabeth Borne, ministre du Travail, de
                 l’Emploi et de l’Insertion, et Alexandre Viros, président France
                 du groupe Adecco ont signé une convention de partenariat
@@ -90,7 +99,7 @@ const Page = () => {
                   <li>
                     <strong>
                       Un renforcement de l’insertion par l’activité économique
-                      (IAE) pour le retour à l’emploi des publics vulnérables.
+                      (IAE) pour le retour à l’emploi des publics vulnérables.{" "}
                     </strong>
                     Le groupe Adecco s’engage à doubler dès 2022, le nombre
                     d’implantations de ses entreprises de travail temporaire
@@ -122,8 +131,8 @@ const Page = () => {
                     </strong>
                   </li>
                 </ul>
-              </p>
-              <p>
+              </NewsParagraphContent>
+              <NewsParagraphContent key="2.2">
                 <em>
                   <strong>Pour Elisabeth Borne: </strong> « Depuis le début du
                   quinquennat, nous agissons pour permettre aux personnes
@@ -135,8 +144,8 @@ const Page = () => {
                   avec Adecco est un grand pas en ce sens et permettra notamment
                   la réinsertion rapide vers l’emploi des plus vulnérables.»
                 </em>
-              </p>
-              <p>
+              </NewsParagraphContent>
+              <NewsParagraphContent key="2.3">
                 <em>
                   <strong>Pour Alexandre Viros :</strong> « Tous les acteurs,
                   publics comme privés, doivent se mobiliser au service de
@@ -148,41 +157,40 @@ const Page = () => {
                   rôle clé des entreprises de travail temporaire au sein du
                   service public de l’emploi. »
                 </em>
-              </p>
+              </NewsParagraphContent>
+            </NewsParagraph>
 
-              <section>
-                <p>
-                  Lire les articles complets sur le site du ministère du
-                  Travail, de l’Emploi et de l’Insertion :
-                  <ul>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://travail-emploi.gouv.fr/actualites/presse/communiques-de-presse/article/signature-d-une-convention-de-partenariat-avec-le-groupe-adecco-pour-favoriser"
-                      >
-                        Signature d’une convention de partenariat avec le groupe
-                        Adecco pour favoriser l’accès à l’emploi des demandeurs
-                        d’emploi de longue durée et les reconversions des
-                        salariés
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://travail-emploi.gouv.fr/actualites/presse/communiques-de-presse/article/transitions-collectives-manpowergroup-france-s-associe-au-ministere-du-travail"
-                      >
-                        ManpowerGroup France s’associe au ministère du Travail,
-                        de l’Emploi et de l’Insertion et s’engage à recruter
-                        jusqu’à 2 500 CDI Intérimaires sur un an
-                      </a>
-                    </li>
-                  </ul>
-                </p>
-              </section>
-            </article>
-          </section>
+            <NewsFooter>
+              <NewsCard>
+                Lire les articles complets sur le site du ministère du Travail,
+                de l’Emploi et de l’Insertion :
+                <ul>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://travail-emploi.gouv.fr/actualites/presse/communiques-de-presse/article/signature-d-une-convention-de-partenariat-avec-le-groupe-adecco-pour-favoriser"
+                    >
+                      Signature d’une convention de partenariat avec le groupe
+                      Adecco pour favoriser l’accès à l’emploi des demandeurs
+                      d’emploi de longue durée et les reconversions des salariés
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://travail-emploi.gouv.fr/actualites/presse/communiques-de-presse/article/transitions-collectives-manpowergroup-france-s-associe-au-ministere-du-travail"
+                    >
+                      ManpowerGroup France s’associe au ministère du Travail, de
+                      l’Emploi et de l’Insertion et s’engage à recruter jusqu’à
+                      2 500 CDI Intérimaires sur un an
+                    </a>
+                  </li>
+                </ul>
+              </NewsCard>
+            </NewsFooter>
+          </NewsContent>
         </div>
       </div>
     </Layout>

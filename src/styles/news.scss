@@ -1,23 +1,16 @@
 @use "./variables" as *;
 
 .news {
-  background: rgb(238, 238, 238);
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  .fr-container {
-    max-width: 800px;
-    width: 100%;
-    background: white;
-    padding-bottom: 10px;
-  }
+  padding-bottom: 8rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 
   h1 {
-    color: $france-relance;
+    color: $blue-news-title;
   }
 
   h2 {
-    color: $france-relance;
+    color: $blue-news-title;
     margin-bottom: 1rem;
   }
 

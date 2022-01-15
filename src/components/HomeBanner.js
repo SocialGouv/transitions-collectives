@@ -8,7 +8,7 @@ const HomeBanner = () => {
     <div className={`fr-container--fluid hero-banner`}>
       <div className={`fr-grid-row--center wrapper`}>
         <div className="background-image">
-          <Image layout="cover" alt="cover" src={banner} />
+          <Image layout="fill" alt="cover" src={banner} />
         </div>
         <div className={`fr-container content fr-py-2w`}>
           <div className="fr-grid-row">
