@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.5.1...v1.6.0) (2022-01-15)
+
+
+### Features
+
+* **news:** rework ui ([502d817](https://github.com/SocialGouv/transitions-collectives/commit/502d817d6f2ac90845930bec29fac5e3255cf348))
+
 ## [1.5.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.5.0...v1.5.1) (2022-01-05)
 
 
