@@ -59,8 +59,11 @@ const Page = () => {
                   une transition, des métiers historiques du Diesel vers
                   d’autres métiers. Nous aurons besoin de nous redimensionner et
                   de laisser partir un certain nombre de compétences vers
-                  d’autres secteurs. » Julien Barbrault, directeur de
-                  l’entreprise SIFA technologies.
+                  d’autres secteurs. »
+                  <p className="fr-text--lg text-align--end">
+                    Julien Barbrault, directeur de l’entreprise SIFA
+                    technologies.
+                  </p>
                 </NewsParagraphContent>
                 <NewsVideo
                   title="Présentation transco"

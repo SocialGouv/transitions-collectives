@@ -4,7 +4,7 @@ import React from "react"
 const CompanyRecruitmentFaq = () => {
   return (
     <div className="fr-container fr-py-4w faq">
-      <h2 className="fr-h3">{`Plus d'informations`}</h2>
+      <h2 className="fr-h3">{`Je me pose des questions`}</h2>
       <Accordion>
         <AccordionItem title="Mon entreprise est-elle éligible au dispositif Transitions collectives ?">
           <article>

@@ -24,25 +24,6 @@ const Page = () => {
             <div className="fr-pb-4w">
               <ContactSearchPanel />
             </div>
-
-            <h2 className="fr-h6">Association de Transitions Pro</h2>
-            <p>
-              Votre association Transitions Pro est à votre service pour
-              faciliter le recours au dispositif et fluidifier l’organisation
-              des parcours de vos salariés. C’est auprès d’elle que vous
-              déposerez votre dossier de Transitions collectives (avec l’appui
-              de l’OPCO, le cas échéant).
-            </p>
-            <p>
-              Pour la contacter:{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.transitionspro.fr"
-              >
-                http://www.transitionspro.fr
-              </a>
-            </p>
           </div>
         </div>
       </div>

@@ -22,11 +22,11 @@ const Page = () => {
       <section className="fr-py-2w" id="infography">
         <EmployeeInfography />
       </section>
-      <section className="fr-py-2w" id="video">
-        <EmployeeVideo />
-      </section>
       <section className="fr-py-2w" id="faq">
         <EmployeeFaq />
+      </section>
+      <section className="fr-py-2w" id="video">
+        <EmployeeVideo />
       </section>
     </Layout>
   )

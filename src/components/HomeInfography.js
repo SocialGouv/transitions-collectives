@@ -19,7 +19,7 @@ const HomeInfography = () => {
                 <strong>Une action responsable</strong>
               </h3>
               <p>
-                {`Ce dispositif permet d’inscrire son action dans une démarche responsable vis-à-vis de ses salariés`}
+                {`Ce dispositif permet d’inscrire son action dans une démarche responsable vis-à-vis de ses salariés.`}
               </p>
             </div>
             <div className="fr-col-md-4 fr-col-12 fr-p-5w">
@@ -28,7 +28,7 @@ const HomeInfography = () => {
                 <strong>Un accompagnement des salariés</strong>
               </h3>
               <p>
-                {`Ce dispositif permet d’accompagner ses salariés vers des métiers d’avenir sur le territoire`}
+                {`Ce dispositif permet d’accompagner ses salariés vers des métiers d’avenir sur le territoire.`}
               </p>
             </div>
 

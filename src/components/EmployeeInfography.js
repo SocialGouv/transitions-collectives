@@ -10,7 +10,7 @@ import picto5 from "../../public/images/employee/picto_5.png"
 const EmployeeInfography = () => {
   return (
     <div className="fr-container infography">
-      <h2 className="fr-h3">{`Transitions collectives c'est`}</h2>
+      <h2 className="fr-h3">{`Transitions collectives c'est pour vous`}</h2>
       <div className="fr-grid-row block">
         <div className="fr-col-12">
           <div className="fr-grid-row fr-grid-row--gutters">

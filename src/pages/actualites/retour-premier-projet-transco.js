@@ -65,7 +65,7 @@ const Page = () => {
 
                 <NewsParagraphContent>
                   <em>
-                    «Je me réjouis de voir le dispositif «Transitions
+                    « Je me réjouis de voir le dispositif «Transitions
                     Collectives» devenir réalité. Grâce au projet des groupes
                     Derichebourg et Korian, des dizaines de salariées vont
                     pouvoir s’engager dans une reconversion vers un secteur où
@@ -74,12 +74,14 @@ const Page = () => {
                     dispositif de «Transitions Collectives» est une innovation
                     sociale majeure au service des salariés, des entreprises et
                     des territoires. J’invite toutes les entreprises qui
-                    connaissent une baisse d’activité à s’en saisir».{" "}
+                    connaissent une baisse d’activité à s’en saisir. »{" "}
+                  </em>
+                  <p className="fr-text--lg text-align--end">
                     <strong>
                       Élisabeth Borne, ministre du Travail, de l’Emploi et de
                       l’Insertion.
                     </strong>
-                  </em>
+                  </p>
                 </NewsParagraphContent>
               </NewsParagraph>
             </article>

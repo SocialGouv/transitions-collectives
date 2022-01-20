@@ -2,6 +2,7 @@ import Head from "next/head"
 import React from "react"
 
 import Layout from "@/components/Layout"
+import Link from "next/link"
 
 const Page = () => {
   return (
@@ -15,11 +16,11 @@ const Page = () => {
         </div>
         <div className="fr-grid-row">
           <div className="fr-col-12 fr-col-md-10">
-            <h2 className="fr-h6">En tant qu’entreprise ou partenaire:</h2>
+            <h2 className="fr-h6">En tant qu’entreprise ou partenaire :</h2>
 
             <p>
               <strong>
-                Pour être accompagné dans la mise en place du dispositif:
+                Pour être accompagné dans la mise en place du dispositif :
               </strong>
               <ul>
                 <li>
@@ -28,7 +29,7 @@ const Page = () => {
                     href="https://www.google.com/maps/d/u/2/edit?mid=1kIhuHBMGKdNdq14RiYPG3YXAsG51a-Pv&usp=sharing"
                     rel="noreferrer"
                   >
-                    Opco
+                    Votre Opco
                   </a>
                 </li>
                 <li>
@@ -37,17 +38,17 @@ const Page = () => {
                     href="www.transitionspro.fr"
                     rel="noreferrer"
                   >
-                    At Pro
+                    Votre At Pro
                   </a>
                 </li>
               </ul>
             </p>
 
-            <h2 className="fr-h6">En tant que salarié:</h2>
+            <h2 className="fr-h6">En tant que salarié :</h2>
 
             <p>
               <strong>
-                Pour l’accompagnement à la reconversion professionnelle:
+                Pour l’accompagnement à la reconversion professionnelle :
               </strong>
               <ul>
                 <li>
@@ -64,7 +65,7 @@ const Page = () => {
 
             <p>
               <strong>
-                Et rechercher un emploi dans un secteur qui recrute:
+                Et rechercher un emploi dans un secteur qui recrute :
               </strong>
               <ul>
                 <li>
@@ -98,16 +99,14 @@ const Page = () => {
             </p>
 
             <p>
-              <strong>Pour connaître les métiers porteurs de ma région:</strong>
+              <strong>
+                Pour connaître les métiers porteurs de ma région :
+              </strong>
               <ul>
                 <li>
-                  <a
-                    target="_blank"
-                    href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
-                    rel="noreferrer"
-                  >
-                    Site du ministère du Travail, de l’Emploi et de l’Insertion
-                  </a>
+                  <Link href="/salarie/souhait-evolution" rel="noreferrer">
+                    La liste des métiers de votre région
+                  </Link>
                 </li>
               </ul>
             </p>

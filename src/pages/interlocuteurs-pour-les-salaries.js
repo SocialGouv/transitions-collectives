@@ -28,7 +28,7 @@ const Page = () => {
               votre parcours de reconversion.
             </p>
             <p>
-              En savoir plus:{" "}
+              En savoir plus :{" "}
               <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 https://www.mon-cep.org
               </a>{" "}
@@ -38,7 +38,7 @@ const Page = () => {
             <p>
               Les associations Transitions Pro vous accompagnent pour élaborer
               votre demande de financement de reconversion et organiser votre
-              parcours de formation
+              parcours de formation.
             </p>
             <p>
               Contactez l’association Transitions pro dans votre région :

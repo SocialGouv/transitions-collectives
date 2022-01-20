@@ -25,7 +25,7 @@ const HomeNews = () => {
         <div className="fr-col-12 fr-col-md-6 fr-col-lg-3">
           <NewsCard
             image="images/news/mobilisation-manpower-et-adecco.jpg"
-            title="Mobilisation de ManpowerGroup France et Adecco , leaders de l’intérim"
+            title="Mobilisation de ManpowerGroup France et Adecco, leaders de l’intérim"
             link="/actualites/mobilisation-manpower-et-adecco"
           />
         </div>

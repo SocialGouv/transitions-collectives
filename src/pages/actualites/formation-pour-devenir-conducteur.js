@@ -41,10 +41,12 @@ const Page = () => {
                 saisir.
               </NewsParagraphContent>
               <NewsParagraphContent>
-                «C’est une très bonne occasion de se former, de garder son
-                salaire et de rester sur Pithiviers. Je peux avoir un diplôme à
-                la fin de la formation, ce que je n’ai pas eu l’occasion d’avoir
-                en France.»
+                <em>
+                  « C’est une très bonne occasion de se former, de garder son
+                  salaire et de rester sur Pithiviers. Je peux avoir un diplôme
+                  à la fin de la formation, ce que je n’ai pas eu l’occasion
+                  d’avoir en France. »
+                </em>
               </NewsParagraphContent>
               <NewsVideo
                 title="Lancement officiel du dispositif « Transitions Collectives »"

@@ -73,7 +73,7 @@ const Page = () => {
               </NewsParagraphContent>
               <NewsParagraphContent>
                 <em>
-                  <strong>Pour Elisabeth Borne</strong>: Avec Transitions
+                  <strong>Pour Elisabeth Borne</strong>: « Avec Transitions
                   collectives, nous voulons donner de nouvelles perspectives aux
                   salariés dont l’emploi est fragilisé en leur permettant de
                   s’engager dans une reconversion professionnelle à proximité de
@@ -113,7 +113,7 @@ const Page = () => {
                   <strong>
                     Une extension de l’aide à l’embauche en contrat de
                     professionnalisation.
-                  </strong>
+                  </strong>{" "}
                   Adecco s’engage à recruter et former 1 000 demandeurs d’emploi
                   de longue durée supplémentaires en contrat d’alternance en
                   2022, en ayant recours aux contrats d’insertion professionnel
@@ -133,7 +133,7 @@ const Page = () => {
               </NewsParagraphContent>
               <NewsParagraphContent>
                 <em>
-                  <strong>Pour Elisabeth Borne: </strong> « Depuis le début du
+                  <strong>Pour Elisabeth Borne :</strong> « Depuis le début du
                   quinquennat, nous agissons pour permettre aux personnes
                   éloignées de l’emploi et aux salariés dont l’emploi est menacé
                   de rebondir rapidement. Les groupes d’intérim comme Adecco,
@@ -141,7 +141,7 @@ const Page = () => {
                   doivent avoir toute leur place dans les dispositifs que l’Etat
                   a mis en place. La convention que nous signons aujourd’hui
                   avec Adecco est un grand pas en ce sens et permettra notamment
-                  la réinsertion rapide vers l’emploi des plus vulnérables.»
+                  la réinsertion rapide vers l’emploi des plus vulnérables. »
                 </em>
               </NewsParagraphContent>
               <NewsParagraphContent>
@@ -154,7 +154,7 @@ const Page = () => {
                   d’emploi, en particulier des demandeurs d’emploi longue durée.
                   La signature de cette convention illustre la reconnaissance du
                   rôle clé des entreprises de travail temporaire au sein du
-                  service public de l’emploi. »
+                  service public de l’emploi. »
                 </em>
               </NewsParagraphContent>
             </NewsParagraph>

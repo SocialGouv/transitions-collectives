@@ -27,7 +27,7 @@ const CompanyRecruitmentInfography = () => {
 
             <div className="fr-col-md-4 fr-col-12 fr-p-4w">
               <Image alt="" src={picto3} />
-              <p>{`Bénéficier de l’aide des acteurs de Transitions collectives pour rechercher des profils adaptés à vos besoins`}</p>
+              <p>{`Bénéficier de l’aide des acteurs de Transitions collectives pour rechercher des profils adaptés à vos besoins.`}</p>
             </div>
             <div className="fr-col-md-4 fr-col-12 fr-p-4w">
               <Image alt="" src={picto4} />
