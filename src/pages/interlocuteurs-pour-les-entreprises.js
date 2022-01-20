@@ -1,6 +1,7 @@
 import Head from "next/head"
 import React from "react"
 
+import ContactSearchPanel from "@/components/ContactSearchPanel"
 import Layout from "@/components/Layout"
 
 const Page = () => {
@@ -26,16 +27,9 @@ const Page = () => {
               l’entrée du dispositif et dans l’identification des emplois
               fragilisés.
             </p>
-            <p>
-              <div>
-                <iframe
-                  title="Carte des opérateurs de compétence"
-                  src="https://www.google.com/maps/d/embed?mid=1ucg8CRBedA6Uw32UKMEMAKbPewMlFo1E&ehbc=2E312F"
-                  width="640"
-                  height="480"
-                />
-              </div>
-            </p>
+            <div className="fr-pb-4w">
+              <ContactSearchPanel />
+            </div>
 
             <h2 className="fr-h6">Association de Transitions Pro</h2>
             <p>
