@@ -57,10 +57,15 @@ const ContactSearchPanel = () => {
     const departement = event.target.value
     let result = []
     let ddets = []
+    let opcos = []
     if (departement) {
       result = (fuse.search(`'${departement}`) || []).map(({ item }) => item)
       ddets = getDdets(result)
     }
+    if (selectedOpcoType) {
+      opcos = getOpcos(result, selectedOpcoType)
+    }
+    setOpcos(opcos)
     setSelectedDepartment(departement)
     setSearchResult(result)
     setDdets(ddets)
