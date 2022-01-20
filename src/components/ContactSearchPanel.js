@@ -6,8 +6,9 @@ import contacts from "../data/contacts"
 import departements from "../data/departements"
 
 const options = {
+  includeMatches: true,
   keys: ["departement"],
-  threshold: 0.0,
+  useExtendedSearch: true,
 }
 
 const fuse = new Fuse(contacts, options)
@@ -24,7 +25,7 @@ const ContactSearchPanel = () => {
     const departement = event.target.value
     let result = []
     if (departement) {
-      result = fuse.search(departement)
+      result = fuse.search(`'${departement}`)
     }
     setSelected(departement)
     setSearchResult(result.map(({ item }) => item))
