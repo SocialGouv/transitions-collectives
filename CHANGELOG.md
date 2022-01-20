@@ -1,3 +1,14 @@
+# [1.8.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.7.1...v1.8.0) (2022-01-20)
+
+
+### Features
+
+* implement search contact ([650a241](https://github.com/SocialGouv/transitions-collectives/commit/650a2410b6a143489c24354755657a0e37ac982c))
+* implement search contact ([7e729ae](https://github.com/SocialGouv/transitions-collectives/commit/7e729aec6d3b0b63dab804f877c49ce4cb88dcd5))
+* implement search contact ([133d826](https://github.com/SocialGouv/transitions-collectives/commit/133d82631ec4a19c61c45a7cb27c26f6d2a71847))
+* implement search contact ([cfb932e](https://github.com/SocialGouv/transitions-collectives/commit/cfb932e8efb8cea12ea2fcb59da30666d3380ace))
+* implement search contact ([807aed9](https://github.com/SocialGouv/transitions-collectives/commit/807aed94751a0ec417ce9f33b5246be41b8315ff))
+
 ## [1.7.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.7.0...v1.7.1) (2022-01-15)
 
 
