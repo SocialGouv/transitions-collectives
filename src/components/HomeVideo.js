@@ -23,7 +23,6 @@ const HomeVideo = () => {
             Les entreprises en mutation (évolution de l’organisation du travail,
             transition technologique…)
           </li>
-          <li>Les entreprises en difficultés économiques</li>
         </ul>
         <p>
           Et favorise la mobilité des salariés positionnés sur des métiers

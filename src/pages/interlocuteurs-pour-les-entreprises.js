@@ -21,12 +21,6 @@ const Page = () => {
         </div>
         <div className="fr-grid-row">
           <div className="fr-col-12 fr-col-md-10">
-            <h2 className="fr-h6">Votre opérateur de compétences</h2>
-            <p>
-              Au niveau régional, votre OPCO est là pour vous accompagner dans
-              l’entrée du dispositif et dans l’identification des emplois
-              fragilisés.
-            </p>
             <div className="fr-pb-4w">
               <ContactSearchPanel />
             </div>

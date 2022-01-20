@@ -32,16 +32,16 @@ const HomeCompany = () => {
       <div className="fr-grid-row fr-grid-row--gutters">
         <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <HomeCompanyCard
-            image="/images/home/j_ai_des_besoins_en_recrutement.jpg"
-            title="J’ai des besoins en recrutement"
-            link="/entreprise/besoins-en-recrutement"
+            image="/images/home/je_fais_face_a_des_difficultes.jpg"
+            title="Je fais face à des difficultés dans mon secteur d’activité"
+            link="/entreprise/difficultes-dans-mon-secteur"
           />
         </div>
         <div className="fr-col-12 fr-col-md-6 fr-col-lg-4">
           <HomeCompanyCard
-            image="/images/home/je_fais_face_a_des_difficultes.jpg"
-            title="Je fais face à des difficultés dans mon secteur d’activité"
-            link="/entreprise/difficultes-dans-mon-secteur"
+            image="/images/home/j_ai_des_besoins_en_recrutement.jpg"
+            title="J’ai des besoins en recrutement"
+            link="/entreprise/besoins-en-recrutement"
           />
         </div>
       </div>
