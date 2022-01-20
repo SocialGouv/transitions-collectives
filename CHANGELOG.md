@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.2...v1.8.3) (2022-01-20)
+
+
+### Bug Fixes
+
+* build ([db25043](https://github.com/SocialGouv/transitions-collectives/commit/db2504328952fa7e39c8696451f2dc2848b947af))
+
 ## [1.8.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.1...v1.8.2) (2022-01-20)
 
 
