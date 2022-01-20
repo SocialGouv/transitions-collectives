@@ -16,9 +16,16 @@ const ContactSearchPanel = () => {
   const [selected, setSelected] = useState("")
   const [searchResult, setSearchResult] = useState([])
 
+  const departementOptions = [
+    { label: "Sélectionnez une option", value: "" },
+  ].concat(departements)
+
   const onSearch = (event) => {
     const departement = event.target.value
-    const result = fuse.search(departement)
+    let result = []
+    if (departement) {
+      result = fuse.search(departement)
+    }
     setSelected(departement)
     setSearchResult(result.map(({ item }) => item))
   }
@@ -32,17 +39,16 @@ const ContactSearchPanel = () => {
   }
 
   return (
-    <section className="search-contacts fr-py-6w background-grey">
+    <section className="search-contacts fr-py-3w background-grey">
       <div className="fr-container">
         <h2 className="fr-text--md fr-text--regular">
-          Parcourez votre département et sélectionnez votre contact
+          Sélectionnez un département pour afficher les contacts
         </h2>
         <div className="fr-col-lg-4 fr-col-sm-12 fr-mb-5w">
           <Select
             onChange={onSearch}
-            label="Sélectionnez un départements"
             selected={selected}
-            options={departements}
+            options={departementOptions}
           />
         </div>
 
