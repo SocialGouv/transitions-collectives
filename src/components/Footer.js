@@ -30,16 +30,6 @@ const footerBottomLinks = [
     link: "/mentions-legales",
     title: "Mentions légales",
   },
-  {
-    key: "footer-bottom-link-cgu",
-    link: "/cgu",
-    title: "Conditions générales d'utilisation",
-  },
-  {
-    key: "footer-bottom-link-privacy",
-    link: "/politique-de-confidentialite",
-    title: "Politique de confidentialité",
-  },
 ]
 
 const FooterDescription = () => (
