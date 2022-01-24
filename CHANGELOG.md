@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.4...v1.9.0) (2022-01-24)
+
+
+### Features
+
+* mentions legales ([f36a5f4](https://github.com/SocialGouv/transitions-collectives/commit/f36a5f474484f5614e7c790788e6687250e2deb5))
+
 ## [1.8.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.3...v1.8.4) (2022-01-24)
 
 
