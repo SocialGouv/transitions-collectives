@@ -57,13 +57,19 @@ const Page = () => {
             <p>
               Si vous rencontrez un défaut d’accessibilité vous empêchant
               d’accéder à un contenu ou une fonctionnalité du site, merci de
-              nous en faire part. Si vous n’obtenez pas de réponse rapide de
-              notre part, vous êtes en droit de faire parvenir vos doléances ou
-              une demande de saisine au Défenseur des droits.
+              nous en faire part par mail à l&apos;adresse suivante:{" "}
+              <a href="mailto:contact@fabrique.social.gouv.fr">
+                contact@fabrique.social.gouv.fr
+              </a>
+            </p>
+            <p>
+              Si vous n’obtenez pas de réponse rapide de notre part, vous êtes
+              en droit de faire parvenir vos doléances ou une demande de saisine
+              au Défenseur des droits.
             </p>
             <p>
               Pour en savoir plus sur la politique d’accessibilité numérique de
-              l’État :
+              l’État :{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
