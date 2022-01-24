@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.3...v1.8.4) (2022-01-24)
+
+
+### Bug Fixes
+
+* **secu:** use numeric UID in Dockerfile ([52ee6ac](https://github.com/SocialGouv/transitions-collectives/commit/52ee6acadf3260adf156f8e38a9882b73681fd66))
+
 ## [1.8.3](https://github.com/SocialGouv/transitions-collectives/compare/v1.8.2...v1.8.3) (2022-01-20)
 
 
