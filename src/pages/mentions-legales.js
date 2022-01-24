@@ -1,17 +1,13 @@
 import Head from "next/head"
-import React, { useEffect } from "react"
+import React from "react"
 
 import Layout from "@/components/Layout"
 
 const Page = () => {
-  useEffect(() => {
-    document.title = "Mentions légales"
-  }, [])
-
   return (
     <Layout>
       <Head>
-        <title>Sites utiles</title>
+        <title>Mentions légales</title>
       </Head>
       <div className="fr-container fr-my-6w">
         <h1 id="mentions-legales">Mentions légales</h1>
