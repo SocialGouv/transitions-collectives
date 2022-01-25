@@ -32,26 +32,31 @@ const ContactCard = ({ contact }) => (
     </p>
     {contact.email && (
       <div className="fr-mb-2w">
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
-          href={`mailto:${contact.email}`}
-        >
-          {contact.email}
-        </a>
+        <div className="icon-link">
+          <i className="ri-mail-fill" aria-hidden="true" />
+          <a
+            rel="noopener noreferrer"
+            title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
+            href={`mailto:${contact.email}`}
+          >
+            {contact.email}
+          </a>
+        </div>
       </div>
     )}
     {contact.website && (
       <div className="fr-mb-2w">
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          title={`Site web`}
-          href={contact.website}
-        >
-          {contact.website}
-        </a>
+        <div className="icon-link">
+          <i className="ri-global-line" aria-hidden="true" />
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            title={`Site web`}
+            href={contact.website}
+          >
+            {contact.website}
+          </a>
+        </div>
       </div>
     )}
     <p className="fr-text--sm fr-mb-2w">{contact.comment}</p>
