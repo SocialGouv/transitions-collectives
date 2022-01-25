@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.0...v1.10.1) (2022-01-25)
+
+
+### Bug Fixes
+
+* picto ([60b7dec](https://github.com/SocialGouv/transitions-collectives/commit/60b7dece884c4122436c7853ec386e5d41ed51d2))
+
 # [1.10.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.9.2...v1.10.0) (2022-01-25)
 
 
