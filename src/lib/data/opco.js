@@ -1,47 +1,47 @@
 export default [
   {
-    label: "AFDAS – Culture, médias, loisirs, sport",
+    label: "Afdas - culture, médias, loisirs, sport",
     value: "AFDAS",
   },
   {
-    label: "AKTO – entreprises à forte intensité de main d’œuvre",
+    label: "Akto - entreprises à forte intensité de main d’œuvre",
     value: "AKTO",
   },
   {
-    label: "ATLAS – services financiers et conseil",
+    label: "Atlas - services financiers et conseil",
     value: "ATLAS",
   },
   {
-    label: "Construction",
+    label: "Constructys - construction",
     value: "CONSTRUCTYS",
   },
   {
-    label: "Commerce",
+    label: "Ocapiat - agriculture, pêche, agroalimentaire",
+    value: "OCAPIAT",
+  },
+  {
+    label: "Opcommerce",
     value: "OPCOMMERCE",
   },
   {
-    label:
-      "Entreprises de proximité - artisanat professions libérales, services de proximité",
-    value: "EP",
+    label: "Opco2i - interindustriel",
+    value: "2i",
   },
+
   {
-    label: "Mobilités - transports, voyages, distribution",
+    label: "Opco Mobilités - transports, voyages, distribution",
     value: "MOBILITES",
   },
   {
-    label: "OCAPIAT – agriculture, pêche, agroalimentaire",
-    value: "OCAPIAT",
+    label: "Opco EP - Entreprises de proximité",
+    value: "EP",
+  },
+  {
+    label: "Opco Santé",
+    value: "SANTE",
   },
   {
     label: "Uniformation - cohésion sociale",
     value: "UNIFORMATION",
-  },
-  {
-    label: "Santé",
-    value: "SANTE",
-  },
-  {
-    label: "2I - interindustriel",
-    value: "2i",
   },
 ]
