@@ -4,7 +4,7 @@ import React, { useState } from "react"
 
 import contacts from "@/lib/data/contacts"
 import departements from "@/lib/data/departements"
-import opco from "@/lib/data/opco"
+import opcoTypes from "@/lib/data/opco"
 
 const EMPTY_SELECT_OPTION = {
   label: "Sélectionnez une option",
@@ -43,23 +43,23 @@ const StructureCard = ({ structure }) => (
         </div>
       </div>
     )}
-    {structure.contacts?.map((contact, index) => {
-      console.log(contact)
-      return (
-        <div key={index} className="fr-mb-2w">
-          <div className="icon-link">
-            <i className="ri-mail-fill" aria-hidden="true" />
-            <a
-              rel="noopener noreferrer"
-              title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
-              href={`mailto:${contact.email}`}
-            >
-              {contact.email}
-            </a>
+    {!structure.email &&
+      structure.contacts?.map((contact, index) => {
+        return (
+          <div key={index} className="fr-mb-2w">
+            <div className="icon-link">
+              <i className="ri-mail-fill" aria-hidden="true" />
+              <a
+                rel="noopener noreferrer"
+                title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
+                href={`mailto:${contact.email}`}
+              >
+                {contact.email}
+              </a>
+            </div>
           </div>
-        </div>
-      )
-    })}
+        )
+      })}
     {structure.website && (
       <div className="fr-mb-2w">
         <div className="icon-link">
@@ -88,7 +88,7 @@ const ContactSearchPanel = () => {
   const [darps, setDarps] = useState([])
   const [atPros, setAtPros] = useState([])
 
-  const opcoOptions = [EMPTY_SELECT_OPTION].concat(opco)
+  const opcoOptions = [EMPTY_SELECT_OPTION].concat(opcoTypes)
 
   const departementOptions = [EMPTY_SELECT_OPTION].concat(departements)
 
@@ -127,6 +127,13 @@ const ContactSearchPanel = () => {
   const getStructure = (structures, structureFilters, opcoTypeFilter) => {
     const result = structures
       .map((structure) => {
+        let website = structure.website
+        if (structure.structure === "OPCO" && selectedOpcoType) {
+          const opcoType = opcoTypes.find(
+            (opco) => opco.opcoType === structure.opcoType
+          )
+          website = opcoType.website
+        }
         return {
           address: structure.address,
           comment: structure.comment,
@@ -137,7 +144,7 @@ const ContactSearchPanel = () => {
           opcoType: structure.opco_type,
           region: structure.region,
           structure: structure.structure,
-          website: structure.website,
+          website,
         }
       })
       .filter(({ structure, opcoType }) => {
