@@ -1,6 +1,5 @@
 import { Select } from "@dataesr/react-dsfr"
 import Fuse from "fuse.js"
-import { uniqBy } from "lodash"
 import React, { useState } from "react"
 
 import contacts from "@/lib/data/contacts"
@@ -19,32 +18,49 @@ const options = {
 }
 const fuse = new Fuse(contacts, options)
 
-const ContactCard = ({ contact }) => (
+const StructureCard = ({ structure }) => (
   <div className="card fr-p-3w">
     <p className="fr-text--lg fr-mb-1w">
       <strong>
-        {contact.name} {contact.opcoNetwork || ""}
+        {structure.name} {structure.opcoNetwork || ""}
       </strong>
       <br />
     </p>
     <p className="fr-mb-2w">
-      <strong>{contact.address}</strong>
+      <strong>{structure.address}</strong>
     </p>
-    {contact.email && (
+    {structure.email && (
       <div className="fr-mb-2w">
         <div className="icon-link">
           <i className="ri-mail-fill" aria-hidden="true" />
           <a
             rel="noopener noreferrer"
-            title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
-            href={`mailto:${contact.email}`}
+            title={`Envoyer un email à ${structure.email} - ouvre une nouvelle fenêtre`}
+            href={`mailto:${structure.email}`}
           >
-            {contact.email}
+            {structure.email}
           </a>
         </div>
       </div>
     )}
-    {contact.website && (
+    {structure.contacts?.map((contact, index) => {
+      console.log(contact)
+      return (
+        <div key={index} className="fr-mb-2w">
+          <div className="icon-link">
+            <i className="ri-mail-fill" aria-hidden="true" />
+            <a
+              rel="noopener noreferrer"
+              title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
+              href={`mailto:${contact.email}`}
+            >
+              {contact.email}
+            </a>
+          </div>
+        </div>
+      )
+    })}
+    {structure.website && (
       <div className="fr-mb-2w">
         <div className="icon-link">
           <i className="ri-global-line" aria-hidden="true" />
@@ -52,14 +68,14 @@ const ContactCard = ({ contact }) => (
             rel="noopener noreferrer"
             target="_blank"
             title={`Site web`}
-            href={contact.website}
+            href={structure.website}
           >
-            {contact.website}
+            {structure.website}
           </a>
         </div>
       </div>
     )}
-    <p className="fr-text--sm fr-mb-2w">{contact.comment}</p>
+    <p className="fr-text--sm fr-mb-2w">{structure.comment}</p>
   </div>
 )
 
@@ -84,13 +100,11 @@ const ContactSearchPanel = () => {
     let atPros = []
 
     if (departement && opcoType) {
-      console.log({ departement, opcoType })
       result = (fuse.search(`'${departement}`) || []).map(({ item }) => item)
-      console.log({ departement, opcoType, result })
-      ddets = getContacts(result, ["DDETS", "DDETSPP"])
-      opcos = getContacts(result, ["OPCO"], opcoType)
-      darps = getContacts(result, ["DARP"])
-      atPros = getContacts(result, ["ATPRO"])
+      ddets = getStructure(result, ["DDETS", "DDETSPP"])
+      opcos = getStructure(result, ["OPCO"], opcoType)
+      darps = getStructure(result, ["DARP"])
+      atPros = getStructure(result, ["ATPRO"])
     }
     setDdets(ddets)
     setOpcos(opcos)
@@ -110,23 +124,20 @@ const ContactSearchPanel = () => {
     search({ departement: selectedDepartment, opcoType })
   }
 
-  const getContacts = (contacts, structureFilters, opcoTypeFilter) => {
-    const ddets = contacts
-      .map((contact) => {
+  const getStructure = (structures, structureFilters, opcoTypeFilter) => {
+    const result = structures
+      .map((structure) => {
         return {
-          address: contact.address,
-          comment: contact.comment,
-          email:
-            contact.email ||
-            contact.email2 ||
-            contact.contact_email ||
-            contact.contact2_email,
-          name: contact.name || contact.structure,
-          opcoNetwork: contact.opco_network,
-          opcoType: contact.opco_type,
-          region: contact.region,
-          structure: contact.structure,
-          website: contact.website,
+          address: structure.address,
+          comment: structure.comment,
+          contacts: structure.contacts,
+          email: structure.email || structure.email2,
+          name: structure.name || structure.structure,
+          opcoNetwork: structure.opco_network,
+          opcoType: structure.opco_type,
+          region: structure.region,
+          structure: structure.structure,
+          website: structure.website,
         }
       })
       .filter(({ structure, opcoType }) => {
@@ -138,7 +149,7 @@ const ContactSearchPanel = () => {
         }
         return true
       })
-    return uniqBy(ddets, "email")
+    return result
   }
 
   return (
@@ -170,24 +181,24 @@ const ContactSearchPanel = () => {
 
       <div className="fr-pt-3w fr-container">
         <ul className="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-          {ddets.map((contact, index) => (
+          {ddets.map((structure, index) => (
             <li key={index} className="fr-col-lg-6 fr-col-12">
-              <ContactCard key={index} contact={contact} />
+              <StructureCard key={index} structure={structure} />
             </li>
           ))}
-          {opcos.map((contact, index) => (
+          {opcos.map((structure, index) => (
             <li key={index} className="fr-col-lg-6 fr-col-12">
-              <ContactCard key={index} contact={contact} />
+              <StructureCard key={index} structure={structure} />
             </li>
           ))}
-          {darps.map((contact, index) => (
+          {darps.map((structure, index) => (
             <li key={index} className="fr-col-lg-6 fr-col-12">
-              <ContactCard key={index} contact={contact} />
+              <StructureCard key={index} structure={structure} />
             </li>
           ))}
-          {atPros.map((contact, index) => (
+          {atPros.map((structure, index) => (
             <li key={index} className="fr-col-lg-6 fr-col-12">
-              <ContactCard key={index} contact={contact} />
+              <StructureCard key={index} structure={structure} />
             </li>
           ))}
         </ul>
