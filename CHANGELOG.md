@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.1...v1.10.2) (2022-01-26)
+
+
+### Bug Fixes
+
+* clean contacts data ([4070b0b](https://github.com/SocialGouv/transitions-collectives/commit/4070b0bf55f1f38ac16117f3bdc3d6a7942a8923))
+
 ## [1.10.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.0...v1.10.1) (2022-01-25)
 
 
