@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.3...v1.10.4) (2022-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v12.0.9 [security] ([1fd5f94](https://github.com/SocialGouv/transitions-collectives/commit/1fd5f942c1ffce161c36bc3cd53f6e3bf0cdae8e))
+
 ## [1.10.3](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.2...v1.10.3) (2022-01-28)
 
 
