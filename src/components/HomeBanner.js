@@ -18,8 +18,8 @@ const HomeBanner = () => {
                 <div>collectives</div>
               </h1>
               <p>
-                <div>Une démarche socialement responsable pour</div>
-                <div>accompagner l’emploi local vers des filières d’avenir</div>
+                <div>Une démarche pour anticiper</div>
+                <div>les mutations économiques et protéger l’emploi local</div>
               </p>
             </div>
           </div>
