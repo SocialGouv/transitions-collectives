@@ -1,5 +1,5 @@
-import "../styles/main.scss"
 import "@gouvfr/dsfr/dist/dsfr/dsfr.min.css"
+import "../styles/main.scss"
 
 import * as Sentry from "@sentry/node"
 import { init } from "@socialgouv/matomo-next"
@@ -12,6 +12,13 @@ const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID
 Sentry.init({
   dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
 })
+
+console.log({
+  matomoSiteId: process.env.NEXT_PUBLIC_SITE_ID,
+  matomoUrl: process.env.NEXT_PUBLIC_MATOMO_URL,
+})
+
+console.log(...process.env)
 
 class MyApp extends App {
   componentDidMount() {
