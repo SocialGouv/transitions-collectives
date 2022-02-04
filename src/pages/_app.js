@@ -20,6 +20,10 @@ console.log({
 
 class MyApp extends App {
   componentDidMount() {
+    console.log({
+      matomoSiteId: process.env.NEXT_PUBLIC_MATOMO_SITE_ID,
+      matomoUrl: process.env.NEXT_PUBLIC_MATOMO_URL,
+    })
     init({ siteId: MATOMO_SITE_ID, url: MATOMO_URL })
   }
   render() {
