@@ -6,6 +6,7 @@ export function initMatomo({
   jsTrackerFile = "piwik.js",
   phpTrackerFile = "piwik.php",
 }) {
+  console.log({ piwikUrl, siteId })
   if (!piwikUrl) {
     return
   }
