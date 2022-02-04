@@ -10,13 +10,7 @@ const MATOMO_URL = process.env.NEXT_PUBLIC_MATOMO_URL
 const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID
 
 Sentry.init({
-  dsn: process.env.SENTRY_DSN,
-})
-
-console.log({
-  dsn: process.env.SENTRY_DSN,
-  matomoSiteId: MATOMO_URL,
-  matomoUrl: MATOMO_SITE_ID,
+  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
 })
 
 class MyApp extends App {
