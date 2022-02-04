@@ -18,8 +18,6 @@ console.log({
   matomoUrl: process.env.NEXT_PUBLIC_MATOMO_URL,
 })
 
-console.log(...process.env)
-
 class MyApp extends App {
   componentDidMount() {
     init({ siteId: MATOMO_SITE_ID, url: MATOMO_URL })
