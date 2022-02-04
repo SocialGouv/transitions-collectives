@@ -164,9 +164,9 @@ metadata:
     cert: wildcard
   namespace: tansition-collective-mybranch
 data:
-  MATOMO_SITE_ID: '58'
+  NEXT_PUBLIC_MATOMO_SITE_ID: '58'
   NODE_ENV: production
-  MATOMO_URL: https://matomo.fabrique.social.gouv.fr/
+  NEXT_PUBLIC_MATOMO_URL: https://matomo.fabrique.social.gouv.fr/
 ---
 apiVersion: v1
 kind: Service
