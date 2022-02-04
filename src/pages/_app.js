@@ -14,7 +14,7 @@ Sentry.init({
 })
 
 console.log({
-  matomoSiteId: process.env.NEXT_PUBLIC_SITE_ID,
+  matomoSiteId: process.env.NEXT_PUBLIC_MATOMO_SITE_ID,
   matomoUrl: process.env.NEXT_PUBLIC_MATOMO_URL,
 })
 
