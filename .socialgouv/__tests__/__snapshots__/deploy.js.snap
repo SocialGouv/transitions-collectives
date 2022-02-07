@@ -84,11 +84,6 @@ spec:
               path: /healthz
               port: http
             periodSeconds: 5
-          envFrom:
-            - secretRef:
-                name: www-sealed-secret
-            - configMapRef:
-                name: www-configmap
           env:
             - name: APP_BASE_URL
               value: >-
@@ -96,74 +91,6 @@ spec:
             - name: NEXTAUTH_URL
               value: >-
                 https://tansition-collective-mybranch.dev2.fabrique.social.gouv.fr
----
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  annotations:
-    sealedsecrets.bitnami.com/cluster-wide: 'true'
-    kapp.k14s.io/disable-default-ownership-label-rules: ''
-    kapp.k14s.io/disable-default-label-scoping-rules: ''
-    kapp.k14s.io/delete-strategy: orphan
-    app.github.com/job: '5678'
-    app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/tansition-collective
-    app.github.com/run: '1234'
-    app.github.com/sha: '0123456'
-  name: www-sealed-secret
-  namespace: tansition-collective-mybranch
-  labels:
-    application: tansition-collective
-    component: tansition-collective
-    owner: tansition-collective
-    team: tansition-collective
-    cert: wildcard
-spec:
-  template:
-    metadata:
-      annotations:
-        sealedsecrets.bitnami.com/cluster-wide: 'true'
-        kapp.k14s.io/disable-default-ownership-label-rules: ''
-        kapp.k14s.io/disable-default-label-scoping-rules: ''
-        kapp.k14s.io/delete-strategy: orphan
-        app.github.com/job: '5678'
-        app.github.com/ref: refs/heads/mybranch
-        app.github.com/repo: socialgouv/tansition-collective
-        app.github.com/run: '1234'
-        app.github.com/sha: '0123456'
-      name: www-sealed-secret
-      labels:
-        application: tansition-collective
-        component: tansition-collective
-        owner: tansition-collective
-        team: tansition-collective
-        cert: wildcard
-    type: Opaque
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: www-configmap
-  annotations:
-    kapp.k14s.io/disable-default-ownership-label-rules: ''
-    kapp.k14s.io/disable-default-label-scoping-rules: ''
-    kapp.k14s.io/delete-strategy: orphan
-    app.github.com/job: '5678'
-    app.github.com/ref: refs/heads/mybranch
-    app.github.com/repo: socialgouv/tansition-collective
-    app.github.com/run: '1234'
-    app.github.com/sha: '0123456'
-  labels:
-    application: tansition-collective
-    component: tansition-collective
-    owner: tansition-collective
-    team: tansition-collective
-    cert: wildcard
-  namespace: tansition-collective-mybranch
-data:
-  MATOMO_SITE_ID: '58'
-  NODE_ENV: production
-  MATOMO_URL: https://matomo.fabrique.social.gouv.fr/
 ---
 apiVersion: v1
 kind: Service
