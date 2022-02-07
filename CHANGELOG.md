@@ -5,41 +5,6 @@
 
 * matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
 
-## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
-
-
-### Bug Fixes
-
-* matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
-
-## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
-
-
-### Bug Fixes
-
-* matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
-
-## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
-
-
-### Bug Fixes
-
-* matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
-
-## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
-
-
-### Bug Fixes
-
-* matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
-
-## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
-
-
-### Bug Fixes
-
-* matomo ([6609fef](https://github.com/SocialGouv/transitions-collectives/commit/6609fefc72ba9c81ddcf4923862b5b6c458b3fd4))
-
 ## [1.10.5](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.4...v1.10.5) (2022-02-01)
 
 
