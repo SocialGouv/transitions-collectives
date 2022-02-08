@@ -23,7 +23,7 @@ jobs:
         echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
     - name: Use autodevops to deploy review branch
-      uses: SocialGouv/actions/autodevops@devthejo/debug-relatives-actions-branch-name-withSpecCharactersAndVeryLongName
+      uses: SocialGouv/actions/autodevops@master
       with:
         environment: dev
         project: ${{ env.project }}
