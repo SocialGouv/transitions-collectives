@@ -54,6 +54,7 @@ const Header = () => {
             link="/faire-connaitre-partenaires"
           />
         </NavItem>
+        <NavItem title="Actualités" link="/#news" />
         <NavItem title="Sites utiles" link="/sites-utiles" />
       </HeaderNav>
     </DSFRHeader>

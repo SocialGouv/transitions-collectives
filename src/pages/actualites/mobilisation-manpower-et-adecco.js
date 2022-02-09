@@ -18,13 +18,12 @@ const Page = () => {
       <div className="news">
         <Head>
           <title>
-            Mobilisation de ManpowerGroup France et Adecco , leaders de
-            l’intérim
+            Mobilisation de ManpowerGroup France et Adecco, leaders de l’intérim
           </title>
         </Head>
 
         <div className="fr-container">
-          <NewsHeader title="Mobilisation de ManpowerGroup France et Adecco , leaders de" />
+          <NewsHeader title="Mobilisation de ManpowerGroup France et Adecco, leaders de l'interim" />
           <NewsPhoto
             photo={photo}
             source="Ministères sociaux/ DICOM / Tristan Reynaud / Sipa Press"
@@ -40,20 +39,20 @@ const Page = () => {
                 Borne, ministre du Travail, de l’Emploi et de l’Insertion, a
                 signé une convention de partenariat avec le groupe Manpower dans
                 le cadre du dispositif Transitions collectives. Par cette
-                convention, l’entreprise s’engage à:
+                convention, l’entreprise s’engage à :
               </NewsParagraphContent>
               <NewsParagraphContent list>
                 <li>
                   <strong>Mobiliser ses filiales</strong> pour encourager les
                   entreprises ayant des emplois menacés à moyen terme, à
                   proposer à leurs salariés d’adhérer au dispositif Transitions
-                  collectives;
+                  collectives ;
                 </li>
                 <li>
                   <strong>
                     Embaucher à l’échelle du territoire national jusqu’à 2 500
-                    salariés,
-                  </strong>{" "}
+                    salariés
+                  </strong>
                   , au terme de leur formation, en contrat à durée indéterminée
                   pour être mis à disposition au sein de ses entreprises
                   clientes.
@@ -61,7 +60,7 @@ const Page = () => {
               </NewsParagraphContent>
               <NewsParagraphContent>
                 ManpowerGroup France a déjà lancé deux projets pilotes, en
-                Occitanie et en Provence-Alpes-Côte d’Azur: « Explor’aire Terre
+                Occitanie et en Provence-Alpes-Côte d’Azur : « Explor’aire Terre
                 » et « Explor’aire Mer ».{" "}
                 <a
                   target="_blank"
@@ -73,7 +72,7 @@ const Page = () => {
               </NewsParagraphContent>
               <NewsParagraphContent>
                 <em>
-                  <strong>Pour Elisabeth Borne</strong>: « Avec Transitions
+                  <strong>Pour Elisabeth Borne</strong> : « Avec Transitions
                   collectives, nous voulons donner de nouvelles perspectives aux
                   salariés dont l’emploi est fragilisé en leur permettant de
                   s’engager dans une reconversion professionnelle à proximité de
