@@ -1,3 +1,14 @@
+## [1.10.7](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.6...v1.10.7) (2022-02-09)
+
+
+### Bug Fixes
+
+* closes [#57](https://github.com/SocialGouv/transitions-collectives/issues/57) ([cc27377](https://github.com/SocialGouv/transitions-collectives/commit/cc273776aede283288163426cd70c75241b6c4ee))
+* closes [#58](https://github.com/SocialGouv/transitions-collectives/issues/58) ([871083b](https://github.com/SocialGouv/transitions-collectives/commit/871083b43a752aefbd14578d4421d405df3eb096))
+* closes [#59](https://github.com/SocialGouv/transitions-collectives/issues/59) ([2f28c08](https://github.com/SocialGouv/transitions-collectives/commit/2f28c08b763cb5f142fa5b8d14e4607a22b7b225))
+* opco website ([a545ba9](https://github.com/SocialGouv/transitions-collectives/commit/a545ba9662fa09c93ebd8e2c202e6b3132dd3ca7))
+* typo + DARP ([45858c3](https://github.com/SocialGouv/transitions-collectives/commit/45858c36fc3982853660676d458bf3da042c2896))
+
 ## [1.10.6](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.5...v1.10.6) (2022-02-07)
 
 
