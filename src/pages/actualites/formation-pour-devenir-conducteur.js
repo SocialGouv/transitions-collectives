@@ -54,9 +54,8 @@ const Page = () => {
               />
               <NewsParagraphContent>
                 Le salaire du salarié en Transitions collectives est maintenu
-                pendant toute la durée de la formation (en savoir plus sur le
-                maintien de salaire). L’objectif est de proposer une
-                reconversion sereine et sécurisée.
+                pendant toute la durée de la formation. L’objectif est de
+                proposer une reconversion sereine et sécurisée.
               </NewsParagraphContent>
             </NewsParagraph>
 
