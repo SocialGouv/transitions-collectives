@@ -24,22 +24,22 @@ const Page = () => {
               </strong>
               <ul>
                 <li>
-                  <a
+                  <Link
                     target="_blank"
-                    href="https://www.google.com/maps/d/u/2/edit?mid=1kIhuHBMGKdNdq14RiYPG3YXAsG51a-Pv&usp=sharing"
+                    href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
                     Votre Opco
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     target="_blank"
-                    href="www.transitionspro.fr"
+                    href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
                     Votre At Pro
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </p>
