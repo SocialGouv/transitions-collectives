@@ -128,9 +128,9 @@ const ContactSearchPanel = () => {
     const result = structures
       .map((structure) => {
         let website = structure.website
-        if (structure.structure === "OPCO" && selectedOpcoType) {
+        if (structure.structure === "OPCO" && opcoTypeFilter) {
           const opcoType = opcoTypes.find(
-            (opco) => opco.opcoType === structure.opcoType
+            (opco) => opco.value === structure.opco_type
           )
           website = opcoType.website
         }
