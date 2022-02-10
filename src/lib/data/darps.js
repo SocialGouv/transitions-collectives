@@ -383,11 +383,6 @@ export default [
     email: "laurence.francais@vosges.gouv.fr",
   },
   {
-    departement: "08",
-    address: "",
-    email: "aurelie.roger@ardennes.gouv.fr",
-  },
-  {
     departement: 52,
     address: "",
     email: "adeline.plantegenet@haute-marne.gouv.fr",
@@ -431,5 +426,30 @@ export default [
     departement: 94,
     address: "",
     email: "eric.jany@drieets.gouv.fr",
+  },
+  {
+    departement: "2B",
+    address: "",
+    email: "gael.mordant-desanti@haute-corse.gouv.fr",
+  },
+  {
+    departement: "71",
+    address: "",
+    email: "anne.olivier@saone-et-loire.gouv.fr",
+  },
+  {
+    departement: "973",
+    address: "",
+    email: "sylviane.odang@dieccte.gouv.fr",
+  },
+  {
+    departement: "973",
+    address: "",
+    email: "sylviane.odang@dieccte.gouv.fr",
+  },
+  {
+    departement: "08",
+    address: "",
+    email: "aurelie.roget@ardennes.gouv.fr",
   },
 ]
