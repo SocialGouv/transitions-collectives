@@ -60,7 +60,7 @@ const Page = () => {
                   d’autres métiers. Nous aurons besoin de nous redimensionner et
                   de laisser partir un certain nombre de compétences vers
                   d’autres secteurs. »
-                  <p className="fr-text--lg text-align--end">
+                  <p className="fr-text--lg" style={{ textAlign: "end" }}>
                     Julien Barbrault, directeur de l’entreprise SIFA
                     technologies.
                   </p>
