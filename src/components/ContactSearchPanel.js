@@ -3,6 +3,7 @@ import Fuse from "fuse.js"
 import React, { useState } from "react"
 
 import contacts from "@/lib/data/contacts"
+import darps from "@/lib/data/darps"
 import departements from "@/lib/data/departements"
 import opcoTypes from "@/lib/data/opco"
 
@@ -47,6 +48,12 @@ const StructureCard = ({ structure }) => (
       structure.contacts?.map((contact, index) => {
         return (
           <div key={index} className="fr-mb-2w">
+            {contact.role && (
+              <p className="fr-text--md fr-mb-1w">
+                <strong>{contact.role}</strong>
+                <br />
+              </p>
+            )}
             <div className="icon-link">
               <i className="ri-mail-fill" aria-hidden="true" />
               <a
@@ -85,7 +92,6 @@ const ContactSearchPanel = () => {
 
   const [opcos, setOpcos] = useState([])
   const [ddets, setDdets] = useState([])
-  const [darps, setDarps] = useState([])
   const [atPros, setAtPros] = useState([])
 
   const opcoOptions = [EMPTY_SELECT_OPTION].concat(opcoTypes)
@@ -96,19 +102,26 @@ const ContactSearchPanel = () => {
     let result = []
     let ddets = []
     let opcos = []
-    let darps = []
     let atPros = []
 
     if (departement && opcoType) {
       result = (fuse.search(`'${departement}`) || []).map(({ item }) => item)
-      ddets = getStructure(result, ["DDETS", "DDETSPP"])
-      opcos = getStructure(result, ["OPCO"], opcoType)
-      darps = getStructure(result, ["DARP"])
-      atPros = getStructure(result, ["ATPRO"])
+      ddets = getStructure(result, {
+        depFilter: departement,
+        structureTypesFilter: ["DDETS", "DDETSPP"],
+      })
+      opcos = getStructure(result, {
+        depFilter: departement,
+        opcoTypeFilter: opcoType,
+        structureTypesFilter: ["OPCO"],
+      })
+      atPros = getStructure(result, {
+        depFilter: departement,
+        structureTypesFilter: ["ATPRO"],
+      })
     }
     setDdets(ddets)
     setOpcos(opcos)
-    setDarps(darps)
     setAtPros(atPros)
   }
 
@@ -124,7 +137,31 @@ const ContactSearchPanel = () => {
     search({ departement: selectedDepartment, opcoType })
   }
 
-  const getStructure = (structures, structureFilters, opcoTypeFilter) => {
+  const getContact = (structure, depFilter) => {
+    if (["DDETS", "DDETSPP"].includes(structure.structure)) {
+      const darp = darps.find((darp) => darp.departement === depFilter)
+      console.log(darp)
+      return [
+        {
+          email: darp.email,
+          role: "DARP",
+        },
+      ]
+    }
+    return structure.contacts
+  }
+
+  const getStructureEmail = (structure) => {
+    if (["DDETS", "DDETSPP"].includes(structure.structure)) {
+      return null
+    }
+    return structure.email || structure.email2
+  }
+
+  const getStructure = (
+    structures,
+    { depFilter, structureTypesFilter, opcoTypeFilter }
+  ) => {
     const result = structures
       .map((structure) => {
         let website = structure.website
@@ -137,8 +174,8 @@ const ContactSearchPanel = () => {
         return {
           address: structure.address,
           comment: structure.comment,
-          contacts: structure.contacts,
-          email: structure.email || structure.email2,
+          contacts: getContact(structure, depFilter),
+          email: getStructureEmail(structure),
           name: structure.name || structure.structure,
           opcoNetwork: structure.opco_network,
           opcoType: structure.opco_type,
@@ -148,7 +185,7 @@ const ContactSearchPanel = () => {
         }
       })
       .filter(({ structure, opcoType }) => {
-        if (!structureFilters.includes(structure)) {
+        if (!structureTypesFilter.includes(structure)) {
           return false
         }
         if (opcoTypeFilter) {
@@ -194,11 +231,6 @@ const ContactSearchPanel = () => {
             </li>
           ))}
           {opcos.map((structure, index) => (
-            <li key={index} className="fr-col-lg-6 fr-col-12">
-              <StructureCard key={index} structure={structure} />
-            </li>
-          ))}
-          {darps.map((structure, index) => (
             <li key={index} className="fr-col-lg-6 fr-col-12">
               <StructureCard key={index} structure={structure} />
             </li>
