@@ -27,9 +27,7 @@ const StructureCard = ({ structure }) => (
       </strong>
       <br />
     </p>
-    <p className="fr-mb-2w">
-      <strong>{structure.address}</strong>
-    </p>
+    <p className="fr-mb-2w">{structure.address}</p>
     {structure.email && (
       <div className="fr-mb-2w">
         <div className="icon-link">
@@ -139,8 +137,10 @@ const ContactSearchPanel = () => {
 
   const getContact = (structure, depFilter) => {
     if (["DDETS", "DDETSPP"].includes(structure.structure)) {
-      const darp = darps.find((darp) => darp.departement === depFilter)
-      console.log(darp)
+      const darp = darps.find((darp) => darp.departement == depFilter)
+      if (!darp) {
+        return []
+      }
       return [
         {
           email: darp.email,
