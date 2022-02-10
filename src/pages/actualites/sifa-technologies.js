@@ -60,10 +60,14 @@ const Page = () => {
                   d’autres métiers. Nous aurons besoin de nous redimensionner et
                   de laisser partir un certain nombre de compétences vers
                   d’autres secteurs. »
-                  <p className="fr-text--lg" style={{ textAlign: "end" }}>
+                  <br />
+                  <span
+                    className="fr-text--lg"
+                    style={{ display: "block", textAlign: "end" }}
+                  >
                     Julien Barbrault, directeur de l’entreprise SIFA
                     technologies.
-                  </p>
+                  </span>
                 </NewsParagraphContent>
                 <NewsVideo
                   title="Présentation transco"

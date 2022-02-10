@@ -76,12 +76,16 @@ const Page = () => {
                     des territoires. J’invite toutes les entreprises qui
                     connaissent une baisse d’activité à s’en saisir. »{" "}
                   </em>
-                  <p className="fr-text--lg" style={{ textAlign: "end" }}>
+                  <br />
+                  <span
+                    className="fr-text--lg"
+                    style={{ display: "block", textAlign: "end" }}
+                  >
                     <strong>
                       Élisabeth Borne, ministre du Travail, de l’Emploi et de
                       l’Insertion.
                     </strong>
-                  </p>
+                  </span>
                 </NewsParagraphContent>
               </NewsParagraph>
             </article>
