@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.11.0...v1.12.0) (2022-02-10)
+
+
+### Features
+
+* add darps ([0a5d5b8](https://github.com/SocialGouv/transitions-collectives/commit/0a5d5b898cbbfd6bdd6efb768c80143a0db34aef))
+
 # [1.11.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.7...v1.11.0) (2022-02-10)
 
 
