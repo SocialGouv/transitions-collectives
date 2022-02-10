@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.12.0...v1.12.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* news style ([e6040cd](https://github.com/SocialGouv/transitions-collectives/commit/e6040cda55a73f7ac387ec0fb2ea8991e9a5c8c2))
+
 # [1.12.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.11.0...v1.12.0) (2022-02-10)
 
 
