@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.7...v1.11.0) (2022-02-10)
+
+
+### Features
+
+* merge DDETSPP and DAPR in same card ([b168ffa](https://github.com/SocialGouv/transitions-collectives/commit/b168ffa64609e6e8439d7050f5789c97e31aa92a))
+
 ## [1.10.7](https://github.com/SocialGouv/transitions-collectives/compare/v1.10.6...v1.10.7) (2022-02-09)
 
 
