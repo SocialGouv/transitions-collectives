@@ -1,0 +1,45 @@
+@use "./variables" as *;
+
+.search-contact {
+  background-color: var(--background-alt-grey);
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: $france-relance;
+    overflow-wrap: break-word;
+  }
+}
+
+.search-contact__card {
+  position: relative;
+  height: 100%;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 7%) 0px 4px 4px;
+  border-top: solid 6px $france-relance;
+  height: 100%;
+}
+
+.search-contact__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $france-relance;
+  color: #fff;
+}
+
+.search-contact__info__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h6,
+  i {
+    color: #fff;
+  }
+}
