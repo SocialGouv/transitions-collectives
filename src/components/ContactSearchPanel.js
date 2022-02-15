@@ -1,4 +1,10 @@
-import { Select } from "@dataesr/react-dsfr"
+import {
+  Modal,
+  ModalClose,
+  ModalContent,
+  ModalTitle,
+  Select,
+} from "@dataesr/react-dsfr"
 import Fuse from "fuse.js"
 import React, { useState } from "react"
 
@@ -26,15 +32,15 @@ const DarpInfo = () => (
     }
     <ul>
       <li>
-        - repérer les enjeux RH de votre entreprise, vos besoins notamment en
+        repérer les enjeux RH de votre entreprise, vos besoins notamment en
         matière de compétences, et identifier avec vous des solutions
       </li>
       <li>
-        - faciliter l’identification et le soutien d’interlocuteurs de proximité
+        faciliter l’identification et le soutien d’interlocuteurs de proximité
         (DDETS, Pôle emploi, OPCO, organismes de formation…)
       </li>
       <li>
-        - échanger et suivre la démarche de Transitions collectives de votre
+        échanger et suivre la démarche de Transitions collectives de votre
         entreprise
       </li>
     </ul>
@@ -45,12 +51,12 @@ const OpcoInfo = () => (
   <section className="fr-text--sm">
     Votre opérateur de compétences (OPCO) :
     <ul>
-      <li>- pour vous accompagner dans la réalisation d’un diagnostic RH</li>{" "}
+      <li>pour vous accompagner dans la réalisation d’un diagnostic RH</li>{" "}
       <li>
-        - pour identifier les métiers fragilisés au sein de votre entreprise
+        pour identifier les métiers fragilisés au sein de votre entreprise
       </li>{" "}
       <li>
-        - pour un appui à la réalisation de votre dossier de demande de
+        pour un appui à la réalisation de votre dossier de demande de
         Transitions collectives
       </li>
     </ul>
@@ -61,7 +67,7 @@ const AtProInfo = () => (
   <section className="fr-text--sm">
     Votre association de Transitions pro (ATpro) :
     <ul>
-      <li>- pour constituer les dossiers de demande de vos salariés</li>
+      <li>pour constituer les dossiers de demande de vos salariés</li>
     </ul>
   </section>
 )
@@ -149,23 +155,17 @@ const StructureCard = ({ structure }) => {
         </div>
       )}
       <p className="fr-text--sm fr-mb-2w">{structure.comment}</p>
-      {showInfo && (
-        <div className="search-contact__info fr-p-3w">
-          <section className="search-contact__info__top fr-pb-2w">
-            <strong>{showInfo}</strong>
-            <button
-              type="button"
-              onClick={() => setShowInfo(false)}
-              aria-label="Fermer"
-            >
-              <i className="ri-close-circle-line fr-text--md" />
-            </button>
-          </section>
+      <Modal isOpen={showInfo} hide={() => setShowInfo(false)}>
+        <ModalClose hide={() => setShowInfo(false)} title="Fermer la fenêtre">
+          Fermer
+        </ModalClose>
+        <ModalTitle>{showInfo}</ModalTitle>
+        <ModalContent>
           {showInfo === "DARP" && <DarpInfo />}
           {showInfo === "OPCO" && <OpcoInfo />}
           {showInfo === "At Pro" && <AtProInfo />}
-        </div>
-      )}
+        </ModalContent>
+      </Modal>
     </div>
   )
 }
