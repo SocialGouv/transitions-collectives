@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.12.2...v1.13.0) (2022-02-15)
+
+
+### Features
+
+* contact info ([#61](https://github.com/SocialGouv/transitions-collectives/issues/61)) ([280e9fd](https://github.com/SocialGouv/transitions-collectives/commit/280e9fd0d6ac3b47ad17ff1e39b27c98579902fe))
+
 ## [1.12.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.12.1...v1.12.2) (2022-02-10)
 
 
