@@ -29,7 +29,7 @@ const Page = () => {
                     href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
-                    Votre opérateur de compétence (OPCO)
+                    Votre opérateur de compétences (OPCO)
                   </Link>
                 </li>
                 <li>
