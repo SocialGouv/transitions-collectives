@@ -1,3 +1,10 @@
+## [1.14.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.3...v1.14.4) (2022-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v12.1.0 [security] ([#66](https://github.com/SocialGouv/transitions-collectives/issues/66)) ([32638bc](https://github.com/SocialGouv/transitions-collectives/commit/32638bcecd91044db94f69b02f1206ae8005e00b))
+
 ## [1.14.3](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.2...v1.14.3) (2022-02-23)
 
 
