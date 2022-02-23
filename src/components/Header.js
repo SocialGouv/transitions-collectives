@@ -30,17 +30,35 @@ const Header = () => {
         <Service title="Transitions collectives" description="" />
       </HeaderBody>
       <HeaderNav>
-        <NavItem title="Mes interlocuteurs de proximité">
+        <NavItem title="Entreprise">
           <NavSubItem
-            title="je suis salarié"
-            link="/interlocuteurs-pour-les-salaries"
+            title="Je fais face à des difficultés dans mon secteur d'activité"
+            link="/entreprise/difficultes-dans-mon-secteur"
           />
           <NavSubItem
-            title="je suis responsable d'entreprise"
+            title="J'ai des besoins en recrutement"
+            link="/entreprise/besoins-en-recrutement"
+          />
+          <NavSubItem
+            title="Mes interlocuteurs de proximité"
             link="/interlocuteurs-pour-les-entreprises"
           />
         </NavItem>
-        <NavItem title="Je souhaite faire connaitre ce dispositif">
+        <NavItem title="Salarié">
+          <NavSubItem
+            title="Je me pose des questions sur mon avenir pro"
+            link="/salarie/avenir-professionel"
+          />
+          <NavSubItem
+            title="Je souhaite m'orienter vers un secteur qui recrute"
+            link="/salarie/souhait-evolution"
+          />
+          <NavSubItem
+            title="Mes interlocuteurs de proximité"
+            link="/interlocuteurs-pour-les-salaries"
+          />
+        </NavItem>
+        {/* <NavItem title="Je souhaite faire connaitre ce dispositif">
           <NavSubItem
             title="auprès des recruteurs de mon territoire"
             link="/faire-connaitre-recruteurs"
@@ -53,7 +71,7 @@ const Header = () => {
             title="auprès de mes partenaires"
             link="/faire-connaitre-partenaires"
           />
-        </NavItem>
+        </NavItem> */}
         <NavItem title="Actualités" link="/#news" />
         <NavItem title="Sites utiles" link="/sites-utiles" />
       </HeaderNav>

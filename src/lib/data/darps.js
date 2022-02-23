@@ -438,18 +438,33 @@ export default [
     email: "anne.olivier@saone-et-loire.gouv.fr",
   },
   {
-    departement: "973",
+    departement: "971",
     address: "",
-    email: "sylviane.odang@dieccte.gouv.fr",
+    email: "celine.borel@deets.gouv.fr",
   },
   {
     departement: "973",
     address: "",
-    email: "sylviane.odang@dieccte.gouv.fr",
+    email: "michel.manguer@dieccte.gouv.fr",
+  },
+  {
+    departement: "974",
+    address: "",
+    email: "eric.bertrand@deets.gouv.fr",
+  },
+  {
+    departement: "976",
+    address: "",
+    email: "maxime.belkessa@deets.gouv.fr",
   },
   {
     departement: "08",
     address: "",
     email: "aurelie.roget@ardennes.gouv.fr",
+  },
+  {
+    departement: "94",
+    address: "",
+    email: "eric.jany@drieets.gouv.fr",
   },
 ]

@@ -44,11 +44,12 @@ const Page = () => {
             </p>
           </div>
           <div id="accessibilite" className="fr-mt-3w">
-            <h2>Accessibilité</h2>
+            <h2>État de conformité</h2>
             <p className="fr-mb-2w">
-              La conformité aux normes d’accessibilité numérique est un objectif
-              ultérieur mais nous tâchons de rendre ce site accessible à toutes
-              et à tous.
+              Le site n’est actuellement pas en conformité avec le Référentiel
+              Général d’Amélioration de l’Accessibilité (RGAA). L’audit de
+              conformité sera prochainement planifié et la déclaration sera mise
+              en ligne. Les corrections seront prises en compte suite à l’audit.
             </p>
           </div>
 

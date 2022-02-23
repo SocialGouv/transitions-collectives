@@ -124,13 +124,13 @@ const EmployeeFaqAvantFormation = () => {
             <p>
               Le{" "}
               <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
-                conseiller en évolution professionnel (CEP)
+                conseiller en évolution professionnelle (CEP)
               </a>{" "}
               vous aide à élaborer votre parcours de reconversion. Vous
               construisez ensemble un parcours de formation adapté, en fonction
-              des métiers identifiés comme porteurs sur votre territoire. Cet
-              accompagnement est gratuit. Pour trouver un conseiller proche de
-              chez vous, rendez-vous sur{" "}
+              de vos souhaits et des métiers identifiés comme porteurs sur votre
+              territoire. Cet accompagnement est gratuit. Pour trouver un
+              conseiller proche de chez vous, rendez-vous sur{" "}
               <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
                 mon-cep.org
               </a>
@@ -142,7 +142,7 @@ const EmployeeFaqAvantFormation = () => {
           <article>
             <p>
               Des listes de métiers qui recrutent (dit aussi métiers porteurs)
-              ont été identifiés dans chaque région.Vous pouvez choisir le
+              ont été identifiées dans chaque région.Vous pouvez choisir le
               métier vers lequel vous souhaitez vous diriger à partir de ces
               listes, accessibles sur{" "}
               <a
@@ -155,9 +155,8 @@ const EmployeeFaqAvantFormation = () => {
               .
             </p>
             <p>
-              À noter : ces métiers émergents sont issus de nouveaux domaines
-              d’activité ou de métiers en tension dans des secteurs qui peinent
-              à recruter.
+              À noter : ces métiers sont issus de nouveaux domaines d’activité
+              ou de métiers en tension dans des secteurs qui peinent à recruter.
             </p>
           </article>
         </AccordionItem>

@@ -15,7 +15,7 @@ import opcoTypes from "@/lib/data/opco"
 
 const EMPTY_SELECT_OPTION = {
   label: "Sélectionnez une option",
-  value: null,
+  value: "",
 }
 
 const options = {

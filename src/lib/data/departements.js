@@ -95,6 +95,16 @@ export default [
     value: "19",
   },
   {
+    label: "2A - Corse-du-Sud",
+    region: "Corse",
+    value: "2A",
+  },
+  {
+    label: "2B - Haute-Corse",
+    region: "Corse",
+    value: "2B",
+  },
+  {
     label: "21 - Côte-d'Or",
     region: "Bourgogne-Franche-Comté",
     value: "21",
@@ -138,16 +148,6 @@ export default [
     label: "29 - Finistère",
     region: "Bretagne",
     value: "29",
-  },
-  {
-    label: "2A - Corse-du-Sud",
-    region: "Corse",
-    value: "2A",
-  },
-  {
-    label: "2B - Haute-Corse",
-    region: "Corse",
-    value: "2B",
   },
   {
     label: "30 - Gard",

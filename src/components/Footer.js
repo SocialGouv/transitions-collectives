@@ -10,15 +10,6 @@ import {
 } from "@dataesr/react-dsfr"
 import React, { useState } from "react"
 
-const footerBodyLinks = [
-  {
-    external: true,
-    key: "footer-body-link-4",
-    link: "https://www.fabrique.social.gouv.fr/",
-    title: "Fabrique numérique des ministères sociaux",
-  },
-]
-
 const footerBottomLinks = [
   {
     key: "footer-bottom-link-accessibility",
@@ -53,21 +44,34 @@ const Footer = () => {
     <>
       <DSFooter>
         <FooterBody description={<FooterDescription />}>
-          <Logo href="https://travail-emploi.gouv.fr/">
-            {`Ministère du travail, de l'emploi et de l'insertion`}
-          </Logo>
-          {footerBodyLinks.map((item) => (
-            <FooterBodyItem key={item.key}>
-              <Link
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={item.alt}
-              >
-                {item.title}
-              </Link>
-            </FooterBodyItem>
-          ))}
+          <Logo
+            splitCharacter={10}
+          >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
+          <FooterBodyItem>
+            <Link target="_BLANK" href="https://travail-emploi.gouv.fr">
+              travail-emploi.gouv.fr
+            </Link>
+          </FooterBodyItem>
+          <FooterBodyItem>
+            <Link target="_BLANK" href="https://legifrance.gouv.fr">
+              legifrance.gouv.fr
+            </Link>
+          </FooterBodyItem>
+          <FooterBodyItem>
+            <Link target="_BLANK" href="https://gouvernement.fr">
+              gouvernement.fr
+            </Link>
+          </FooterBodyItem>
+          <FooterBodyItem>
+            <Link target="_BLANK" href="https://service-public.fr">
+              service-public.fr
+            </Link>
+          </FooterBodyItem>
+          <FooterBodyItem>
+            <Link target="_BLANK" href="https://data.gouv.fr">
+              data.gouv.fr
+            </Link>
+          </FooterBodyItem>
         </FooterBody>
         <FooterBottom>
           {[

@@ -6,11 +6,11 @@ import banner from "../../public/images/home/banner.jpg"
 const HomeBanner = () => {
   return (
     <div className={`fr-container--fluid hero-banner`}>
-      <div className={`fr-grid-row--center wrapper`}>
+      <div className={`fr-grid-row--center hero-banner__wrapper`}>
         <div className="background-image">
           <Image layout="fill" alt="cover" src={banner} />
         </div>
-        <div className={`fr-container content fr-py-2w`}>
+        <div className={`fr-container hero-banner__content fr-py-2w`}>
           <div className="fr-grid-row">
             <div className="fr-col-12 fr-col-lg-5 fr-mb-1w">
               <h1>

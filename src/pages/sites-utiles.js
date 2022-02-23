@@ -29,7 +29,7 @@ const Page = () => {
                     href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
-                    Votre Opco
+                    Votre opérateur de compétence (OPCO)
                   </Link>
                 </li>
                 <li>
@@ -38,7 +38,17 @@ const Page = () => {
                     href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
-                    Votre At Pro
+                    Votre association Transitions pro (ATpro)
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    target="_blank"
+                    href="/interlocuteurs-pour-les-entreprises"
+                    rel="noreferrer"
+                  >
+                    Votre délégués à l’accompagnement des reconversions
+                    professionnelles (DARP)
                   </Link>
                 </li>
               </ul>

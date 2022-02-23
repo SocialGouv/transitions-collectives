@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem } from "@dataesr/react-dsfr"
+import { Accordion, AccordionItem, Link } from "@dataesr/react-dsfr"
 import React from "react"
 
 const CompanyRecruitmentFaq = () => {
@@ -46,13 +46,14 @@ const CompanyRecruitmentFaq = () => {
                   compétences dont vous avez besoin.
                 </li>
                 <li>
-                  Les conseillers en évolution professionnels. Ils accompagnent
-                  les salariés bénéficiant d’un parcours de Transitions
-                  collectives pour l’ensemble de leurs démarches, y compris leur
-                  recherche d’emploi. Si vous avez montré votre intérêt pour
-                  Transitions collectives auprès des acteurs animant le
-                  dispositif (DREETS, AT Pro, plateforme, etc), les conseillers
-                  en évolution professionnelle pourront vous contacter.{" "}
+                  Les conseillers en évolution professionnelles. Ils
+                  accompagnent les salariés bénéficiant d’un parcours de
+                  Transitions collectives pour l’ensemble de leurs démarches, y
+                  compris leur recherche d’emploi. Si vous avez montré votre
+                  intérêt pour Transitions collectives auprès des acteurs
+                  animant le dispositif (DREETS, AT Pro, plateforme, etc), les
+                  conseillers en évolution professionnelle pourront vous
+                  contacter.{" "}
                 </li>
                 <li>Pôle Emploi</li>
               </ul>
@@ -68,12 +69,13 @@ const CompanyRecruitmentFaq = () => {
         <AccordionItem title="Comment m’informer sur Transitions Collectives ?">
           <article>
             <p>
-              Plusieurs acteurs peuvent vous renseigner sur le dispositif :
-              <ul>
-                <li>Les représentants des branches professionnelles.</li>
-                <li>L’OPCO dont vous dépendez</li>
-                <li>Les associations Transitions Pro</li>
-              </ul>
+              {`Le délégué à l'accompagnement des reconversions professionnelles
+              (DARP) de votre département est votre contact privilégié.
+              Retrouvez son contact sur la page `}
+              <Link href="/interlocuteurs-pour-les-entreprises">
+                « Mes interlocuteurs de proximité »
+              </Link>
+              .
             </p>
           </article>
         </AccordionItem>

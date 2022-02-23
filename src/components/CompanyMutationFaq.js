@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem } from "@dataesr/react-dsfr"
+import { Accordion, AccordionItem, Link } from "@dataesr/react-dsfr"
 import React from "react"
 
 const CompanyMutationFaq = () => {
@@ -81,7 +81,7 @@ const CompanyMutationFaq = () => {
               l’État.
             </p>
             <p>
-              Enfin, vous pouvez également solliciter la DREETS de votre
+              Enfin, vous pouvez également solliciter la DDETS-PP de votre
               territoire pour bénéficier d’un appui technique à l’établissement
               de cette liste.
             </p>
@@ -155,7 +155,7 @@ const CompanyMutationFaq = () => {
                 <li>
                   Si la demande de prise en charge du parcours de Transitions
                   collectives du salarié est validée par l’association
-                  transitions Pro, son contrat de travail est suspendu au moment
+                  Transitions Pro, son contrat de travail est suspendu au moment
                   où débute son parcours de formation.
                 </li>
               </ul>
@@ -166,8 +166,8 @@ const CompanyMutationFaq = () => {
         <AccordionItem title="Le dispositif propose-t-il un parcours de reconversion serein et sécurisé à mes salariés ?">
           <article>
             <p>
-              Tout à fait, son parcours est sécurisé du début à la fin de son
-              parcours de formation, et son maintien dans l’emploi est assuré.
+              Tout à fait, son parcours est sécurisé du début à la fin, et son
+              maintien dans l’emploi est assuré.
             </p>
             <p>
               Pendant l’ensemble de son parcours de Transitions collectives, le
@@ -198,7 +198,7 @@ const CompanyMutationFaq = () => {
               conseiller en évolution professionnelle est à ses côtés pendant
               tout son parcours de Transitions collectives pour l’aider à
               définir son projet, instruire son dossier de demande à
-              l’association transitions Pro et identifier des offres d’emploi.
+              l’association Transitions Pro et identifier des offres d’emploi.
               Il est également important qu’il maintienne des liens avec son
               entreprises d’origine, par exemple par le biais des délégués du
               personnel.
@@ -272,7 +272,7 @@ const CompanyMutationFaq = () => {
                   l’amélioration des conditions de travail (ARACT).
                 </li>
                 <li>
-                  Solliciter la DREETS de votre territoire pour bénéficier d’un
+                  Solliciter le DARP de votre département pour bénéficier d’un
                   appui technique à l’établissement de cette liste.
                 </li>
               </ul>
@@ -323,8 +323,9 @@ const CompanyMutationFaq = () => {
                   Des plateformes territoriales sont en cours de développement
                   dans chaque département. Un objectif : mettre en lien les
                   entreprises qui recrutent et les entreprises ayant des emplois
-                  fragilisés. Les DREETS peuvent vous renseigner sur l’existence
-                  d’une plateforme dans votre bassin d’emploi et vous orientera.
+                  fragilisés. Le DARP de votre département peut aussi vous
+                  renseigner sur l’existence d’une plateforme dans votre bassin
+                  d’emploi et vous orientera.
                 </li>
                 <li>
                   L’OPCO dont vous dépendez identifie également les entreprises
@@ -341,33 +342,26 @@ const CompanyMutationFaq = () => {
                 </li>
               </ul>
             </p>
+            <p>
+              Retrouvez les contacts directs de vos correspondants sur la page{" "}
+              <Link href="/interlocuteurs-pour-les-entreprises">
+                « Mes interlocuteurs de proximité »
+              </Link>
+              .
+            </p>
           </article>
         </AccordionItem>
 
         <AccordionItem title="Qui dois-je contacter pour toute information complémentaire ?">
           <article>
             <p>
-              Vous pouvez vous tourner vers plusieurs acteurs pour vous informer
-              sur le dispositif et sa mise en œuvre :
-              <ul>
-                <li>
-                  <strong>
-                    Les représentants des branches professionnelles
-                  </strong>{" "}
-                  peuvent vous relayer les informations qui leur sont transmises
-                  par les DREETS, en charge de l’animation du dispositif et de
-                  la coordination entre acteurs.
-                </li>
-                <li>
-                  <strong>L’OPCO dont vous dépendez</strong> communique
-                  également auprès de ses entreprises sur le dispositif.
-                </li>
-                <li>
-                  <strong>Les associations Transitions Pro</strong> contribuent
-                  à la diffusion de la communication relative aux parcours de
-                  transitions collectives.
-                </li>
-              </ul>
+              {`Le délégué à l'accompagnement des reconversions professionnelles
+              (DARP) de votre département est votre contact privilégié.
+              Retrouvez son contact sur la page `}
+              <Link href="/interlocuteurs-pour-les-entreprises">
+                « Mes interlocuteurs de proximité »
+              </Link>
+              .
             </p>
           </article>
         </AccordionItem>

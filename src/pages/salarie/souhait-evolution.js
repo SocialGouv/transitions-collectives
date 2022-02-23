@@ -20,7 +20,7 @@ const Page = () => {
             <p>
               Avec Transitions collectives, vous avez la possibilité de vous
               reconvertir vers un métier porteur dans votre région. Les métiers
-              porteurs, également appelé métiers d’avenir, sont issus de
+              porteurs, également appelés métiers d’avenir, sont issus de
               nouveaux domaines d’activité ou de métiers en tension dans des
               secteurs qui peinent à recruter.
             </p>

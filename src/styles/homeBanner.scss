@@ -1,6 +1,7 @@
 @use "./variables" as *;
 
 .hero-banner {
+  
   button {
     border-radius: 25px;
     width: 13rem;
@@ -65,19 +66,19 @@
       background-position: 0% 0%;
     }
   }
+}
 
-  .wrapper {
-    position: relative;
-    min-height: 12rem;
-    background-color: $france-relance;
-  }
+.hero-banner__wrapper {
+  position: relative;
+  min-height: 12rem;
+  background-color: $france-relance;
+}
 
-  .content {
-    background: $france-relance;
-    color: white;
+.hero-banner__content {
+  background: $france-relance;
+  color: white;
 
-    @media (max-width: 62rem) {
-      text-align: center;
-    }
+  @media (max-width: 62rem) {
+    text-align: center;
   }
 }

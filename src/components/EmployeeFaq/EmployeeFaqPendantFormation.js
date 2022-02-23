@@ -41,7 +41,7 @@ const EmployeeFaqPendantFormation = () => {
             </p>
           </article>
         </AccordionItem>
-        <AccordionItem title="Devrais-je quitter la ville dans laquelle je travaille aujourd’hui ?">
+        <AccordionItem title="Devrai-je quitter la ville dans laquelle je travaille aujourd’hui ?">
           <article>
             <p>
               Le dossier de Transitions collectives que vous présentez doit
@@ -88,7 +88,7 @@ const EmployeeFaqPendantFormation = () => {
               poste équivalent) au sein de votre entreprise. En cas de doute ou
               de questionnements sur votre projet, contactez{" "}
               <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
-                votre conseiller en évolution professionnel
+                votre conseiller en évolution professionnelle
               </a>{" "}
               pour en discuter.
             </p>
