@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.1...v1.14.2) (2022-02-23)
+
+
+### Bug Fixes
+
+* **test:** update snapshot ([9203386](https://github.com/SocialGouv/transitions-collectives/commit/920338628717f17ab59907de5ca1d4e410c1939c))
+
 ## [1.14.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.0...v1.14.1) (2022-02-23)
 
 
