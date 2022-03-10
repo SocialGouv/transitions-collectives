@@ -1,3 +1,10 @@
+## [1.14.5](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.4...v1.14.5) (2022-03-10)
+
+
+### Bug Fixes
+
+* change motion design ([52e4caf](https://github.com/SocialGouv/transitions-collectives/commit/52e4caf12093fc423fd69b4dab3f26a640c71222))
+
 ## [1.14.4](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.3...v1.14.4) (2022-02-23)
 
 
