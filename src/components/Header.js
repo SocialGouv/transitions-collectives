@@ -2,7 +2,6 @@ import {
   Header as DSFRHeader,
   HeaderBody,
   HeaderNav,
-  HeaderOperator,
   Logo,
   NavItem,
   NavSubItem,
@@ -17,16 +16,6 @@ const Header = () => {
         <Logo
           splitCharacter={10}
         >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
-        <HeaderOperator>
-          <img
-            style={{
-              height: "85px",
-              width: "85px",
-            }}
-            src="/images/france-relance-logo.png"
-            alt="France Relance"
-          />
-        </HeaderOperator>
         <Service title="Transitions collectives" description="" />
       </HeaderBody>
       <HeaderNav>
