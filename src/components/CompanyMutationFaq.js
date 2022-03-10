@@ -11,23 +11,29 @@ const CompanyMutationFaq = () => {
             <p>
               Pour permettre à vos salariés de se reconvertir en bénéficiant
               d’un parcours de Transitions collectives, votre entreprise doit
-              signer un accord GEPP incluant la liste des métiers fragilisés en
-              son sein. Les salariés dont les métiers sont mentionnés dans cette
-              liste seront éligibles à un parcours de Transitions collectives.
-              Cet accord, à déposer en ligne, permet à votre direction des
-              ressources humaines d’avoir une vision de l’évolution des métiers
-              de l’entreprise
+              signer un accord de gestion des emplois et des parcours
+              professionnels (GEPP) incluant la liste des métiers fragilisés.
+              Les salariés dont les métiers sont mentionnés dans cette liste
+              seront éligibles à un parcours de Transitions collectives. Cet
+              accord est à déposer{" "}
+              <a
+                target="_blank"
+                href="https://www.teleaccords.travail-emploi.gouv.fr/PortailTeleprocedures/"
+                rel="noreferrer"
+              >
+                en ligne
+              </a>
+              .
             </p>
             <p>
-              À noter : si votre entreprise comprend moins de 300 salariés, la
-              liste des métiers fragilisés peut être formalisée par une simple
-              décision unilatérale, après consultation de votre CSE si votre
-              entreprise en dispose.
+              Si votre entreprise comprend moins de 300 salariés, la liste des
+              métiers fragilisés peut être formalisée par une simple décision
+              unilatérale, après consultation de votre CSE (si votre entreprise
+              en dispose).
             </p>
             <p>
-              Vous pouvez également inscrire vos salariés dans un parcours de
-              Transitions collectives dans le cadre des congés de mobilité. Deux
-              possibilités s’offrent à vous dans ce cadre :
+              Dans le cadre d’un congé de mobilité, deux possibilités s’offrent
+              à vous :
               <ul>
                 <li>
                   Vous pouvez adopter un accord GEPP prévoyant la mise en œuvre
@@ -38,7 +44,7 @@ const CompanyMutationFaq = () => {
                 <li>
                   Vous pouvez adopter un accord de rupture conventionnelle
                   collective prévoyant la mise en œuvre du congé de mobilité et
-                  établissant la liste des métiers fragilisés
+                  établissant la liste des métiers fragilisés.
                 </li>
               </ul>
             </p>
@@ -60,12 +66,10 @@ const CompanyMutationFaq = () => {
               . Vous pouvez également être accompagné en matière de dialogue
               social, via l’offre de services des OPCO ou celle des Associations
               régionales pour l’amélioration des conditions de travail (ARACT).
-              Dans son rôle de conseil, l’OPCO peut vous accompagner à
-              identifier les compétences dont vous avez besoin.
             </p>
             <p>
               Les entreprises de moins de 250 salariés peuvent aussi bénéficier
-              de{" "}
+              de la{" "}
               <a
                 target="_blank"
                 href="https://travail-emploi.gouv.fr/emploi-et-insertion/tpe-pme/gerer-mes-ressources-humaines/prestation-conseils-rh"
@@ -73,17 +77,9 @@ const CompanyMutationFaq = () => {
               >
                 la prestation conseil en ressources humaines (PCRH)
               </a>
-              . Cette prestation est également accessible aux collectifs
-              d’entreprises appartenant à la catégorie des très petites ou
-              moyennes entreprises (TPE-PME). Elle permet à l’entreprise, ou à
-              un collectif d’entreprises, de bénéficier d’un accompagnement en
-              ressources humaines réalisé par un prestataire et cofinancé par
-              l’État.
-            </p>
-            <p>
-              Enfin, vous pouvez également solliciter la DDETS-PP de votre
-              territoire pour bénéficier d’un appui technique à l’établissement
-              de cette liste.
+              . Elle vous permet à l’entreprise de bénéficier d’un
+              accompagnement en ressources humaines réalisé par un prestataire
+              et cofinancé par l’État.
             </p>
           </article>
         </AccordionItem>
@@ -105,7 +101,6 @@ const CompanyMutationFaq = () => {
             </p>
           </article>
         </AccordionItem>
-
         <AccordionItem title="Quelles sont les étapes pour mettre en place Transitions collectives dans mon entreprise ?">
           <article>
             <p>
@@ -113,36 +108,28 @@ const CompanyMutationFaq = () => {
               étapes :
               <ul>
                 <li>
-                  L’identification des métiers fragilisés. Pour en savoir plus,
-                  rendez-vous dans les questions « comment avoir accès au
-                  dispositif Transitions collectives » et « comment identifier
-                  les métiers fragilisés dans mon entreprise ».
+                  Signer un accord collectif de gestion des emplois et des
+                  compétences, un accord prévoyant une rupture conventionnelle
+                  collective dans le cadre d’un congé de mobilité ou une
+                  décision unilatérale (pour les entreprises de moins de 300
+                  salariés) qui établisse la liste des métiers fragilisés de
+                  l’entreprise.
+                  <br />
+                  Pour en savoir plus, rendez-vous dans les questions « comment
+                  avoir accès au dispositif Transitions collectives » et
+                  « comment identifier les métiers fragilisés dans mon
+                  entreprise.
                 </li>
                 <li>
-                  Le dépôt de l’accord sur 
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.teleaccords.travail
-                  mploi.gouv.fr/PortailTeleprocedures/"
-                  >
-                    https://www.teleaccords.travail
-                    mploi.gouv.fr/PortailTeleprocedures/
-                  </a>
-                  . Un récépissé vous sera transmis.
+                  Informer les salariés dont le métier est identifié comme
+                  fragilisé : une information collective peut être organisée
+                  avec les salariés concernés. Elle est réalisée par un
+                  conseiller en évolution professionnelle (CEP) lors d’une
+                  réunion organisée dans votre entreprise.
                 </li>
                 <li>
-                  Une fois l’accord signé ou la décision unilatérale prise, vous
-                  devez en informer individuellement les salariés dont le métier
-                  est identifié comme fragilisé. Une information collective doit
-                  ensuite être organisée avec les salariés concernés. Elle est
-                  réalisée par un conseiller en évolution professionnelle (CEP)
-                  lors d’une réunion organisée dans votre entreprise. Peut
-                  également y participer l’association Transitions Pro de votre
-                  territoire.
-                </li>
-                <li>
-                  Le dépôt d’un dossier de Transitions collectives auprès de l’
+                  Déposer un dossier de demande de prise en charge d’un parcours
+                  de Transitions collectives auprès de l’
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -150,13 +137,7 @@ const CompanyMutationFaq = () => {
                   >
                     association Transitions Pro compétente de votre région
                   </a>
-                  , qui inclue l’accord ou la décision signée.
-                </li>
-                <li>
-                  Si la demande de prise en charge du parcours de Transitions
-                  collectives du salarié est validée par l’association
-                  Transitions Pro, son contrat de travail est suspendu au moment
-                  où débute son parcours de formation.
+                  , qui inclue l’accord signé
                 </li>
               </ul>
             </p>
@@ -167,7 +148,7 @@ const CompanyMutationFaq = () => {
           <article>
             <p>
               Tout à fait, son parcours est sécurisé du début à la fin, et son
-              maintien dans l’emploi est assuré.
+              maintien dans l’emploi est assuré pendant toute sa formation.
             </p>
             <p>
               Pendant l’ensemble de son parcours de Transitions collectives, le
@@ -189,67 +170,79 @@ const CompanyMutationFaq = () => {
             </p>
             <p>
               Outre sa rémunération, les coûts pédagogiques de sa formation sont
-              également pris en charge. Sous certaines conditions, il peut enfin
+              pris en charge. Sous certaines conditions, il peut enfin
               bénéficier d’une prise en charge de certains frais annexes
               (hébergement, transport, restauration).
             </p>
             <p>
               S’agissant de l’accompagnement dont le salarié bénéficie, un
-              conseiller en évolution professionnelle est à ses côtés pendant
-              tout son parcours de Transitions collectives pour l’aider à
-              définir son projet, instruire son dossier de demande à
-              l’association Transitions Pro et identifier des offres d’emploi.
+              conseiller en évolution professionnelle peut être à ses côtés
+              pendant tout son parcours de Transitions collectives pour l’aider
+              à définir son projet, instruire son dossier de demande à
+              l’association transitions Pro et identifier des offres d’emploi.
               Il est également important qu’il maintienne des liens avec son
-              entreprises d’origine, par exemple par le biais des délégués du
-              personnel.
+              entreprises d’origine, par exemple par le biais du comité social
+              et économique (CSE).
             </p>
             <p>
-              Enfin, à l’issue de son parcours de formation, la suspension du
-              contrat de travail du salarié prend fin, et le salarié réintègre
-              son poste de travail ou un poste équivalent s’il ne trouve pas
-              immédiatement d’entreprise recruteuse dans le métier pour lequel
-              il a été formé.
+              À l’issue de son parcours de formation, la suspension du contrat
+              de travail du salarié prend fin, et le salarié peut choisir de
+              réintégrer son poste de travail ou un poste équivalent s’il ne
+              trouve pas immédiatement d’entreprise recruteuse dans le métier
+              pour lequel il a été formé.
+            </p>
+
+            <p>
+              Si le salarié choisit de quitter son entreprise ou s’il est dans
+              le cadre d’un congé de mobilité, il peut bénéficier des offres de
+              services de son conseiller en évolution professionnelle (CEP), de
+              Pôle emploi, de plateformes de transitions collectives ou encore
+              de tout autre acteur mobilisé au niveau des territoires pour
+              repérer des emplois disponibles.
             </p>
             <p>
-              S’il choisit de quitter son entreprise, le salarié pourra
-              bénéficier des offres de services de Pôle emploi, de plateformes
-              de transitions professionnelles ou encore de tout autre acteur
-              mobilisé au niveau des territoires pour repérer des emplois
-              disponibles.
+              À noter : dans le cadre d’un congé de mobilité, le contrat du
+              salarié est rompu à la fin de sa formation.
             </p>
           </article>
         </AccordionItem>
-
         <AccordionItem title="Quelle aide puis-je obtenir de l’État ?">
           <article>
             <p>
-              Les associations Transitions Pro (AT Pro), qui instruisent les
-              demandes de parcours de Transitions collectives, prennent en
-              charge la rémunération de vos salariés (y compris les charges
-              sociales légales et conventionnelles) et le coût pédagogique des
-              formations pour une durée maximale de 24 mois.
+              L’État prend en charge la rémunération de vos salariés (y compris
+              les charges sociales légales et conventionnelles) et le coût
+              pédagogique des formations certifiantes d’une durée maximale de 24
+              mois. La prise en charge des salaires à 100 % est limitée à un
+              plafond de 2 fois le Smic, 90 % au-delà de ce plafond.
             </p>
+
             <p>
-              Le niveau de prise en charge par les AT Pro des coûts pédagogiques
-              et de la rémunération dépend de la taille de votre entreprise :
+              La prise en charge de l’État dépend de la taille de votre
+              entreprise. Financement à :
               <ul>
-                <li>
-                  100 % de l’ensemble des coûts liés à la formation et à la
-                  rémunération pour les entreprises de moins de 300 salariés,
-                </li>
-                <li>70 % pour les entreprises de 300 à 1 000 salariés,</li>
+                <li>100 % pour les entreprises de moins de 300 salariés,</li>
+                <li>75 % pour les entreprises de 300 à 1 000 salariés,</li>
                 <li>40 % pour les entreprises de plus de 1 000 salariés.</li>
               </ul>
             </p>
+
             <p>
-              Par ailleurs, les OPCO peuvent dans certaines conditions
-              participer au cofinancement de parcours de Transitions
-              collectives, ainsi qu’une entreprise qui prévoit d’embaucher votre
-              salarié à l’issue du parcours de formation.
+              Par ailleurs, les OPCO ou une entreprise qui prévoit d’embaucher
+              votre salarié à l’issue du parcours de formation, peuvent dans
+              certaines conditions participer au cofinancement de parcours de
+              Transitions collectives.
+            </p>
+
+            <p>
+              À noter : dans le cadre du congé de mobilité, votre entreprise
+              doit prendre en charge au moins 65 % de la rémunération brute du
+              salarié. L’État prendra en charge le montant restant pour assurer
+              le maintien de la rémunération nette du salarié. L’État prendra
+              également en charge les coûts pédagogiques de la formation dans
+              les taux précités.
             </p>
           </article>
         </AccordionItem>
-
         <AccordionItem title="Quels acteurs m’accompagnent dans la démarche ?">
           <article>
             <p>
@@ -267,34 +260,37 @@ const CompanyMutationFaq = () => {
                   </a>
                 </li>
                 <li>
-                  Être accompagné en matière de dialogue social, via l’offre de
-                  services des OPCO ou celle des Associations régionales pour
-                  l’amélioration des conditions de travail (ARACT).
+                  Solliciter votre opérateur de compétences (OPCO) pour vous
+                  aider à établir la liste des métiers fragilisés au sein de
+                  votre entreprise.
                 </li>
                 <li>
-                  Solliciter le DARP de votre département pour bénéficier d’un
-                  appui technique à l’établissement de cette liste.
+                  Être accompagné en matière de dialogue social, via l’offre de
+                  services des OPCO ou celle des Associations régionales pour
+                  l’amélioration des conditions de travail (ARACT).{" "}
                 </li>
               </ul>
             </p>
             <p>
-              A noter : les entreprises de moins de 250 salariés peuvent par
-              ailleurs bénéficier de la prestation conseil en ressources
-              humaines (PCRH).
+              À noter : les entreprises de moins de 250 salariés peuvent par
+              ailleurs bénéficier de la{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://travail-emploi.gouv.fr/emploi-et-insertion/tpe-pme/gerer-mes-ressources-humaines/prestation-conseils-rh"
+              >
+                prestation conseil en ressources humaines (PCRH).
+              </a>
             </p>
             <p>
-              Pour la réalisation des dossiers de demande de vos salariés :
+              Pour la réalisation des dossiers de demande de vos salariés. Deux
+              interlocuteurs privilégiés :
               <ul>
                 <li>
                   Les conseillers en évolution professionnelle accompagnent
-                  chacun de vos salariés.{" "}
+                  chacun de vos salariés.
                 </li>
-                <li>
-                  Votre association Transitions Pro pour faciliter
-                  l’organisation des parcours de vos salariés et obtenir des
-                  informations techniques sur l’instruction des demandes de
-                  prise en charge.
-                </li>
+                <li>Votre association Transitions Pro</li>
               </ul>
             </p>
             <p>
@@ -302,16 +298,15 @@ const CompanyMutationFaq = () => {
               de votre région :
               <ul>
                 <li>
-                  Les listes de ces métiers du CREFOP de votre région,
-                  disponibles sur{" "}
+                  {" "}
+                  Les listes de ces métiers est disponible sur le{" "}
                   <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
                   >
-                    le site du ministère du Travail, de l’Emploi et de
-                    l’Insertion
-                  </a>{" "}
+                    site du ministère du Travail, de l’Emploi et de l’Insertion
+                  </a>
                 </li>
               </ul>
             </p>
@@ -320,30 +315,42 @@ const CompanyMutationFaq = () => {
               salariés en reconversion :
               <ul>
                 <li>
-                  Des plateformes territoriales sont en cours de développement
-                  dans chaque département. Un objectif : mettre en lien les
-                  entreprises qui recrutent et les entreprises ayant des emplois
-                  fragilisés. Le DARP de votre département peut aussi vous
-                  renseigner sur l’existence d’une plateforme dans votre bassin
-                  d’emploi et vous orientera.
+                  Le{" "}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://travail-emploi.gouv.fr/actualites/l-actualite-du-ministere/article/les-delegues-a-l-accompagnement-des-reconversions-professionnelles-darp"
+                  >
+                    {`Délégué à l'accompagnement des reconversions
+                    professionnelles (DARP)`}
+                  </a>
+                  de votre département pourra vous orienter vers les entreprises
+                  ayant des besoins en recrutement.
+                </li>
+                <li>
+                  Des plateformes territoriales sont développement dans chaque
+                  département. Un objectif : mettre en lien les entreprises qui
+                  recrutent et les entreprises ayant des emplois fragilisés.
                 </li>
                 <li>
                   L’OPCO dont vous dépendez identifie également les entreprises
                   et salariés susceptibles de bénéficier d’une démarche
                   s’inscrivant dans Transitions collectives. L’OPCO a notamment
                   pour mission d’accompagner les entreprises recruteuses dans
-                  l’identification des compétences dont vous avez besoin. Il
-                  pourra à ce titre vous orienter.
+                  l’identification des compétences dont elles ont besoin.{" "}
                 </li>
                 <li>
-                  Pôle Emploi peut également contribuer à mettre en relation les
-                  entreprises qui souhaitent recruter et les entreprises qui ont
-                  identifié des métiers fragilisés.
+                  Pôle Emploi peut également contribuer à identifier les métiers
+                  et les compétences attendues par les entreprises qui
+                  recrutent. Il peut mettre à la disposition de vos salariés
+                  l’ensemble des services digitaux qu’il propose pour
+                  accompagner la construction des projets professionnels.
                 </li>
               </ul>
             </p>
+
             <p>
-              Retrouvez les contacts directs de vos correspondants sur la page{" "}
+              Retrouvez les contacts directs de vos correspondants sur la page
               <Link href="/interlocuteurs-pour-les-entreprises">
                 « Mes interlocuteurs de proximité »
               </Link>
@@ -351,7 +358,6 @@ const CompanyMutationFaq = () => {
             </p>
           </article>
         </AccordionItem>
-
         <AccordionItem title="Qui dois-je contacter pour toute information complémentaire ?">
           <article>
             <p>
