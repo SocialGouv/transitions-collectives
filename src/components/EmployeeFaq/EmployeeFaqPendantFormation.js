@@ -9,9 +9,9 @@ const EmployeeFaqPendantFormation = () => {
         <AccordionItem title="Mon salaire et mon contrat de travail sont-ils maintenus pendant la formation ?">
           <article>
             <p>
-              Tout à fait. Votre contrat de travail est maintenu pendant toute
-              la durée de la formation. Votre salaire est maintenu à un niveau
-              important de rémunération pendant toute la durée de la formation :
+              Votre contrat de travail est maintenu pendant toute la durée de la
+              formation. Votre salaire est maintenu en partie pendant toute la
+              durée de la formation :
               <ul>
                 <li>
                   Pour les salaires inférieurs ou égaux à deux SMIC : votre
@@ -28,8 +28,6 @@ const EmployeeFaqPendantFormation = () => {
                   SMIC.
                 </li>
               </ul>
-              L’objectif est de vous proposer une reconversion sereine et
-              sécurisée.
             </p>
           </article>
         </AccordionItem>
@@ -39,23 +37,24 @@ const EmployeeFaqPendantFormation = () => {
               La durée de la formation dépend du métier choisi. Cependant, la
               formation ne peut pas dépasser 24 mois ou 2 400 heures.
             </p>
+            <p>
+              À noter : dans le cadre d’un congé de mobilité, la durée de votre
+              parcours de formation ne peut pas dépasser celle du congé de
+              mobilité.
+            </p>
           </article>
         </AccordionItem>
-        <AccordionItem title="Devrai-je quitter la ville dans laquelle je travaille aujourd’hui ?">
+        <AccordionItem title="Devrais-je quitter la ville dans laquelle je travaille aujourd’hui ?">
           <article>
             <p>
-              Le dossier de Transitions collectives que vous présentez doit
-              porter sur un métier porteur de votre région. Votre demande sera
-              étudiée en prenant en compte la cohérence de votre projet de
-              reconversion par rapport aux débouchés existant à l’échelle de la
-              région, et non de votre ville.
+              Votre dossier de Transitions collectives doit s’appuyer sur un
+              métier porteur de votre région. Ainsi, votre mobilité régionale
+              peut être sollicitée.
             </p>
             <p>
-              Dans ce cadre, vous êtes le constructeur de votre projet de
-              formation, et vous avez la possibilité de proposer un projet qui
-              vous permettra de rester dans votre ville. A l’issue de votre
-              parcours de formation, vous êtes également libre de répondre aux
-              offres d’emploi qui vous permettront de rester dans votre ville.
+              À l’issue de votre parcours de formation, vous êtes également
+              libre de répondre aux offres d’emploi qui vous permettront de
+              choisir votre zone de travail.
             </p>
             <p>
               Vous avez toutefois la possibilité de présenter votre projet dans
@@ -73,24 +72,9 @@ const EmployeeFaqPendantFormation = () => {
               Non, la formation est prise en charge dans sa totalité. Vous
               n’aurez pas besoin d’utiliser votre compte personnel de formation
               (CPF) pour entrer dans ce parcours. Par ailleurs, vous pouvez sous
-              certaines conditions, bénéficier d’un forfait journalier vous
+              certaines conditions bénéficier d’un forfait journalier vous
               permettant de compenser les dépenses éventuelles de transport, de
               restauration et d’hébergement.
-            </p>
-          </article>
-        </AccordionItem>
-
-        <AccordionItem title="Puis-je quitter la formation avant son terme ?">
-          <article>
-            <p>
-              Si vous ne pouvez mener à terme votre projet de reconversion, vous
-              pouvez à tout moment réintégrer votre poste de travail (ou un
-              poste équivalent) au sein de votre entreprise. En cas de doute ou
-              de questionnements sur votre projet, contactez{" "}
-              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
-                votre conseiller en évolution professionnelle
-              </a>{" "}
-              pour en discuter.
             </p>
           </article>
         </AccordionItem>

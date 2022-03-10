@@ -10,7 +10,10 @@ const EmployeeFaqContact = () => {
           <article>
             <p>
               Vous pouvez contacter votre employeur (service des ressources
-              humaines - RH) ou un conseiller en évolution professionnelle (CEP)
+              humaines - RH) ou un{" "}
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
+                conseiller en évolution professionnelle (CEP)
+              </a>
               pour avoir plus d’informations sur le dispositif. Les
               représentants du personnel de votre entreprise peuvent également
               être mobilisés pour vous informer et vous accompagner.

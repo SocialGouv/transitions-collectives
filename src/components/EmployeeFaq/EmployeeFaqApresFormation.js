@@ -9,15 +9,24 @@ const EmployeeFaqApresFormation = () => {
         <AccordionItem title="Mon contrat de travail actuel s’arrête-t-il à la fin de la formation ?">
           <article>
             <p>
-              L’objectif de votre parcours de reconversion est de vous permettre
-              de trouver un emploi en rapport avec la formation que vous avez
+              L’objectif de votre parcours de formation est de vous permettre de
+              trouver un emploi en rapport avec la formation que vous avez
               suivie.
             </p>
             <p>
               Cependant, vous gardez la possibilité de réintégrer votre poste de
               travail ou un poste équivalent dans votre entreprise à l’issue de
-              votre parcours de reconversion, car votre contrat de travail ne
+              votre parcours de formation, car votre contrat de travail ne
               s’arrête pas à la fin de la formation.
+            </p>
+            <p>
+              <strong>
+                À noter : cette option n’est pas possible dans le cas d’un congé
+                de mobilité
+              </strong>
+              . En effet, dans le cadre d’un congé de mobilité, votre contrat
+              est rompu à la fin de votre formation. Toutefois, vous êtes
+              accompagné pendant tout votre parcours de recherche d’emploi.
             </p>
           </article>
         </AccordionItem>
@@ -34,10 +43,11 @@ const EmployeeFaqApresFormation = () => {
               formation pour vous aider à trouver un nouvel emploi.
             </p>
             <p>
-              Enfin, des plateformes territoriales se développent actuellement
-              sur vos territoires. Leur mission : mettre en relation les
-              entreprises dont les emplois sont menacés et les entreprises qui
-              recrutent. Votre CEP pourra vous orienter vers elles.
+              Enfin, des plateformes Transitions collectives se développent
+              actuellement sur vos territoires. Leur mission : mettre en
+              relation les entreprises dont les emplois sont menacés et les
+              entreprises qui recrutent. Votre CEP pourra le cas échéant vous
+              informer sur ces plateformes.
             </p>
           </article>
         </AccordionItem>
@@ -47,6 +57,15 @@ const EmployeeFaqApresFormation = () => {
               À l’issue de votre formation, si vous ne trouvez pas d’employeur
               dans le secteur choisi, vous pourrez réintégrer votre poste de
               travail (ou un poste équivalent) au sein de votre entreprise.
+            </p>
+            <p>
+              <strong>
+                À noter : cette option n’est pas possible dans le cas d’un congé
+                de mobilité.
+              </strong>{" "}
+              {`Dans ce cas et si vous n’avez pas trouvé d’emploi après votre
+              formation, vous pouvez bénéficier de l'allocation chômage d'aide
+              au retour à l'emploi (ARE), sous conditions.`}
             </p>
           </article>
         </AccordionItem>
