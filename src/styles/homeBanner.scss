@@ -1,21 +1,11 @@
 @use "./variables" as *;
 
 .hero-banner {
-  
   button {
-    border-radius: 25px;
     width: 13rem;
     justify-content: center;
-    border: 2px solid white;
     height: 3rem;
-    font-size: medium;
-    background-color: white;
-    color: black;
     margin: 0.5rem;
-    &:hover {
-      background-color: $france-relance;
-      color: white;
-    }
   }
 
   a {
@@ -76,7 +66,11 @@
 
 .hero-banner__content {
   background: $france-relance;
-  color: white;
+  color: $blue-news-title;
+
+  h1 {
+    color: $blue-news-title;
+  }
 
   @media (max-width: 62rem) {
     text-align: center;

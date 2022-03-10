@@ -48,11 +48,6 @@ const Footer = () => {
             splitCharacter={10}
           >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
           <FooterBodyItem>
-            <Link target="_BLANK" href="https://travail-emploi.gouv.fr">
-              travail-emploi.gouv.fr
-            </Link>
-          </FooterBodyItem>
-          <FooterBodyItem>
             <Link target="_BLANK" href="https://legifrance.gouv.fr">
               legifrance.gouv.fr
             </Link>

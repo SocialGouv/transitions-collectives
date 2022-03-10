@@ -1,3 +1,4 @@
+import { Button } from "@dataesr/react-dsfr"
 import Image from "next/image"
 import React from "react"
 
@@ -26,14 +27,10 @@ const HomeBanner = () => {
           <div className="fr-grid-row">
             <div className="fr-col-12 fr-col-lg-6 fr-mb-2w">
               <a href="/#salarie" target="_self">
-                <button className="first-button" type="button">
-                  Je suis un salarié
-                </button>
+                <Button size="sm">Je suis un salarié</Button>
               </a>
               <a href="/#entreprise" target="_self">
-                <button className="second-button" type="button">
-                  Je suis une entreprise
-                </button>
+                <Button size="sm">Je suis une entreprise</Button>
               </a>
             </div>
           </div>
