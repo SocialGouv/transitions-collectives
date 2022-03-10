@@ -1,6 +1,11 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix */
 export default [
   {
+    departement: "02",
+    address: "Cité Administrative, 5 Rue Marcel Bleuet, 02000 Laon",
+    email: "faycal.auraghi@aisne.gouv.fr",
+  },
+  {
     departement: 80,
     address: "40 rue La Vallée, 80000 Amiens",
     email: "emilie.segard@somme.gouv.fr",
@@ -10,11 +15,7 @@ export default [
     address: "",
     email: "megane.dassonville@pas-de-calais.gouv.fr",
   },
-  {
-    departement: "02",
-    address: "Cité Administrative, 5 Rue Marcel Bleuet, 02000 Laon",
-    email: "faycal.auraghi@aisne.gouv.fr",
-  },
+
   {
     departement: 20,
     address: "",
