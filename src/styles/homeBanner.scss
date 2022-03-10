@@ -61,15 +61,15 @@
 .hero-banner__wrapper {
   position: relative;
   min-height: 12rem;
-  background-color: $france-relance;
+  background-color: $grey-975;
 }
 
 .hero-banner__content {
-  background: $france-relance;
-  color: $blue-news-title;
+  background: $grey-975;
+  color: $blue-975;
 
   h1 {
-    color: $blue-news-title;
+    color: $blue-975;
   }
 
   @media (max-width: 62rem) {
