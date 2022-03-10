@@ -26,7 +26,7 @@ const CompanyMutationInfography = () => {
 
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
               <Image alt="" src={picto3} />
-              <p>{`Sécuriser vos salariés en leur permettant de conserver leur contrat de travail et leur rémunération.`}</p>
+              <p>{`Sécuriser vos salariés en leur permettant de conserver leur contrat de travail et leur rémunération pendant leur parcours de formation.`}</p>
             </div>
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
               <Image alt="" src={picto4} />

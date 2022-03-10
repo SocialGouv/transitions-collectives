@@ -6,26 +6,93 @@ const EmployeeFaqAvantFormation = () => {
     <div>
       <h3 className="fr-h4">Avant la formation</h3>
       <Accordion>
-        <AccordionItem title="Comment puis-avoir accès aux Transitions collectives ?">
+        <AccordionItem title="Ai-je le droit d’entrer dans ce parcours de formation ?">
           <article>
-            Vous avez la possibilité d’entrer volontairement dans un parcours de
-            Transitions collectives dans les deux cas suivants :
-            <ul>
-              <li>
-                <u>
-                  Si votre entreprise a identifié votre métier comme étant
-                  fragilisé
-                </u>{" "}
-                au sein d’un accord de gestion des emplois et des parcours
-                professionnels (GEPP) ;
-              </li>
-              <li>
-                <u>Dans le cadre d’un congé de mobilité</u>, si votre entreprise
-                a signé un accord GEPP ou une rupture conventionnelle collective
-                (RCC) prévoyant le recours au congé de mobilité et autorisant
-                les salariés à bénéficier au dispositif Transitions collectives.
-              </li>
-            </ul>
+            <p>
+              Pour recourir à Transitions collectives, vous devez :
+              <ul>
+                <li>
+                  Occuper un poste identifié comme fragilisé dans l’entreprise
+                  (voir plus d’informations dans la question « comment savoir si
+                  mon métier fait partie de la liste des métiers dits fragilisés
+                  dans mon entreprise ? »)
+                </li>
+                <li>
+                  Être en CDI, CDD ou en contrat de travail temporaire (dit
+                  aussi contrat d’intérim). ☄ À noter : seul un contrat en CDI
+                  est accepté dans le cadre d’un congé de mobilité.
+                </li>
+                <li>
+                  Respecter certaines conditions d’ancienneté : pour les CDI, 24
+                  mois en tant que salarié, dont 12 mois au sein de votre
+                  entreprise. ☄ À noter : cette condition ne s’applique pas dans
+                  le cadre du congé de mobilité.
+                </li>
+              </ul>
+            </p>
+            <p>
+              Pour accéder au dispositif, il faudra aussi :
+              <ul>
+                <li>
+                  Obtenir l’autorisation de votre employeur d’entrer dans la
+                  démarche de Transitions collectives ;
+                </li>
+                <li>
+                  Être accompagné dans votre projet par un conseiller en
+                  évolution professionnelle.
+                </li>
+              </ul>
+            </p>
+          </article>
+        </AccordionItem>
+        <AccordionItem title="Quelles conditions mon parcours de formation doit-il remplir ?">
+          <article>
+            <p>
+              Pour bénéficier de la prise en charge de votre parcours de
+              formation, ce dernier devra :
+              <ul>
+                <li>
+                  Aboutir à une certification professionnelle reconnues par
+                  l’État ou à une valorisation de l’acquis et de l’expérience
+                  (VAE) ;
+                </li>
+                <li>Concerner un métier porteur de votre région ;</li>
+                <li>
+                  Être réalisé sur une durée maximale de deux ans ou 2400
+                  heures ; ☄ À noter : dans le cadre d’un congé de mobilité, la
+                  durée de votre parcours de formation ne peut excéder celle du
+                  congé de mobilité.
+                </li>
+                <li>
+                  Être mis en œuvre par un organisme de formation certifié
+                  Qualiopi.
+                </li>
+              </ul>
+            </p>
+          </article>
+        </AccordionItem>
+
+        <AccordionItem title="Comment savoir si mon métier fait partie de la liste des métiers dits fragilisés dans mon entreprise ?">
+          <article>
+            <p>
+              Une réunion d’information organisée par votre employeur peut vous
+              être proposée si votre emploi est considéré comme fragilisé. Vous
+              pouvez aussi contacter votre service des ressources humaines (RH)
+              ou un{" "}
+              <a target="_blank" href="https://mon-cep.org/" rel="noreferrer">
+                conseiller en évolution professionnelle (CEP)
+              </a>{" "}
+              pour en savoir plus.
+            </p>
+            <p>
+              À savoir : la liste des métiers identifiés comme fragilisés dans
+              votre entreprise est établie dans le cadre d’un accord collectif,
+              différent selon les situations, signé entre votre employeur et les
+              organisations représentatives du personnel. Les entreprises de
+              moins de 300 salariés peuvent également établir cette liste par
+              décision unilatérale, après consultation du comité social et
+              économique (CSE) lorsqu’il existe.
+            </p>
           </article>
         </AccordionItem>
         <AccordionItem title="Mon employeur me propose un parcours de formation avec Transitions collectives. Suis-je obligé d’accepter ? ">

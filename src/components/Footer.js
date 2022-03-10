@@ -25,13 +25,22 @@ const footerBottomLinks = [
 
 const FooterDescription = () => (
   <>
-    Le code source est ouvert et les contributions sont bienvenues.{" "}
+    {`Le site du ministère du travail, de l'emploi et de l'insertion : `}
+    <Link
+      href="https://travail-emploi.gouv.fr/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      travail-emploi.gouv.fr
+    </Link>
+    <br />
+    Le code source est ouvert et les contributions sont bienvenues :{" "}
     <Link
       href="https://github.com/socialgouv/transitions-collectives"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Voir le code source
+      code source
     </Link>
     .
   </>
