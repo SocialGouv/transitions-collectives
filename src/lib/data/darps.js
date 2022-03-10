@@ -173,7 +173,7 @@ export default [
   {
     departement: 87,
     address: "",
-    email: "philippe.pradon@haute-vienne.gouv.fr",
+    email: "frederic.peytral@haute-vienne.gouv.fr",
   },
   {
     departement: 64,
@@ -325,7 +325,7 @@ export default [
   {
     departement: 91,
     address: "",
-    email: "sophie.er@essonne.gouv.fr",
+    email: "annie.lafont@essonne.gouv.fr",
   },
   {
     departement: 94,
@@ -336,6 +336,11 @@ export default [
     departement: 77,
     address: "",
     email: "amel.amrani@seine-et-marne.gouv.fr",
+  },
+  {
+    departement: 78,
+    address: "",
+    email: "stanley.guerard@yvelines.gouv.fr",
   },
   {
     departement: 72,
@@ -466,5 +471,10 @@ export default [
     departement: "94",
     address: "",
     email: "eric.jany@drieets.gouv.fr",
+  },
+  {
+    departement: "27",
+    address: "",
+    email: "etienne.giraudeau@eure.gouv.fr",
   },
 ]
