@@ -1,3 +1,12 @@
+## [1.14.9](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.8...v1.14.9) (2022-03-12)
+
+
+### Bug Fixes
+
+* add question to faq ([ccd85bf](https://github.com/SocialGouv/transitions-collectives/commit/ccd85bf6bec1d3a092832660072e801b4eff7a8b))
+* company infography infography ([e3a99b0](https://github.com/SocialGouv/transitions-collectives/commit/e3a99b0530cf99a9e5ac0981aa4b5f27d64bc720))
+* do not use map ([ea7dec4](https://github.com/SocialGouv/transitions-collectives/commit/ea7dec446bcb188dc1ed7331da7e7fccd1bda7fd))
+
 ## [1.14.8](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.7...v1.14.8) (2022-03-10)
 
 
