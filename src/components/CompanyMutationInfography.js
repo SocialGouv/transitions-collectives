@@ -21,7 +21,7 @@ const CompanyMutationInfography = () => {
             </div>
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
               <Image alt="" src={picto2} />
-              <p>{`Assurer l’avenir de vos salariés volontaires en les formant à un métier émergent.`}</p>
+              <p>{`Assurer l’avenir de vos salariés volontaires en les formant à un métier porteur.`}</p>
             </div>
 
             <div className="fr-col-md-3 fr-col-12 fr-p-4w">
