@@ -26,24 +26,16 @@ const Page = () => {
             </p>
             <p>
               Vous pouvez choisir le métier vers lequel vous souhaitez vous
-              diriger à partir de ces listes régionales:
+              diriger à partir des listes régionales disponibles sur le{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://travail-emploi.gouv.fr/formation-professionnelle/formation-des-salaries/transitions_collectives/article/les-metiers-porteurs-en-region"
+              >
+                site du ministère du Travail, de l’Emploi et de l’Insertion
+              </a>
+              .
             </p>
-            <center>
-              <iframe
-                title="Liste des métiers d'avenir"
-                width="780"
-                height="700"
-                data-original-width="780"
-                data-original-height="700"
-                src="https://www.thinglink.com/card/1438856654991917057"
-                type="text/html"
-                frameBorder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowFullScreen
-                scrolling="no"
-              />
-            </center>
             <p>
               Retrouvez également les offres d’emplois dans les secteurs qui
               recrutent sur le site de{" "}
