@@ -1,3 +1,10 @@
+## [1.14.10](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.9...v1.14.10) (2022-03-15)
+
+
+### Bug Fixes
+
+* akto contact ([6c08f5a](https://github.com/SocialGouv/transitions-collectives/commit/6c08f5aa66a039562e9a8a564a822b2880092c38))
+
 ## [1.14.9](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.8...v1.14.9) (2022-03-12)
 
 
