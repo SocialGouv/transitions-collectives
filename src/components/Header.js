@@ -14,7 +14,7 @@ const Header = () => {
     <DSFRHeader>
       <HeaderBody>
         <Logo
-          splitCharacter={10}
+          splitCharacter={8}
         >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
         <Service title="Transitions collectives" description="" />
       </HeaderBody>

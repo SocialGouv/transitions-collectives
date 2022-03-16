@@ -54,7 +54,7 @@ const Footer = () => {
       <DSFooter>
         <FooterBody description={<FooterDescription />}>
           <Logo
-            splitCharacter={10}
+            splitCharacter={8}
           >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
           <FooterBodyItem>
             <Link target="_BLANK" href="https://legifrance.gouv.fr">
