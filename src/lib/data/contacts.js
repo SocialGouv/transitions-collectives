@@ -7855,7 +7855,7 @@ export default [
     region: "AURA",
     structure: "OPCO",
     opco_type: "AKTO",
-    departement: "1,3,7,15,26,38,42,43,63,69,73,74",
+    departement: "01,03,07,15,26,38,42,43,63,69,73,74",
     name: "OPCO",
     contacts: [
       {
@@ -7915,7 +7915,7 @@ export default [
     region: "GRAND EST",
     structure: "OPCO",
     opco_type: "AKTO",
-    departement: "8,10,51,52,54,55,57,67,68,88",
+    departement: "08,10,51,52,54,55,57,67,68,88",
     name: "OPCO",
     contacts: [
       {
@@ -7951,7 +7951,7 @@ export default [
     region: "HAUTS DE France",
     structure: "OPCO",
     opco_type: "AKTO",
-    departement: "2,59,60,92,80",
+    departement: "02,59,60,92,80",
     name: "OPCO",
     contacts: [
       {
@@ -8026,7 +8026,7 @@ export default [
     region: "OCCITANIE",
     structure: "OPCO",
     opco_type: "AKTO",
-    departement: "9,11,12,30,31,32,34,46,48,65,66,81,82",
+    departement: "09,11,12,30,31,32,34,46,48,65,66,81,82",
     name: "OPCO",
     contacts: [
       {
