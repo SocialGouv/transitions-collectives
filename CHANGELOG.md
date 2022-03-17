@@ -1,3 +1,10 @@
+## [1.14.12](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.11...v1.14.12) (2022-03-17)
+
+
+### Bug Fixes
+
+* **news:** responsive ui ([e0ed74e](https://github.com/SocialGouv/transitions-collectives/commit/e0ed74e55366f2a3b6229dbdbd9e75570ac2ce2f))
+
 ## [1.14.11](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.10...v1.14.11) (2022-03-16)
 
 
