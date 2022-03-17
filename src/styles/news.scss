@@ -5,6 +5,16 @@
   padding-left: 8rem;
   padding-right: 8rem;
 
+  @media (max-width: 62em) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (max-width: 48em) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
   h1 {
     color: $blue-975;
   }
