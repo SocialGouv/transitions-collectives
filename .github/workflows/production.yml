@@ -25,6 +25,7 @@ jobs:
     name: Deploy production
     runs-on: ubuntu-latest
     needs: [register]
+    environment: production
     steps:
     - name: Use autodevops to deploy review branch
       uses: SocialGouv/kube-workflow@master
