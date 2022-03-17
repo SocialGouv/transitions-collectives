@@ -1,0 +1,16 @@
+spec:
+  tls:
+    - hosts:
+        - transco.travail-emploi.gouv.fr
+      secretName: www-transco-crt
+  rules:
+    - host: transco.travail-emploi.gouv.fr
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: app
+                port:
+                  name: http
