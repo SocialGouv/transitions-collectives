@@ -1,7 +1,0 @@
-{
-  "name": "www",
-  "type": "app",
-  "registry": "ghcr",
-  "project": "transitions-collectives",
-  "subdomain": "transitions-collectives"
-}
