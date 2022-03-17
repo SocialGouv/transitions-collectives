@@ -1,3 +1,14 @@
+## [1.14.13](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.12...v1.14.13) (2022-03-17)
+
+
+### Bug Fixes
+
+* **ci:**  migrate to kube-workflow ([f5480e5](https://github.com/SocialGouv/transitions-collectives/commit/f5480e53cfa92d9845ca2dc810fd9f6e2ce93652))
+* **ci:** migrate to kube-workflow ([ae8a7a2](https://github.com/SocialGouv/transitions-collectives/commit/ae8a7a2d1796cf5bf0fed2a358102509acf5e1b8))
+* **ingress:** wip ([6a56e84](https://github.com/SocialGouv/transitions-collectives/commit/6a56e84155d3e7c6e32dc962de0e1cde7d47e30c))
+* **probes:** /healthz ([c464528](https://github.com/SocialGouv/transitions-collectives/commit/c464528d2e645f6dc42419da61a01ee9df05e62c))
+* **redirect:** add new redirectFrom option ([4666fdc](https://github.com/SocialGouv/transitions-collectives/commit/4666fdce103e9381307d771e509bbbbd9ceae28f))
+
 ## [1.14.12](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.11...v1.14.12) (2022-03-17)
 
 
