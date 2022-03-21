@@ -1,3 +1,10 @@
+## [1.14.16](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.15...v1.14.16) (2022-03-21)
+
+
+### Bug Fixes
+
+* **contact:** update contact ([cb0dad1](https://github.com/SocialGouv/transitions-collectives/commit/cb0dad1acd7f946b52a705369c2cea8b27e5b0f5))
+
 ## [1.14.15](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.14...v1.14.15) (2022-03-17)
 
 
