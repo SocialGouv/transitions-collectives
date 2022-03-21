@@ -47,7 +47,7 @@ const Page = () => {
                     href="/interlocuteurs-pour-les-entreprises"
                     rel="noreferrer"
                   >
-                    Votre délégués à l’accompagnement des reconversions
+                    Votre délégué à l’accompagnement des reconversions
                     professionnelles (DARP)
                   </Link>
                 </li>
