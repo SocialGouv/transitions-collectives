@@ -19,7 +19,6 @@ const EMPTY_SELECT_OPTION = {
 }
 
 const options = {
-  includeMatches: true,
   keys: ["departement"],
   useExtendedSearch: true,
 }
@@ -189,7 +188,7 @@ const ContactSearchPanel = () => {
     let atPros = []
 
     if (departement && opcoType) {
-      result = (fuse.search(`'${departement}`) || []).map(({ item }) => item)
+      result = (fuse.search(`=${departement}`) || []).map(({ item }) => item)
       ddets = getStructure(result, {
         depFilter: departement,
         structureTypesFilter: ["DDETS", "DDETSPP"],
