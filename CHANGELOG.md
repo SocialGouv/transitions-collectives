@@ -1,3 +1,17 @@
+# [1.15.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.16...v1.15.0) (2022-04-15)
+
+
+### Bug Fixes
+
+* contact search ([a22a5bc](https://github.com/SocialGouv/transitions-collectives/commit/a22a5bc8be7b19a675bc2c21454aa1abbeaf6fb0))
+
+
+### Features
+
+* add DARP ([841ef61](https://github.com/SocialGouv/transitions-collectives/commit/841ef613d5b412ef5dbf4a15b1600f707bc56cec))
+* update contacts ([853fb8c](https://github.com/SocialGouv/transitions-collectives/commit/853fb8c674c9170fe3b15cacf2ddaa4e833fd220))
+* update text ([2ec9a5c](https://github.com/SocialGouv/transitions-collectives/commit/2ec9a5c28b109cc39417d796136c085342a14203))
+
 ## [1.14.16](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.15...v1.14.16) (2022-03-21)
 
 
