@@ -898,7 +898,6 @@ export default [
       {
         email: "ghislaine.borgalli-lasne@manche.gouv.fr",
       },
-      {},
       {
         email: "benoit.deshogues@manche.gouv.fr",
       },
@@ -1140,7 +1139,6 @@ export default [
       {
         email: "annie.marchant@drome.gouv.fr",
       },
-      {},
       {
         email: "dominique.cros@drome.gouv.fr",
       },
@@ -1283,7 +1281,6 @@ export default [
       "Cité administrative du Cluzel - 61, avenue de Grammont - BP 12023 - 37020 TOURS Cedex 1",
     email: "ddets-directeur@indre-et-loire.gouv.fr",
     contacts: [
-      {},
       {
         email: "bruno.pepin@indre-et-loire.gouv.fr",
       },
@@ -1684,7 +1681,6 @@ export default [
       "Cité Administrative Gaujot, 14 rue du Maréchal Juin - 67084 STRASBOURG Cedex",
     email: "ddets-directeur@bas-rhin.gouv.fr",
     contacts: [
-      {},
       {
         email: "isabelle.guyot@bas-rhin.gouv.fr",
       },
@@ -1799,7 +1795,6 @@ export default [
       {
         email: "carole.souvignet@haute-loire.gouv.fr",
       },
-      {},
     ],
   },
   {
@@ -2032,7 +2027,6 @@ export default [
       {
         email: "xavier.moine@lozere.gouv.fr",
       },
-      {},
       {
         email: "cecile.gleyzon@lozere.gouv.fr",
       },
@@ -2083,7 +2077,6 @@ export default [
     address: "30, rue de l'hôtel de Ville - BP 30560 - 79022 Niort Cedex",
     email: "ddetspp-directeur@deux-sevres.gouv.fr",
     contacts: [
-      {},
       {
         email: "vincent.cousin@deux-sevres.gouv.fr",
       },
@@ -2351,7 +2344,6 @@ export default [
       {
         email: "noel.quipourt@ardennes.gouv.fr",
       },
-      {},
     ],
   },
   {
@@ -2483,7 +2475,6 @@ export default [
       {
         email: "serge.milon@mayenne.gouv.fr",
       },
-      {},
       {
         email: "bruno.jourdan@mayenne.gouv.fr",
       },
@@ -2563,7 +2554,6 @@ export default [
     opco_type: "MOBILITES",
     departement: "",
     address: "43 bis Route de Vaugirard - 92180 MEUDON",
-    contacts: [{}, {}],
   },
   {
     region: "AUVERGNE - RHÔNE ALPES",
