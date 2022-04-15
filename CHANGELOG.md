@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.15.0...v1.15.1) (2022-04-15)
+
+
+### Bug Fixes
+
+* contacts ([ce692da](https://github.com/SocialGouv/transitions-collectives/commit/ce692da160905c02d4263d287fde8c019353260e))
+
 # [1.15.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.14.16...v1.15.0) (2022-04-15)
 
 
