@@ -488,4 +488,34 @@ export default [
     address: "",
     email: "cynthia.chu@alpes-maritimes.gouv.fr",
   },
+  {
+    departement: "39",
+    address: "",
+    email: "natalia.machado@jura.gouv.fr",
+  },
+  {
+    departement: "14",
+    address: "",
+    email: "sandra.preaud@calvados.gouv.fr",
+  },
+  {
+    departement: "76",
+    address: "",
+    email: "carole.lallouet@seine-maritime.gouv.fr",
+  },
+  {
+    departement: "75",
+    address: "",
+    email: "marika.demortier@drieets.gouv.fr",
+  },
+  {
+    departement: "44",
+    address: "",
+    email: "suzanne.romestain@loire-atlantique.gouv.fr",
+  },
+  {
+    departement: "972",
+    address: "",
+    email: "dolor.ravi@deets.gouv.fr",
+  },
 ]
