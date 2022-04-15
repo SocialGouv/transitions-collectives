@@ -1,3 +1,10 @@
+## [1.15.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.15.1...v1.15.2) (2022-04-15)
+
+
+### Bug Fixes
+
+* prod SSL ([33d9ffe](https://github.com/SocialGouv/transitions-collectives/commit/33d9ffe042522dd9beada7fb7e1580956c836e0d))
+
 ## [1.15.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.15.0...v1.15.1) (2022-04-15)
 
 
