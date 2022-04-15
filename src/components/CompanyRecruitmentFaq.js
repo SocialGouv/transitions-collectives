@@ -42,6 +42,16 @@ const CompanyRecruitmentFaq = () => {
               en leur sein. Vous pouvez être accompagné par :
               <ul>
                 <li>
+                  Le délégué à l’accompagnement des reconversions
+                  professionnelles (DARP) de votre département. Il est votre
+                  contact privilégié sur le territoire et vous accompagne dans
+                  vos démarches. Retrouvez son contact sur{" "}
+                  <Link href="/interlocuteurs-pour-les-entreprises">
+                    la page « Mes interlocuteurs de proximité »
+                  </Link>
+                  . Mais aussi :
+                </li>
+                <li>
                   Votre OPCO. Il vous guide aussi dans l’identification des
                   compétences dont vous avez besoin.
                 </li>
