@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.15.2...v1.16.0) (2022-04-16)
+
+
+### Features
+
+* separate contact types ([90f0d4c](https://github.com/SocialGouv/transitions-collectives/commit/90f0d4c44b93e601f6c0f302dab4da20e4e24a24))
+
 ## [1.15.2](https://github.com/SocialGouv/transitions-collectives/compare/v1.15.1...v1.15.2) (2022-04-15)
 
 
