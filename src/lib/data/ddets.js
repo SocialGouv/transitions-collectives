@@ -680,18 +680,6 @@ export default [
     region: "BOURGOGNE-FRANCHE-COMTÉ",
     structure: "DDETSPP",
     departement: "39",
-    address: "8, rue de la Préfecture, BP 10634, 39021 Lons-le-Saunier cedex",
-    email: "ddetspp-direction@jura.gouv.fr",
-    contacts: [
-      {
-        email: "eric.kerourio@jura.gouv.fr",
-      },
-    ],
-  },
-  {
-    region: "BOURGOGNE-FRANCHE-COMTÉ",
-    structure: "DDETSPP",
-    departement: "39",
     address: "165 avenue Paul Seguin - BP 40372 - 39016 Lons-Le-Saunier cedex",
     email: "ddetspp-direction- president@jura.gouv.fr",
     contacts: [
@@ -1278,6 +1266,14 @@ export default [
     ],
   },
   {
+    region: "ILE DE FRANCE",
+    structure: "DDETS",
+    departement: "75",
+    address: "",
+    email: "",
+    contacts: [],
+  },
+  {
     region: "NORMANDIE",
     structure: "DDETS",
     departement: "76",
@@ -1702,6 +1698,14 @@ export default [
     name: "DDETS",
     address:
       "Immeuble Raphaël, Lot n°13, Zac de Houelbourd Sud, ZI de Jarry, 97122 Baie Mahault",
+    contacts: [],
+  },
+  {
+    region: "Martinique",
+    structure: "DDETS",
+    departement: "972",
+    name: "DDETS",
+    address: "",
     contacts: [],
   },
   {

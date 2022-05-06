@@ -167,11 +167,6 @@ export default [
     email: "sheraze.maazi@lot-et-garonne.gouv.fr",
   },
   {
-    departement: "33",
-    address: "",
-    email: "marc.lasserre@gironde.gouv.fr",
-  },
-  {
     departement: "87",
     address: "",
     email: "frederic.peytral@haute-vienne.gouv.fr",
@@ -404,16 +399,6 @@ export default [
     email: "veronique.alies@oise.gouv.fr",
   },
   {
-    departement: "59",
-    address: "",
-    email: "olivier.baviere@nord.gouv.fr",
-  },
-  {
-    departement: "33",
-    address: "",
-    email: "lasserre.annecamille@hotmail.fr",
-  },
-  {
     departement: "64",
     address: "",
     email: "corine.martinez@pyrenees-atlantiques.gouv.fr",
@@ -517,5 +502,20 @@ export default [
     departement: "972",
     address: "",
     email: "dolor.ravi@deets.gouv.fr",
+  },
+  {
+    departement: "53",
+    address: "",
+    email: "anne-sophie.beaujon@mayenne.gouv.fr",
+  },
+  {
+    departement: "33",
+    address: "",
+    email: "anne-camille.lasserre@gironde.gouv.fr",
+  },
+  {
+    departement: "59",
+    address: "",
+    email: "tamara.tagbor@nord.gouv.fr",
   },
 ]

@@ -49,8 +49,11 @@ const CompanyRecruitmentFaq = () => {
                   <Link href="/interlocuteurs-pour-les-entreprises">
                     la page « Mes interlocuteurs de proximité »
                   </Link>
-                  . Mais aussi :
+                  .
                 </li>
+              </ul>
+              Mais aussi :
+              <ul>
                 <li>
                   Votre OPCO. Il vous guide aussi dans l’identification des
                   compétences dont vous avez besoin.

@@ -72,7 +72,7 @@ const AtProInfo = () => (
 )
 
 const hasInfo = (type) => {
-  return ["DARP", "At Pro", "OPCO"].includes(type)
+  return ["DARP", "Transitions pro", "OPCO"].includes(type)
 }
 
 const StructureCard = ({ structure }) => {
@@ -162,7 +162,7 @@ const StructureCard = ({ structure }) => {
         <ModalContent>
           {showInfo === "DARP" && <DarpInfo />}
           {showInfo === "OPCO" && <OpcoInfo />}
-          {showInfo === "At Pro" && <AtProInfo />}
+          {showInfo === "Transitions pro" && <AtProInfo />}
         </ModalContent>
       </Modal>
     </div>
