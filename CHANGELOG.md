@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.17.0...v1.18.0) (2022-05-06)
+
+
+### Features
+
+* update at pro ([45f5edd](https://github.com/SocialGouv/transitions-collectives/commit/45f5edd18a7877970227f4479665be054c0a2447))
+
 # [1.17.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.16.0...v1.17.0) (2022-05-06)
 
 
