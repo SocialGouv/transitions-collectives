@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/SocialGouv/transitions-collectives/compare/v1.18.0...v1.18.1) (2022-05-07)
+
+
+### Bug Fixes
+
+* **build:** specify node version in docker file ([58a4d05](https://github.com/SocialGouv/transitions-collectives/commit/58a4d05a7a2bff1d5241ebc0e26d35589cb8910e))
+
 # [1.18.0](https://github.com/SocialGouv/transitions-collectives/compare/v1.17.0...v1.18.0) (2022-05-06)
 
 
