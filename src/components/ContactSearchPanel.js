@@ -125,16 +125,18 @@ const StructureCard = ({ structure }) => {
                   <br />
                 </p>
               )}
-              <div className="icon-link">
-                <i className="ri-mail-fill" aria-hidden="true" />
-                <a
-                  rel="noopener noreferrer"
-                  title={`Envoyer un email à ${contact.email} - ouvre une nouvelle fenêtre`}
-                  href={`mailto:${contact.email}`}
-                >
-                  {contact.email}
-                </a>
-              </div>
+              {contact.email.split(",").map((email, index) => (
+                <div className="icon-link" key={index}>
+                  <i className="ri-mail-fill" aria-hidden="true" />
+                  <a
+                    rel="noopener noreferrer"
+                    title={`Envoyer un email à ${email} - ouvre une nouvelle fenêtre`}
+                    href={`mailto:${email}`}
+                  >
+                    {email}
+                  </a>
+                </div>
+              ))}
             </div>
           )
         })}

@@ -1709,6 +1709,14 @@ export default [
     contacts: [],
   },
   {
+    region: "Guyane",
+    structure: "DDETS",
+    departement: "973",
+    name: "DDETS",
+    address: "",
+    contacts: [],
+  },
+  {
     region: "La Réunion",
     structure: "DDETS",
     departement: "974",

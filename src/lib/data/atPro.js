@@ -461,19 +461,11 @@ export default [
     structure: "ATPRO",
     departement: "44",
     address: "9 Boulevard Alexandre Millerand, 44200 Nantes ",
-    email: "laurent.gamber@transitionspro-pdl.fr",
+    email:
+      "laurent.gamber@transitionspro-pdl.fr, delphine.broband@transitionspro-pdl.fr",
     website: "www.transitionspro-pdl.fr",
     comment:
       "Des permanences sont réalisées régulièrement dans les territoires. Retrouvez les dates et les lieux de ces permanence sur le site de l'association de Transition Pro Pays de la loire",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "delphine.broband@transitionspro-pdl.fr",
-    website: null,
-    comment: "",
     contacts: [],
   },
   {
@@ -522,19 +514,11 @@ export default [
     structure: "ATPRO",
     departement: "49",
     address: "9 Boulevard Alexandre Millerand, 44200 Nantes ",
-    email: "laurent.gamber@transitionspro-pdl.fr",
+    email:
+      "laurent.gamber@transitionspro-pdl.fr, delphine.broband@transitionspro-pdl.fr",
     website: "www.transitionspro-pdl.fr",
     comment:
       "Des permanences sont réalisées régulièrement dans les territoires. Retrouvez les dates et les lieux de ces permanence sur le site de l'association de Transition Pro Pays de la loire",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "delphine.broband@transitionspro-pdl.fr",
-    website: null,
-    comment: "",
     contacts: [],
   },
   {
@@ -573,19 +557,11 @@ export default [
     structure: "ATPRO",
     departement: "53",
     address: "9 Boulevard Alexandre Millerand, 44200 Nantes ",
-    email: "laurent.gamber@transitionspro-pdl.fr",
+    email:
+      "laurent.gamber@transitionspro-pdl.fr, delphine.broband@transitionspro-pdl.fr",
     website: "www.transitionspro-pdl.fr",
     comment:
       "Des permanences sont réalisées régulièrement dans les territoires. Retrouvez les dates et les lieux de ces permanence sur le site de l'association de Transition Pro Pays de la loire",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "delphine.broband@transitionspro-pdl.fr",
-    website: null,
-    comment: "",
     contacts: [],
   },
   {
@@ -645,32 +621,25 @@ export default [
     departement: "59",
     address:
       "Parc d'Activités du Buisson, 14 rue des Entrepreneurs, 59700 Marcq-en-Baroeul",
-    email: "idelaere@transitionspro-hdf.fr",
+    email: "",
     website: "www.transitionspro-hdf.fr",
     comment: "Plus d'informations sur les permanences au 07 88 30 90 58",
-    contacts: [],
+    contacts: [
+      {
+        email: "idelaere@transitionspro-hdf.fr",
+      },
+      {
+        email: "icoutant@transitionspro-hdf.fr",
+      },
+      {
+        email: "csauvage@transitionspro-hdf.fr",
+      },
+    ],
   },
   {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "icoutant@transitionspro-hdf.fr",
-    website: null,
-    comment: "Plus d'informations sur les permanences au 06 77 99 35 97",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "csauvage@transitionspro-hdf.fr",
-    website: null,
-    comment: "Plus d'informations sur les permanences au 06 02 10 92 16",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
+    name: "Transitions pro",
+    structure: "ATPRO",
+    departement: "59",
     address:
       "Parc d'Activités de l'Aérodrome Ouest, 50 rue Louis Duvant, Val Pak, 59220 Rouvignies",
     email: "vdejonghe@transitionspro-hdf.fr ",
@@ -711,8 +680,9 @@ export default [
     contacts: [],
   },
   {
-    "Transitions pro": null,
-    departement: null,
+    name: "Transitions pro",
+    structure: "ATPRO",
+    departement: "62",
     address:
       "12 rue de l'industrie, Zone Industrielle du Fond Squin, 62504 Saint-Martin-lez-Tatinghem",
     email: "bburnod@transitionspro-hdf.fr",
@@ -817,20 +787,18 @@ export default [
     structure: "ATPRO",
     departement: "72",
     address: "9 Boulevard Alexandre Millerand, 44200 Nantes ",
-    email: "laurent.gamber@transitionspro-pdl.fr",
+    email: "",
     website: "www.transitionspro-pdl.fr",
     comment:
       "Des permanences sont réalisées régulièrement dans les territoires. Retrouvez les dates et les lieux de ces permanence sur le site de l'association de Transition Pro Pays de la loire",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "delphine.broband@transitionspro-pdl.fr",
-    website: null,
-    comment: "",
-    contacts: [],
+    contacts: [
+      {
+        email: "delphine.broband@transitionspro-pdl.fr",
+      },
+      {
+        email: "laurent.gamber@transitionspro-pdl.fr",
+      },
+    ],
   },
   {
     name: "Transitions pro",
@@ -960,20 +928,18 @@ export default [
     structure: "ATPRO",
     departement: "85",
     address: "9 Boulevard Alexandre Millerand, 44200 Nantes ",
-    email: "laurent.gamber@transitionspro-pdl.fr",
+    email: "",
     website: "www.transitionspro-pdl.fr",
     comment:
       "Des permanences sont réalisées régulièrement dans les territoires. Retrouvez les dates et les lieux de ces permanence sur le site de l'association de Transition Pro Pays de la loire",
-    contacts: [],
-  },
-  {
-    "Transitions pro": null,
-    departement: null,
-    address: null,
-    email: "delphine.broband@transitionspro-pdl.fr",
-    website: null,
-    comment: "",
-    contacts: [],
+    contacts: [
+      {
+        email: "laurent.gamber@transitionspro-pdl.fr",
+      },
+      {
+        email: "delphine.broband@transitionspro-pdl.fr",
+      },
+    ],
   },
   {
     name: "Transitions pro",
@@ -1082,7 +1048,7 @@ export default [
   {
     name: "Transitions pro",
     structure: "ATPRO",
-    departement: 971,
+    departement: "971",
     address:
       "33, rue Wilfredo Lam, Lot Les Hauts de Blachon Beausoleil, 97122 Baie Mahault ",
     email: "accueil@transitionspro-guadeloupe.fr",
@@ -1094,7 +1060,7 @@ export default [
   {
     name: "Transitions pro",
     structure: "ATPRO",
-    departement: 972,
+    departement: "972",
     address:
       "1 avenue Louis Domergue, Domaine de Montgérald, 97200 Fort-de-France",
     email: null,
@@ -1124,12 +1090,13 @@ export default [
     contacts: [],
   },
   {
-    "Transitions pro": null,
-    departement: null,
+    name: "Transitions pro",
+    structure: "ATPRO",
+    departement: "974",
     address:
       "Bâtiment Semir, 4 rue Franck Camille Cadet, ZIE les Sables, 97427 L'Étang-Salé (uniquement sur rendez-vous)",
-    email: null,
-    website: null,
+    email: "accueil@transitionspro-reunion.fr",
+    website: "www.transitionspro-reunion.fr",
     comment: "",
     contacts: [],
   },

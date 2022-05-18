@@ -13,7 +13,6 @@
   }
 
   h1 {
-    color: white;
     font-weight: 700 !important;
     margin-bottom: 0.5rem;
     font-size: 3rem !important;
@@ -66,11 +65,6 @@
 
 .hero-banner__content {
   background: $grey-975;
-  color: $blue-975;
-
-  h1 {
-    color: $blue-975;
-  }
 
   @media (max-width: 62rem) {
     text-align: center;
