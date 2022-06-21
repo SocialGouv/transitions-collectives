@@ -12,8 +12,8 @@ const HomeVideo = () => {
       </h2>
       <div className="fr-grid-row">
         <p className="fr-mb-1w">
-          Porté par le ministère du Travail, de l’Emploi et de l’Insertion et
-          co-construit avec les organisations syndicales et patronales, le
+          Porté par le ministère du Travail, du plein Emploi et de l’Insertion
+          et co-construit avec les organisations syndicales et patronales, le
           dispositif Transitions collectives a pour but d’aider les employeurs
           et les salariés à faire face aux mutations qui peuvent impacter le
           modèle et l’activité de leur entreprise.

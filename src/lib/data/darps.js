@@ -205,7 +205,7 @@ export default [
     departement: "41",
     address:
       "Centre administratif, Porte B, 34 avenue Maunoury BP 10834-41008 BLOIS CEDEX",
-    email: "jerome.mourier@loir-et-cher.gouv.fr",
+    email: "ddetspp-dev-eco@loir-et-cher.gouv.fr",
   },
   {
     departement: "42",
@@ -305,7 +305,7 @@ export default [
   {
     departement: "60",
     address: "",
-    email: "veronique.alies@oise.gouv.fr",
+    email: "isabelle.baptiste@oise.gouv.fr",
   },
   {
     departement: "61",

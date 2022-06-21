@@ -5,7 +5,6 @@ import {
   FooterBottom,
   FooterLink,
   Link,
-  Logo,
   SwitchTheme,
 } from "@dataesr/react-dsfr"
 import React, { useState } from "react"
@@ -25,7 +24,7 @@ const footerBottomLinks = [
 
 const FooterDescription = () => (
   <>
-    {`Le site du ministère du travail, de l'emploi et de l'insertion : `}
+    {`Le site du ministère du travail, du plein emploi et de l'insertion : `}
     <Link
       href="https://travail-emploi.gouv.fr/"
       target="_blank"
@@ -46,6 +45,19 @@ const FooterDescription = () => (
   </>
 )
 
+const Logo = () => (
+  <Link className="ds-fr--no-shadow" title="Accueil" href="/">
+    <p className="fr-logo">
+      Ministère
+      <br /> du travail,
+      <br />
+      du plein emploi
+      <br />
+      {`et de l'insertion`}
+    </p>
+  </Link>
+)
+
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -53,9 +65,7 @@ const Footer = () => {
     <>
       <DSFooter>
         <FooterBody description={<FooterDescription />}>
-          <Logo
-            splitCharacter={8}
-          >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
+          <Logo __TYPE="Logo" />
           <FooterBodyItem>
             <Link target="_BLANK" href="https://legifrance.gouv.fr">
               legifrance.gouv.fr

@@ -2,20 +2,31 @@ import {
   Header as DSFRHeader,
   HeaderBody,
   HeaderNav,
-  Logo,
+  Link,
   NavItem,
   NavSubItem,
   Service,
 } from "@dataesr/react-dsfr"
 import React from "react"
 
+const Logo = () => (
+  <Link className="ds-fr--no-shadow" title="Accueil" href="/">
+    <p className="fr-logo">
+      Ministère
+      <br /> du travail,
+      <br />
+      du plein emploi
+      <br />
+      {`et de l'insertion`}
+    </p>
+  </Link>
+)
+
 const Header = () => {
   return (
     <DSFRHeader>
       <HeaderBody>
-        <Logo
-          splitCharacter={8}
-        >{`Ministère du travail, de l'emploi et de l'insertion`}</Logo>
+        <Logo __TYPE="Logo" />
         <Service title="Transitions collectives" description="" />
       </HeaderBody>
       <HeaderNav>

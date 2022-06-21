@@ -2,24 +2,22 @@ import React from "react"
 
 const HomeCompanyCard = ({ title, image, link }) => {
   return (
-    <div className="card--green">
-      <div className="fr-card fr-enlarge-link ">
-        <div className="fr-card__body">
-          <h4 className="fr-card__title">
-            <a
-              className="fr-card__link"
-              title={`Aller à la page ${title}`}
-              href={link}
-            >
-              {title}
-            </a>
-          </h4>
-        </div>
-        <div className="fr-card__img">
-          <span>
-            <img alt="" sizes="100vw" src={image} />
-          </span>
-        </div>
+    <div className="fr-card fr-enlarge-link ">
+      <div className="fr-card__body">
+        <h4 className="fr-card__title">
+          <a
+            className="fr-card__link"
+            title={`Aller à la page ${title}`}
+            href={link}
+          >
+            {title}
+          </a>
+        </h4>
+      </div>
+      <div className="fr-card__img">
+        <span>
+          <img alt="" sizes="100vw" src={image} />
+        </span>
       </div>
     </div>
   )
